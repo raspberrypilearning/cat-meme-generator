@@ -1,6 +1,6 @@
 # Cat meme generator
 
-In this resource you will make a cat meme generator. Upload a cute picture of your kitty and add a caption for all the world to see!
+In this resource you will make a cat meme generator. Upload a cute picture of your kitty and add a funny caption for all the world to see!
 
 ## Create your page
 1. Open up a blank file in your chosen text editor. Save the file with the filename index.html page and remember which folder you saved in as you will need to know this in a moment.
