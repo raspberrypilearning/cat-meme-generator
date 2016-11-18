@@ -28,11 +28,13 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
   </body>
   </html>
   ```
-3. Navigate to the folder where you saved your web page. Open the file with your internet browser, so now you will have the same file open in both your text editor and your internet browser at the same time.
+3. Go to the folder where you saved your web page. Open the file with your internet browser, so now you will have the same file open in both your text editor and your internet browser at the same time.
 
-  (Image of opening with browser here)
+  On *Windows*, you may need to right click the file and choose to `open with` and then select your internet browser
 
-  When you change the code in your text editor, refresh your internet browser and you should see the page update.
+  ![Open with browser](images/open-with-browser.png)
+
+  When you change the code in your text editor, press the refresh button on your internet browser and you should see the page update.
 
 ## Add the form
 We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these.
@@ -46,7 +48,7 @@ We want people to be able to use their own picture and text to make the meme, so
   </form>
   ```
 
-2.
+2. 
 
 
 ## Update the text
