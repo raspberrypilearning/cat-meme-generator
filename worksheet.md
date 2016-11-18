@@ -77,7 +77,7 @@ We need to create an area where the meme will display. This area will start off 
 1. Underneath the `</form>` tag, add in a new line of code:
 
   ```html
-  <div id="meme_text"></div>
+  <div id="meme_text">Example text here</div>
   ```
   This is a `<div>` element, it is an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did for the input boxes.
 
@@ -86,6 +86,29 @@ We need to create an area where the meme will display. This area will start off 
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
     In this `<div>` there is also another tag which displays an image, `src=""` is which image to display. In this case we have left the image to display as blank because we don't yet have the picture from the user.
+
+3. The text will display in the default font, which isn't very meme-like. If you are using a file on your computer, find the `<head>` tag in your code and after it, add a stylesheet section. Skip this step if you are using Codepen.
+
+  ```html
+  <style type="text/css">
+  </style>
+  ```
+4. Between the `<style>` tags, paste in this code to give it a meme text style. If you are using CodePen, paste this code into the CSS section.
+
+  ``CSS
+  	#meme_text {
+  		background-color: transparent;
+  		font-size: 40px;
+  		font-family: "Impact";
+  		color: white;
+  		text-shadow: black 0px 0px 10px;
+  		width: 600px;
+      position: absolute;
+      left: 15px;
+      top: 400px;
+  	}
+  ```
+  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like.
 
 ## Display the text
 So far, all of the code you have written is HTML code, which tells the page what it should look like. Now we are going to add some JavaScript code to tell the page what to do! When someone types text into the text box, we want the text to display inside the `<div id="meme_text">` that we just created.
@@ -133,7 +156,7 @@ So far, all of the code you have written is HTML code, which tells the page what
   ```
 
   Save and refresh your page, then try typing into your text box and see what happens!
-  
+
 ## Display the image
 
 
