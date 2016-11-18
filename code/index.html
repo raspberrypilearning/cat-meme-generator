@@ -32,7 +32,7 @@
 <form>
 Select a picture <input type="file" id="picture" onchange="update_image()">
 <p>
-Meme text: <input type="text" id="memetext" oninput="update_text()" maxlength="70">
+Meme text: <input type="text" id="meme_text" oninput="update_text()" maxlength="70">
 <p>
 </form>
 
@@ -48,7 +48,7 @@ function update_image(){
 
 // Write the text onto the meme
 function update_text(){
-	document.getElementById("message").innerHTML = document.getElementById("memetext").value;
+	document.getElementById("message").innerHTML = document.getElementById("meme_text").value;
 }
 
 </script>
