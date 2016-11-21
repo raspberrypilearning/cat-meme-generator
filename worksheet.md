@@ -85,9 +85,13 @@ We need to create an area where the meme will display. This area will start off 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
-    In this `<div>` there is also another tag which displays an image, `src=""` is which image to display. In this case we have left the image to display as blank because we don't yet have the picture from the user.
+    In this `<div>` there is also another tag which displays an image, `src=""` is which image to display. In this case we have left the image to display as blank because we don't yet have the picture from the user. 
 
-3. The text will display in the default font, which isn't very meme-like. If you are using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. Skip this step if you are using Codepen.
+3. The text will display in the default font, which isn't very meme-like. 
+
+    ![Example text default font](images/example-text-default.png)
+
+    If you are using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. Skip straight to step 4 if you are using Codepen.
 
   ```html
   <style type="text/css">
@@ -108,12 +112,16 @@ We need to create an area where the meme will display. This area will start off 
 		top: 400px;
   	}
   ```
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like.
+  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/).
+
+  ![Example text in meme](images/example-text-memey.png)
 
 ## Display the text
-So far, all of the code you have written is HTML code, which tells the page what it should look like. Now we are going to add some JavaScript code to tell the page what to do! When someone types text into the text box, we want the text to display inside the `<div id="meme_text">` that we just created.
+So far, all of the code you have written is HTML code, which tells the page what it should *look like*. Now we are going to add some JavaScript code to tell the page *what to do*.
 
-1. If you are using Codepen, skip to step 2 and write the code in the JavaScript section. If you're using a page on your computer, underneath your `<div>` tags, write some HTML tags to create a JavaScript section:
+When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+
+1. If you are using Codepen, skip to step 2 and write the code in the JavaScript section. If you're using a page on your computer, underneath your `<div>` tags, add some HTML tags to create a JavaScript section:
 
   ```html
   <script type="text/javascript">
@@ -141,15 +149,15 @@ So far, all of the code you have written is HTML code, which tells the page what
 
 4. Now your turn to write a line of code. Create a variable called `meme_text` which points to the element with the id `meme_text` (the meme_text div we created earlier)
 
-5. We want to set the meme_text div to contain the same text as the user has typed into the meme_text textbox. Add this line of code:
+5. We want to set the meme_text div to contain the same text as the user has typed into the meme_text textbox. Add this line of code to your JavaScript function:
   ``` JavaScript
-  meme_text.innerHTML user_text.value;
+  meme_text.innerHTML = user_text.value;
   ```
 
   * `.innerHTML` means what is displayed inside the `<div>`
   * `.value` means what is typed into the text box
 
-6. Lastly we need to tell the box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"`
+6. Lastly we need to tell the box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
 
   ```html
   Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
