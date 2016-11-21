@@ -2,7 +2,7 @@
 
 In this resource you will make a cat meme generator. Upload a cute picture of your kitty and add a funny caption for all the world to see!
 
-(Example of cat meme here)
+![Example meme](images/example-meme.png)
 
 ## Create your page
 1. Open up a blank file in your chosen text editor and save the file as follows:
@@ -196,9 +196,13 @@ We will now get the image that the user selected and put it inside the div we cr
 
 4. Finally, tell the file input to call the `update_image()` function when someone selects a file. Find the line of code for the file input box and add `onchange=update_image()`.
 
-```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
-```
+    ```html
+    Select a picture <input type="file" id="user_picture" onchange="update_image()">
+    ```
+
+    ![Finished meme](images/finished-meme.png)
+
+
 
 ## The finished code
 Now generate yourself an awesome meme, perhaps starring your own cat. The [finished code](http://codepen.io/rpflaura/pen/NbbveK) is also on CodePen for you to play with. Show off your meme to your friends!
