@@ -95,7 +95,7 @@ We need to create an area where the meme will display. This area will start off 
   ```
 4. Between the `<style>` tags, paste in this code to give it a meme text style. If you are using CodePen, paste this code into the CSS section.
 
-  ``html
+  ```css
   	#meme_text {
 		background-color: transparent;
 		font-size: 40px;
