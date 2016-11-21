@@ -5,7 +5,7 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
 (Example of cat meme here)
 
 ## Create your page
-1. Open up a blank file in your chosen text editor.
+1. Open up a blank file in your chosen text editor and save the file as follows:
 
   If you are using **Notepad**, type in the filename as `index.html` and also change the drop down for Save as type to *All files*
 
@@ -18,7 +18,7 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
   If you are using [CodePen](http://codepen.io), simply open up a new pen, then **skip steps 2 and 3**.
 
 
-2. This HTML code gives you the basic structure of a page. Copy and paste the code into the file you created.
+2. This HTML code gives you the basic structure of a page. Copy and paste the code into the file you created, then save the file.
 
   ```html
   <html>
@@ -36,14 +36,14 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
 
   ![Open with browser](images/open-with-browser.png)
 
-  When you change the code in your text editor, press the refresh button on your internet browser and you should see the page update.
+  Whenever you change the code in your text editor, save it and then press the refresh button on your internet browser to see the page update.
 
 ## Add the form
 We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these.
 
 1. Let's add a form that our user can fill in. We are going to add the tag `<form>` which means the start of the form, and `</form>` which means the end of the form.
 
-  If you are using CodePen this code goes in the HTML section, and if you are using a file on your computer this code goes between `<body>` and `</body>`.
+  If you are using a file on your computer, put this code between `<body>` and `</body>`. If you are using CodePen put this code in the HTML section.
 
   ```html
   <form>
@@ -87,7 +87,7 @@ We need to create an area where the meme will display. This area will start off 
     ```
     In this `<div>` there is also another tag which displays an image, `src=""` is which image to display. In this case we have left the image to display as blank because we don't yet have the picture from the user.
 
-3. The text will display in the default font, which isn't very meme-like. If you are using a file on your computer, find the `<head>` tag in your code and after it, add a stylesheet section. Skip this step if you are using Codepen.
+3. The text will display in the default font, which isn't very meme-like. If you are using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. Skip this step if you are using Codepen.
 
   ```html
   <style type="text/css">
@@ -95,17 +95,17 @@ We need to create an area where the meme will display. This area will start off 
   ```
 4. Between the `<style>` tags, paste in this code to give it a meme text style. If you are using CodePen, paste this code into the CSS section.
 
-  ``CSS
+  ``html
   	#meme_text {
-  		background-color: transparent;
-  		font-size: 40px;
-  		font-family: "Impact";
-  		color: white;
-  		text-shadow: black 0px 0px 10px;
-  		width: 600px;
-      position: absolute;
-      left: 15px;
-      top: 400px;
+		background-color: transparent;
+		font-size: 40px;
+		font-family: "Impact";
+		color: white;
+		text-shadow: black 0px 0px 10px;
+		width: 600px;
+		position: absolute;
+		left: 15px;
+		top: 400px;
   	}
   ```
   The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like.
