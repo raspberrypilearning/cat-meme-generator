@@ -7,11 +7,11 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
 ## Create a webpage
 1. Open up a blank file in your chosen text editor and save the file as follows:
 
-  If you are using **Notepad**, type in the filename as `index.html` and also change the drop down for Save as type to *All files*
+  If you are using **Notepad** on Windows, type in the filename as `index.html` and also change the drop down for Save as type to *All files*
 
   ![Save as html using Notepad](images/save-as-html-notepad.png)
 
-  If you are using **TextEdit**, open a new file, then select `Format` > `Make Plain Text`
+  If you are using **TextEdit** on Mac, open a new file, then select `Format` > `Make Plain Text`
 
   ![Mac make plain text](images/mac-make-plaintext.png)
 
@@ -19,7 +19,7 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
 
   ![Mac saving as HTML](images/mac-name-file.png)
 
-  If you are using **Nano**, open a terminal window, move to the directory you wish to create your web page in and type `nano index.html`
+  If you are using **Nano** on a Raspberry Pi, open a terminal window, move to the directory you wish to create your web page in and type `nano index.html`
 
   ![Nano creating HTML](images/pi-html-nano.png)
 
