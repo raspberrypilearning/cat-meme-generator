@@ -4,14 +4,20 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
 
 ![Example meme](images/example-meme.png)
 
-## Create your page
+## Create a webpage
 1. Open up a blank file in your chosen text editor and save the file as follows:
 
   If you are using **Notepad**, type in the filename as `index.html` and also change the drop down for Save as type to *All files*
 
   ![Save as html using Notepad](images/save-as-html-notepad.png)
 
-  If you are using **TextEdit**...
+  If you are using **TextEdit**, open a new file, then select `Format` > `Make Plain Text`
+
+  ![Mac make plain text](images/mac-make-plaintext.png)
+
+  Make sure you save the file as `index.html` 
+
+  ![Mac saving as HTML](images/mac-name-file.png)
 
   If you are using **Nano**...
 
@@ -207,7 +213,7 @@ We will now get the image that the user selected and put it inside the div we cr
 ## The finished code
 Now generate yourself an awesome meme, perhaps starring your own cat. The [finished code](http://codepen.io/rpflaura/pen/NbbveK) is also on CodePen for you to play with. Show off your meme to your friends!
 
-It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme you could use the Print Screen button (Windows) / Cmd + Shift + 4 (Mac) / `scrot` command on the terminal (Raspberry Pi) to take a screenshot of the page, and then crop it down using your favourite image editor?
+It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme you could use the Print Screen button (Windows) / Cmd + Shift + 4 (Mac) / `scrot` command in the terminal (Linux on Raspberry Pi) to take a screenshot of the page, and then crop it down using your favourite image editor?
 
 ## What next?
 * You could add some other CSS styles - why not change the style of the text, or give the image a border?
