@@ -19,7 +19,9 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
 
   ![Mac saving as HTML](images/mac-name-file.png)
 
-  If you are using **Nano**...
+  If you are using **Nano**, open a terminal window, move to the directory you wish to create your web page in and type `nano index.html`
+
+  ![Nano creating HTML](images/pi-html-nano.png)
 
   If you are using [CodePen](http://codepen.io), simply open up a new pen, then **skip steps 2 and 3**.
 
