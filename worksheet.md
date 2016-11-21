@@ -169,7 +169,7 @@ When someone types text into the text box, we want their text to display inside 
   
   * `var user_text` creates a new variable with the name "user_text".
   * `=` sets the value of this variable to...
-  * `document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `message` (the input text box we created earlier).
+  * `document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text` (the input text box we created earlier).
 
 1. Now it's your turn to write a line of code. Create a variable called `meme_text` which points to the element with the ID `meme_text` (the "meme_text" `<div>` we created earlier).
 
