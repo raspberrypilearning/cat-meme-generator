@@ -166,10 +166,45 @@ When someone types text into the text box, we want their text to display inside 
   Save and refresh your page, then try typing into your text box and see what happens!
 
 ## Display the image
+We will now get the image that the user selected and put it inside the div we created.
 
+1. Make a new JavaScript function. Be careful to type this code after the closing curly bracket `}` of your last function.
+
+    ```javascript
+    function update_image(){
+
+    }
+    ```
+
+2. Inside your new function, create two new variables.
+
+    ```javascript
+    var img = document.querySelector('img');
+    ```
+    This variable selects the first (and only!) `img` tag in the document so that we can tell the page where to display the image the user selected.
+
+    ```javascript
+    var file = document.querySelector('input[type=file]').files[0];
+    ```
+    This variable points to the picture file that the user selected.
+
+3. Now set the image tag to contain the picture that the user uploaded
+
+    ```javascript
+    img.src =  window.URL.createObjectURL(file);
+    ```
+
+4. Finally, tell the file input to call the `update_image()` function when someone selects a file. Find the line of code for the file input box and add `onchange=update_image()`.
+
+```html
+Select a picture <input type="file" id="user_picture" onchange="update_image()">
+```
 
 ## The finished code
-The [finished code](http://codepen.io/rpflaura/pen/NbbveK) is on CodePen for you to play with
+Now generate yourself an awesome meme, perhaps starring your own cat. The [finished code](http://codepen.io/rpflaura/pen/NbbveK) is also on CodePen for you to play with. Show off your meme to your friends!
+
+It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme you could use the Print Screen button (Windows) / Cmd + Shift + 4 (Mac) / `scrot` command on the terminal (Raspberry Pi) to take a screenshot of the page, and then crop it down using your favourite image editor?
 
 ## What next?
-* You could add some different results pages to your quiz and change your score calculation to reflect this
+* You could add some other CSS styles - why not change the style of the text, or give the image a border?
+* Add another input text box and position this text at the top of the meme so you can have text on both the top and bottom
