@@ -234,7 +234,7 @@ We will now get the image that the user selected and put it inside the `<div>` w
 
 ## The finished code
 
-Now generate yourself an awesome meme, perhaps starring your own cat. The [finished code](http://codepen.io/rpflaura/pen/NbbveK) is also on CodePen for you to play with. Show off your meme to your friends!
+Now generate yourself an awesome meme, perhaps starring your own cat. The finished code is [here as a text document](code/index.txt) or [on CodePen](http://codepen.io/rpflaura/pen/NbbveK) for you to play with. Show off your meme to your friends!
 
 It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme you could use the Print Screen button (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` command in the terminal (Linux on Raspberry Pi) to take a screenshot of the page, and then crop it down using your favourite image editor.
 
