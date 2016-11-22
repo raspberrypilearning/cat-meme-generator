@@ -16,7 +16,7 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
 
   ![Mac make plain text](images/mac-make-plaintext.png)
 
-  Make sure you save the file as `index.html`. 
+  Make sure you save the file as `index.html`.
 
   ![Mac saving as HTML](images/mac-name-file.png)
 
@@ -39,7 +39,7 @@ In this resource you will make a cat meme generator. Upload a cute picture of yo
   </body>
   </html>
   ```
-  
+
 3. Go to the folder where you saved your web page. Open the file with your internet browser, so now you'll have the same file open in both your text editor and your browser at the same time.
 
   On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
@@ -66,9 +66,9 @@ We want people to be able to use their own picture and text to make the meme, so
   ```html
   Meme text: <input type="text" id="user_text" maxlength="70"><p>
   ```
-  
+
   Save your code and refresh your browser to see the box you created. Here's what this code does:
-  
+
   * `input` says we are creating a way for the user to provide some data.
   * `type="text"` says that the data will be text.
   * `id="user_text"` gives this particular box a name or ID, a bit like a variable name.
@@ -80,7 +80,7 @@ We want people to be able to use their own picture and text to make the meme, so
   ```html
   Select a picture <input type="file" id="user_picture"><p>
   ```
-  
+
   Using what you know from step 2, you should be able to work out what `type="file"` and `id="user_picture"` mean.
 
 You can use these boxes to type in and to select a file, but nothing will happen. You now need to code the instructions to build the meme.
@@ -94,7 +94,7 @@ We need to create an area where the meme will display. This area will start off 
   ```html
   <div id="meme_text">Example text here</div>
   ```
-  
+
   This is a `<div>` element; it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did for the input boxes.
 
 1. Now add another `<div>` below the last:
@@ -102,10 +102,10 @@ We need to create an area where the meme will display. This area will start off 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
-    
-    In this `<div>` there's also another tag which displays an image; `src=""` is which image to display. In this case we've left the image blank, because we don't yet have the picture from the user. 
 
-1. The text will display in the default font, which isn't very meme-like: 
+    In this `<div>` there's also another tag which displays an image; `src=""` is which image to display. In this case we've left the image blank, because we don't yet have the picture from the user.
+
+1. The text will display in the default font, which isn't very meme-like:
 
     ![Example text default font](images/example-text-default.png)
 
@@ -115,7 +115,7 @@ We need to create an area where the meme will display. This area will start off 
   <style type="text/css">
   </style>
   ```
-  
+
 1. Between the `<style>` tags, paste in this code to give it a meme text style. If you're using CodePen, paste this code into the CSS section:
 
   ```css
@@ -131,7 +131,7 @@ We need to create an area where the meme will display. This area will start off 
 		top: 400px;
   	}
   ```
-  
+
   The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/).
 
   ![Example text in meme](images/example-text-memey.png)
@@ -156,7 +156,7 @@ When someone types text into the text box, we want their text to display inside 
 
   }
   ```
-  
+
   You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet!
 
 1. Between the curly brackets `{ }`, add this code:
@@ -164,9 +164,9 @@ When someone types text into the text box, we want their text to display inside 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
-  
+
   Let's break this code down so that you understand what it does:
-  
+
   * `var user_text` creates a new variable with the name "user_text".
   * `=` sets the value of this variable to...
   * `document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text` (the input text box we created earlier).
@@ -207,13 +207,13 @@ We will now get the image that the user selected and put it inside the `<div>` w
     ```javascript
     var img = document.querySelector('img');
     ```
-    
+
     This variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the image the user selected.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
-    
+
     This variable points to the picture file that the user selected.
 
 1. Now set the image tag to contain the picture that the user uploaded:
@@ -234,7 +234,7 @@ We will now get the image that the user selected and put it inside the `<div>` w
 
 ## The finished code
 
-Now generate yourself an awesome meme, perhaps starring your own cat. The finished code is [here as a text document](code/index.txt) or [on CodePen](http://codepen.io/rpflaura/pen/NbbveK) for you to play with. Show off your meme to your friends!
+Now generate yourself an awesome meme, perhaps starring your own cat. The finished code is [here as a HTML file](code/index.html) or [on CodePen](http://codepen.io/rpflaura/pen/NbbveK) for you to play with. Show off your meme to your friends!
 
 It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme you could use the Print Screen button (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` command in the terminal (Linux on Raspberry Pi) to take a screenshot of the page, and then crop it down using your favourite image editor.
 
