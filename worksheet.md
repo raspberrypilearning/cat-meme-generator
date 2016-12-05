@@ -83,7 +83,7 @@ We want people to be able to use their own picture and text to make the meme, so
 
   Using what you know from step 2, you should be able to work out what `type="file"` and `id="user_picture"` mean.
 
-You can use these boxes to type in and to select a file, but nothing will happen. You now need to code the instructions to build the meme. Safeguarding note: All images are kept on your computer, this program does not upload anything.
+You can use these boxes to type in and to select a file, but nothing will happen. You now need to code the instructions to build the meme. Note that all images are kept on your computer; this program does not upload anything.
 
 ## Build the meme
 
