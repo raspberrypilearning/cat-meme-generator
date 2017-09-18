@@ -1,0 +1,21 @@
+title: Cat Meme Generator
+hero_image: images/banner.png
+description: Make cool cat memes to share with your friends
+original_url: https://www.raspberrypi.org/learning/cat-meme-generator/
+theme: orange
+duration: 2 # 1, 2 or 3
+ingredient: false
+listed: true
+copyedit: true
+interests: "pets"
+technologies: "html/css, javascript"
+steps:
+  - title: Introduction
+  - title: What you will need
+  - title: Create a web page
+  - title: Getting the picture and text
+  - title: Build the meme
+  - title: Display the text
+  - title: Display the image
+  - title: The finished code
+  - title: Challenge
