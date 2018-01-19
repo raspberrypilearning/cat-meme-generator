@@ -7,6 +7,7 @@ duration: 2 # 1, 2 or 3
 ingredient: false
 listed: true
 copyedit: true
+currciulum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
 interests: "pets"
 technologies: "html/css, javascript"
 steps:
