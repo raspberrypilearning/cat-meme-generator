@@ -1,6 +1,6 @@
 ## The finished code
 
-Now generate an awesome meme yourself, perhaps starring your own cat. The finished code is [here as a HTML file](code/index.html) or on CodePen.
+Now generate an awesome meme yourself, perhaps starring your own cat. The finished code is [here as a HTML file](resources/index.html) or on CodePen.
 
 <iframe height='567' scrolling='no' title='Cat Meme Generator' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
