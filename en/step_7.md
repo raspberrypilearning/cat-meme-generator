@@ -26,7 +26,7 @@ We will now write some code to take the cat image that the user has selected and
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function when someone selects a file.
+- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
 
 --- hints ---
 
