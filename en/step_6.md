@@ -1,6 +1,6 @@
 ## Display the text
 
-So far, all of the code you have written is HTML code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
 
 When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
 
@@ -58,7 +58,7 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to your JavaScript function:
+- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
