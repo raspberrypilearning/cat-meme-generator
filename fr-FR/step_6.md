@@ -27,23 +27,23 @@ Lorsque quelqu'un tape du texte dans la zone de texte, nous voulons que son text
   var user_text = document.getElementById("user_text");
   ```
 
-- Maintenant c'est à ton tour d'écrire une ligne de code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Maintenant c'est à ton tour d'écrire une ligne de code. Sous la ligne que tu viens d'écrire, crée du code pour définir la variable appelée `meme_text` pour pointer vers l'élément avec l'ID `meme_text` , qui est l'endroit où le texte du mème s'affiche. C'est le `<div>` que nous avons créé plus tôt.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+Décomposons le code que tu as déjà écrit afin de comprendre ce qu'il fait :
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `var user_text` crée une nouvelle variable avec le nom « user_text »
+* `=` définit la valeur de cette variable à ...
+* ... `document.getElementById("user_text")` , qui parcourt la page Web et pointe vers l'élément portant l'ID `user_text` , la zone de texte d'entrée que nous avons créée précédemment
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+À l'aide de ces informations, peux-tu déterminer comment créer la nouvelle ligne de code ? --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+Les parties du code que tu dois modifier sont surlignées avec ` *** ` dans le code ci-dessous :
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+Le code que tu dois ajouter est ici :
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- Nous voulons définir le « meme_text » `<div>` pour qu'il contienne le même texte que l'utilisateur a tapé dans le la zone de texte `meme_text`. Ajoute cette ligne de code en bas de ta fonction JavaScript :
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML` fait référence à ce qui est affiché à l'intérieur du `<div>`
+  * `.value` fait référence à ce qui est tapé dans la zone de texte appelée `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Enfin, nous devons dire à la zone de texte que lorsque quelqu'un tape dedans, il doit appeler la fonction que nous venons d'écrire pour que le texte dans le mème soit mis à jour. Recherche le code de ta zone de texte et ajoute un attribut ** ** pour `oninput="update_text()"` de sorte qu'il ressemble maintenant à ceci :
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Texte du mème : <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Enregistre et actualise ta page, puis essaie de taper dans ta zone de texte et vois ce qui se passe. Si ton code fonctionne, le texte que tu tapes devrait apparaître comme le texte du mème, presque comme par magie !
