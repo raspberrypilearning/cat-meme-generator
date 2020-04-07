@@ -1,4 +1,4 @@
-## Challenge
+## Défi
 
-* You could add some other CSS styles - why not change the style of the text, or give the image a border?
-* Add another input text box and position this text at the top of the meme, so you can have text on both the top and bottom.
+* Tu peux ajouter d'autres styles CSS - pourquoi ne pas changer le style du texte ou donner une bordure à l'image ?
+* Ajoute une autre zone de texte d'entrée et place ce texte en haut du mème, de sorte que tu puisses avoir du texte en haut et en bas.
