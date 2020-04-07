@@ -1,17 +1,17 @@
-## Display the text
+## Afficher le texte
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Jusqu'à présent, tout le code que tu as écrit est du code HTML et CSS, qui indique à la page à quoi elle devrait **ressembler** . Maintenant, nous allons ajouter du code JavaScript pour dire à la page ** ce qu'il faut faire**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Lorsque quelqu'un tape du texte dans la zone de texte, nous voulons que son texte s'affiche à l'intérieur du `<div id="meme_text">` que nous venons de créer.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Si tu utilises un fichier sur ton ordinateur, ajoute ces balises sous tes balises `<div>` pour créer une section dans laquelle écrire du code JavaScript. Si tu utilises CodePen, tu peux ignorer cette étape - écris ton code dans la section JavaScript prête à l'emploi.
 
   ```html
   <script type="text/javascript">
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- Tout d'abord, nous allons écrire une fonction JavaScript pour dire à la page Web de prendre tout texte qui se trouve dans la zone de saisie et de l'afficher dans le « meme_text » `<div>`. Entre les deux balises `<script>` que tu viens de créer, ajoute le code ci-dessous. Il semble assez différent du code que nous avons écrit jusqu'à présent, parce que c'est du JavaScript, qui est un langage différent.
 
   ```JavaScript
   function update_text(){
@@ -19,15 +19,15 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  Tu viens de créer une fonction JavaScript appelée `update_text()` . Il n'y a aucune instruction entre parenthèses pour le moment, donc la fonction ne fera rien encore.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- Entre les accolades `{ }` , ajoute le code ci-dessous pour définir la variable `user_text` pour pointer vers la zone de texte où l'utilisateur tape le texte qu'il souhaite voir apparaître sur le mème.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Maintenant c'est à ton tour d'écrire une ligne de code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
 
 --- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
 
