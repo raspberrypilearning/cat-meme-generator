@@ -1,52 +1,52 @@
-## Display the image
+## Afficher l'image
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Nous allons maintenant écrire du code pour prendre l'image de chat que l'utilisateur a sélectionnée et l'afficher sur le mème.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Définis une nouvelle fonction JavaScript appelée `update_image`. Veille à taper ce code après la fermeture de l'accolade `}` de la fonction précédente que tu as créée.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- À l'intérieur de la fonction `update_image`, crée deux nouvelles variables :
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Cette première variable sélectionne la première balise `<img>` (et uniquement !) dans le document, afin que nous puissions indiquer à la page où afficher l'image sélectionnée.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Cette deuxième variable pointe vers le fichier image de chat sélectionné.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Définis la balise image pour qu'elle contienne l'image que l'utilisateur a téléchargée :
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Ajoute maintenant du code pour dire à l'entrée du fichier d'appeler la fonction `update_image()` `onchange` quand quelqu'un sélectionne un fichier.
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+N'oublie pas qu'à l'étape précédente, tu as appelé la fonction `update_text()` lorsqu'un nouveau texte a été écrit dans la zone de saisie `user_text` . En utilisant ce que tu as appris alors, peux-tu déterminer comment appeler la fonction `update_image()` lorsque l'utilisateur sélectionne un fichier dans la zone de saisie `user_file` ? --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+Tu dois ajouter `onchange=""` et ensuite remplacer le ` *** ` avec la fonction que tu souhaites appeler :
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Sélectionne une image <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+Recherche la ligne de code pour la zone de saisie de fichier et ajoute `onchange="update_image()"` comme ceci :
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Sélectionne une image <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Enregistre et actualise la page. Si ton code fonctionne, lorsque tu sélectionnes une image à l'aide de la zone de saisie ** Sélectionne une image **, cette image devrait apparaître dans la zone mème ci-dessous. Si tu tapes également quelque chose dans la zone de texte, le texte de ton mème devrait apparaître en haut de l'image.
 
-![Finished meme](images/finished-meme.png)
+![Mème terminé](images/finished-meme.png)
