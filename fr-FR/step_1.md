@@ -1,14 +1,14 @@
-## What you will make
+## Ce que tu feras
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+Dans cette ressource, tu vas créer un générateur de mèmes de chat. En utilisant une image de ton chat, tu peux créer ton propre mème de chat pour le montrer à tes amis.
 
 ![Example meme](images/example-meme.png)
 
-## What you will learn
+## Ce que tu vas apprendre
 
-By creating a cat meme generator you will learn:
+En créant un générateur de mèmes de chat, tu apprendras :
 
-- How to write functions in JavaScript
+- Comment écrire des fonctions en JavaScript
 - How to use JavaScript to manipulate data input by a user
 - How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
 
