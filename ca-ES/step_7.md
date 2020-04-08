@@ -1,18 +1,18 @@
-## Display the image
+## Mostra la imatge
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Ara escriurem algun codi per tal que la imatge de gat que l’usuari hagi triat es mostri al mem.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Defineix una funció de JavaScript nova que es digui `actualitzar_imatge`. Ves en compte d'escriure aquest codi després de la clau final `}` de la funció anterior que has creat.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- Dins la funció `actualitzar_imatge`, crea dues variables noves:
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Aquesta primera variable selecciona la primera etiqueta (i només aquesta!) `<img>` del document, de manera que puguem dir a la pàgina on mostrar la imatge escollida.
 
     ```javascript
     var fitxer = document.querySelector('input[type=file]').files[0];
