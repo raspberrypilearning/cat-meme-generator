@@ -32,7 +32,7 @@ Hem de crear una àrea on es mostri el mem. Aquesta àrea començarà en blanc, 
 - Enganxa el codi següent entre les etiquetes `<style>` per donar al teu text un estil de mem. Si utilitzes CodePen, enganxa'l a la secció CSS.
 
     ```css
-    #meme_text {
+    #text_mem {
         background-color: transparent;
         font-size: 40px;
         font-family: "Impact";
