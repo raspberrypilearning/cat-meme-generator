@@ -9,10 +9,10 @@
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>La meva pàgina</title>
   </head>
   <body>
-    My content here
+    El meu contingut aquí
   </body>
   </html>
   ```
