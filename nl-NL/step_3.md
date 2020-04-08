@@ -1,26 +1,26 @@
-## Create a web page
+## Maak een webpagina
 
-- Open up a blank file in your chosen text editor and save the file.
+- Open een leeg bestand in de door jou gekozen teksteditor en sla het bestand op.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- De onderstaande HTML-code geeft je de basisstructuur van een pagina. Kopieer en plak het in het bestand dat je hebt gemaakt en sla het bestand op. Houd de teksteditor open zodat je het bestand kunt bewerken.
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>Mijn pagina</title>
   </head>
   <body>
-    My content here
+    Mijn inhoud komt hier
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Ga naar de map waar je je webpagina hebt opgeslagen. Open het bestand ook met je internetbrowser, zodat je hetzelfde bestand open hebt staan in zowel je teksteditor als je browser.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  In Windows moet je mogelijk met de rechtermuisknop op het bestand klikken, `Openen met`kiezen en vervolgens je internetbrowser selecteren.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Openen met browser](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Telkens wanneer je de code in je teksteditor wijzigt, sla je deze op en druk je vervolgens op de knop Vernieuwen in je browser om de bijgewerkte pagina te kunnen zien.
