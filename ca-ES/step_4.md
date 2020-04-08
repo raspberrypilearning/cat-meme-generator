@@ -27,12 +27,12 @@ Si utilitzes un fitxer al teu ordinador, posa aquest codi entre `<body>` i `</bo
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- hint --- Aquí tens el que fa el codi que has escrit:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
+  * `input` diu que estem creant una manera perquè l’usuari proporcioni algunes dades
+  * `type="text"` diu que les dades seran de text
+  * `id="user_text"` dóna a aquest requadre en concret un nom o un ID (identificador), semblant a un nom de variable
+  * `maxlength="70" (longitud màxima)` és opcional: impedeix que escriguis més de 70 lletres de manera que el teu text no ocupi espai més enllà del final de la imatge
   * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
 
 Can you work out how to create another input box using this information?
