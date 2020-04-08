@@ -45,6 +45,6 @@ We need to create an area where the meme will be displayed. This area will start
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  Les línies `left: 15px` i `top: 400px` determinen a quina distància es troba el text de l'esquerra i de la part superior de la pàgina. Si vols, pots canviar aquests números per fer que el text aparegui en un lloc diferent del mem. Si vols més informació sobre els estils CSS, visita la [referència CSS de w3schools](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Text d'exemple del mem](images/example-text-memey.png)
