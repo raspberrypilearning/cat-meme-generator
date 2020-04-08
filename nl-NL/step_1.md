@@ -1,18 +1,18 @@
-## What you will make
+## Wat ga je maken?
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+In dit project maak je een katten meme-generator. Met behulp van een afbeelding van je kat kun je je eigen katten-meme maken om te delen met je vrienden.
 
-![Example meme](images/example-meme.png)
+![Voorbeeld meme](images/example-meme.png)
 
-## What you will learn
+## Wat ga je leren
 
-By creating a cat meme generator you will learn:
+Door een katten meme-generator te maken, leer je:
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- Functies schrijven in JavaScript
+- JavaScript gebruiken om gegevensinvoer door een gebruiker te manipuleren
+- Hoe gebruik je `oninput` en `onchange` om dingen live te laten gebeuren op een webpagina als reactie op gebruikersacties
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+Dit project omvat elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [Ontwerp standaard 2D- en 3D-items](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
+- [Combineer programmeerconstructies om een probleem op te lossen](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
