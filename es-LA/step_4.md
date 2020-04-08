@@ -21,41 +21,41 @@ Si estás usando un archivo en tu ordenador, pon este código entre `<body>` y `
 
 - Guarda tu código y actualiza tu navegador para ver la casilla que creaste.
 
-    ![First box](images/first-box.png)
+    ![Primera casilla](images/first-box.png)
 
-- Agrega código para crear otra casilla de entrada en la línea debajo de tu primera casilla. Esta vez, la casilla de entrada no será una casilla de texto, sino una casilla especial para seleccionar el archivo de la imagen para el meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Agrega código para crear otra casilla de entrada en la línea debajo de tu primera casilla. Esta vez, la casilla de entrada no será una casilla de texto, sino una casilla especial para seleccionar el archivo de la imagen para el meme. El tipo de entrada debe ser `archivo`, y el nombre de la entrada debe ser `user_picture`.
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- hint --- Esto es lo que hace el código que ya escribiste:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
+  * `input` dice que estamos creando una manera para que el usuario proporcione algunos datos
+  * `type="text"` dice que los datos serán de texto
+  * `id="user_text"` da a esta casilla un nombre o un ID, que se parece a un nombre de una variable
+  * `maxlength="70"` es opcional - te impide escribir más de 70 letras para que tu texto no ocupe espacio más allá de la parte inferior de la imagen
   * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
 
-Can you work out how to create another input box using this information?
+¿Puedes averiguar cómo crear otra casilla de entrada usando esta información?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+Necesitarás cambiar las partes del código resaltadas con `***` a continuación:
 
 ```html
-Select a picture <input type="***" id="***"><p>
+Selecciona una imagen <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- hint --- Aquí está el código que necesitas añadir:
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+Selecciona una imagen <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- Puedes usar estas casillas para escribir y seleccionar un archivo, pero nada sucederá todavía. **Nota**: todas las imágenes se guardan en tu ordenador - este programa no carga nada a internet.
