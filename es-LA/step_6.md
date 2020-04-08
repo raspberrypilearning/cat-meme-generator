@@ -1,6 +1,6 @@
-## Display the text
+## Mostrar el texto
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Hasta ahora, todo el código que has escrito es código HTML y CSS, que le dice a la página cómo **debería ser**. Ahora vamos a añadir algo de código JavaScript para decirle a la página **qué hacer**.
 
 When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
 
