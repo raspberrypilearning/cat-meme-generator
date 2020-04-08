@@ -15,38 +15,38 @@ We will now write some code to take the cat image that the user has selected and
     This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
 
     ```javascript
-    var file = document.querySelector('input[type=file]').files[0];
+    var fitxer = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Aquesta segona variable apunta al fitxer de la imatge del gat seleccionat.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Assigna a l'etiqueta imatge perquè contingui la imatge que l'usuari ha penjat:
 
     ```javascript
-    img.src =  window.URL.createObjectURL(file);
+    img.src =  window.URL.createObjectURL(fitxer);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Ara afegeix codi per dir-li a l'entrada de fitxer que cridi a la funció `actualitzar_imatge ()` `onchange`quan algú tria un fitxer.
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- Recorda que, al pas anterior, has cridat a la funció `actualitzar_text ()` quan s'ha escrit text nou al requadre d'entrada `user_text`. Utilitzant allò que has après, pots esbrinar com cridar la funció `actualitzar_imatge()` quan l’usuari tria un fitxer al requadre d'entrada `user_file`? --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- Hauràs d'afegir `onchange=""` i canviar `***` per la funció que t'agradaria cridar:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Tria una imatge <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- Cerca la línia de codi del requadre de selecció de fitxer i afegeix `onchange="actualitzar_imatge()"` com tens aquí:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Tria una imatge <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Desa i actualitza la pàgina. Si el teu codi funciona, quan tries una imatge mitjançant el requadre d'entrada **Tria una imatge**, la imatge hauria d'aparèixer al requadre del mem de sota. Si també escrius alguna cosa al requadre de text, el text del mem hauria d'aparèixer a la part superior de la imatge.
 
-![Finished meme](images/finished-meme.png)
+![Mem acabat](images/finished-meme.png)
