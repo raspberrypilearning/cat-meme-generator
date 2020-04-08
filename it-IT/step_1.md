@@ -1,10 +1,10 @@
-## What you will make
+## Che cosa creerai
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+In questo progetto creerai un generatore di meme con i gatti. Usando un'immagine del tuo gatto, puoi creare il tuo meme con i gatti da mostrare ai tuoi amici.
 
 ![Example meme](images/example-meme.png)
 
-## What you will learn
+## Che cosa imparerai
 
 By creating a cat meme generator you will learn:
 
