@@ -2,13 +2,13 @@
 
 ### Hardware
 
-- A computer
+- Una computadora
 
 
 ### Software
 
 - Un navegador web (por ejemplo, Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- Un editor de texto (por ejemplo, Notepad, TextEdit, nano) o acceso a [https://codepen.io](https://codepen.io/) {: target = "_ blank"}
 
 ### Extras
 
