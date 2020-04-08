@@ -1,39 +1,39 @@
-## Getting the picture and text
+## An Bild und Text kommen
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+Wir möchten, dass die Leute ihr eigenes Bild und ihren eigenen Text verwenden können, um das Meme zu erstellen. Deshalb müssen wir ihnen eine Möglichkeit geben uns diese bereitzustellen. Fügen wir ein Formular hinzu, das unser Benutzer ausfüllen kann.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Wenn du eine Datei auf deinem Computer verwendest, setze diesen Code zwischen `<body>` und `</body>`. Wenn du CodePen verwendest, füge diesen Code in den HTML-Abschnitt ein.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Füge die Tags `<form>`, das den Beginn des Formulars andeutet, und `</form>`, das das Ende des Formulars andeutet, hinzu.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- Füge in dein "`<form>`" ein Textfeld ein, damit du den Meme-Text eingeben kannst:
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Meme-Text: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Speichere deinen Code und aktualisiere deinen Browser, um das von dir erstellte Feld anzuzeigen.
 
     ![First box](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Füge Code hinzu, um ein weiteres Eingabefeld in der Zeile unter deinem ersten Feld zu erstellen. Dieses Mal ist das Eingabefeld kein Textfeld, sondern ein spezielles Feld zur Auswahl der Bilddatei für das Meme. Der Eingabetyp sollte `file` (englisch für Datei) und der Name des Eingabe sollte `user_picture` (englisch "user" für Benutzer und "picture" für Bild) sein.
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- hint --- Der Code, den du bereits geschrieben hast, tut folgendes:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `input` besagt, dass wir eine Möglichkeit für den Benutzer schaffen, einige Daten bereitzustellen
+  * `type="text"` gibt an, dass die Daten Text sind
+  * `id="user_text"` gibt diesem bestimmten Feld einen Namen oder eine ID, ähnlich einem Variablennamen
+  * `maxlength="70"` ist optional - es verhindert, dass du mehr als 70 Buchstaben eingibst, damit dein Text keinen Platz unter dem unteren Bildrand einnimmt
+  * Das `<p>`-Tag nach dem Eingabefeld fügt einen Absatz hinzu (etwas Platz vor dem nächsten Eingabefeld)
 
 Can you work out how to create another input box using this information?
 
