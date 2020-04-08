@@ -3,7 +3,7 @@ title: Generador de mem de gat
 hero_image: images/banner.png
 description: Fes fantàstics mems de gat per compartir amb els teus amics
 original_url: https://www.raspberrypi.org/learning/cat-meme-generator/
-theme: orange
+theme: taronja
 duration: 2
 ingredient: false
 listed: true
@@ -13,7 +13,7 @@ interests: animals
 technologies: html-css-javascript
 hardware: ''
 software: html-css-javascript
-site_areas: projects
+site_areas: projectes
 version: 4
 last_tested: 2017-11-01
 steps:
