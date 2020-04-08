@@ -20,16 +20,16 @@
 
 - Αποθήκευσε και ανανέωσε. Η εικόνα θα είναι ένα κενό πλαίσιο και το κείμενο του παραδείγματος θα εμφανιστεί στην προεπιλεγμένη γραμματοσειρά, η οποία δεν θυμίζει και πολύ γραμματοσειρά για meme:
 
-    ![Example text default font](images/example-text-default.png)
+    ![Παράδειγμα προεπιλεγμένης γραμματοσειράς κειμένου](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- Εάν χρησιμοποιείς αρχείο στον υπολογιστή σου, εντόπισε την `<head>`ενότητα στον κώδικά σου και πρόσθεσε αυτόν τον κώδικα μεταξύ `<head>` και `</head>`. (Παράλειψε αυτό το βήμα αν χρησιμοποιείς το CodePen.)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- Επικόλλησε τον παρακάτω κώδικα μεταξύ των ετικετών `<style>` για να δώσεις στο κείμενό σου το στυλ ενός meme. Εάν χρησιμοποιείς το CodePen, επικόλλησε αυτόν τον κώδικα στην ενότητα HTML.
 
     ```css
     #meme_text {
@@ -45,6 +45,6 @@
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  Οι γραμμές `left: 15px` και `top: 400px` καθορίζουν πόσο μακριά είναι το κείμενο από το αριστερό και το επάνω μέρος της σελίδας. Μπορείς να αλλάξεις αυτούς τους αριθμούς, για να κάνεις το κείμενο να εμφανίζεται σε διαφορετικό σημείο στο meme σου, αν θέλεις. Αν θέλεις να μάθεις περισσότερα για τα στυλ CSS, επισκέψου το [w3schools CSS](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Παράδειγμα κειμένου στο meme](images/example-text-memey.png)
