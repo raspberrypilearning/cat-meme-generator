@@ -21,6 +21,6 @@
 
   Su Windows, potrebbe essere necessario fare clic con il pulsante destro del mouse sul file, scegliere `Apri con`, quindi selezionare il browser Internet.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Apri con il browser](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Ogni volta che modifichi il codice nell'editor di testo, salvalo e premi il pulsante di aggiornamento sul browser per visualizzare la pagina aggiornata.
