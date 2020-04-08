@@ -1,52 +1,52 @@
-## Display the image
+## Εμφάνιση εικόνας
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Θα γράψουμε τώρα κώδικα για να πάρουμε την εικόνα γάτας που έχει επιλέξει ο χρήστης και να την εμφανίσουμε στο meme.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Όρισε μια νέα συνάρτηση JavaScript που ονομάζεται `update_image`. Πρόσεξε να πληκτρολογήσεις αυτόν τον κώδικα μετά το κλείσιμο του άγκιστρου `} ` της προηγούμενης συνάρτησης που δημιούργησες.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- Μέσα στο `update_image`, δημιούργησε δύο νέες μεταβλητές:
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Αυτή η πρώτη μεταβλητή επιλέγει το πρώτο (και μοναδικό!) `<img>` tag στο έγγραφο, έτσι ώστε να περιγράψουμε στη σελίδα πού να εμφανίσει την επιλεγμένη εικόνα.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Η δεύτερη μεταβλητή δείχνει στο αρχείο της επιλεγμένης εικόνας γάτας.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Όρισε το tag της εικόνας να περιέχει την εικόνα που έχει μεταφορτώσει ο χρήστης:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Τώρα πρόσθεσε κώδικα για να πεις στην είσοδο του αρχείου να καλέσει τη συνάρτηση `update_image()` όταν λάβει `onchange`, δηλαδή όταν κάποιος επιλέξει ένα αρχείο.
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- Θυμήσου ότι, στο προηγούμενο βήμα, κάλεσες τη συνάρτηση `update_text()` όταν νέο κείμενο γραφόταν στο πλαίσιο εισαγωγής `user_text`. Χρησιμοποιώντας αυτά που έμαθες τότε, μπορείς να προσπαθήσεις να βρεις πως να καλέσεις τη συνάρτηση `update_image()` όταν ο χρήστης επιλέγει ένα αρχείο στο πλαίσιο εισαγωγής `user_file`; --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- Θα χρειαστεί να προσθέσεις το `onchange=""` και μετά να αντικαταστήσεις το `***` με τη συνάρτηση που θα ήθελες να καλέσεις:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Επέλεξε μια εικόνα <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- Βρες τη γραμμή του κώδικα για το πλαίσιο εισαγωγής αρχείου και πρόσθεσε `onchange="update_image()"` ως εξής:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Επέλεξε μια εικόνα <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Αποθήκευσε και ανανέωσε τη σελίδα. Αν ο κώδικάς σου λειτουργεί, όταν επιλέξεις μία εικόνα χρησιμοποιώντας το πλαίσιο εισαγωγής **Επέλεξε μία εικόνα**, αυτή η εικόνα θα εμφανιστεί στο πλαίσιο του meme από κάτω. Επίσης αν πληκτρολογήσεις κάτι στο πλαίσιο κειμένου, το κείμενο του meme θα εμφανιστεί στο πάνω μέρος της εικόνας.
 
-![Finished meme](images/finished-meme.png)
+![Ολοκληρωμένο meme](images/finished-meme.png)
