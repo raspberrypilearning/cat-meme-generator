@@ -1,6 +1,6 @@
-## Getting the picture and text
+## Obtenció de la imatge i el text
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+Volem que la gent pugui utilitzar la seva pròpia imatge i text per construir el mem, per la qual cosa necessitem una manera de proporcionar-los. Afegim un formulari que el nostre usuari pugui omplir.
 
 If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
 
