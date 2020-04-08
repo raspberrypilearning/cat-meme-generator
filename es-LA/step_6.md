@@ -21,7 +21,7 @@ Cuando alguien escribe texto en el cuadro de texto, queremos que su texto se mue
 
   Acabas de crear una función JavaScript llamada `update_text()`. No hay instrucciones entre los corchetes en este momento, por lo que la función no hará nada todavía.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- Entre los corchetes `{ }` , agrega el código a continuación para establecer la variable `user_text` que apunta a la casilla de texto donde el usuario va a escribir el texto que desea que aparezca en el meme.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
@@ -43,7 +43,7 @@ var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- hint --- El código que necesitas añadir está aquí:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- Queremos establecer el 'meme_text' `<div>` para contener el mismo texto que el usuario ha escrito en la casilla de texto `user_text`. Añade esta línea de código al final de tu función JavaScript:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML` se refiere a lo que se muestra dentro de la `<div>`
+  * `.value` se refiere a lo que se escribe en la casilla de texto `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Por último, debemos decirle a la casilla de texto que cuando alguien escriba en ella, debe llamar a la función que acabamos de escribir para que el texto del meme se actualice. Encuentra el código para tu casilla de texto y añade un **atributo** para `oninput="update_text()"` para que ahora se vea así:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Texto del meme: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Guarda y actualiza tu página, luego intenta escribir en tu casilla de texto y observa qué sucede. Si tu código está funcionando, el texto que escribas debería aparecer como el texto del meme, ¡casi como mágico!
