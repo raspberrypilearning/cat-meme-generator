@@ -1,17 +1,17 @@
-## Display the text
+## Mostra il testo
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Finora, tutto il codice che hai scritto è HTML e CSS, che dice alla pagina come **dovrebbe apparire**. Ora aggiungeremo un po' di codice JavaScript per dire alla pagina **cosa fare**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Quando qualcuno scrive del testo nella casella di testo, vogliamo che il suo testo sia visualizzato all'interno del `<div id="meme_text">` che abbiamo appena creato.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Se stai usando un file sul tuo computer, aggiungi questi tag sotto i tuoi tag `<div>` per creare una sezione in cui scrivere codice JavaScript. Se stai usando CodePen, puoi saltare questo passaggio: scrivi il tuo codice nella sezione JavaScript già pronta.
 
   ```html
   <script type="text/javascript">
-  </script>
+</script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- In primo luogo, scriveremo una funzione JavaScript per dire alla pagina web di prendere qualsiasi testo presente nella casella di input e visualizzarlo nel `<div>` "meme_text". Tra i due tag `<script>` che hai appena creato, aggiungi il codice qui sotto. Sembra abbastanza diverso dal codice che abbiamo scritto fino ad ora, perché è JavaScript, che è un linguaggio diverso.
 
   ```JavaScript
   function update_text(){
@@ -19,31 +19,31 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  Hai appena creato una funzione JavaScript chiamata `update_text()` ("aggiorna testo"). Al momento non ci sono istruzioni tra parentesi, quindi la funzione non farà ancora nulla.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- Tra le parentesi graffe `{ }`, aggiungi il codice qui sotto per impostare la variabile `user_text` per puntare alla casella di testo dove l'utente digita il testo che vuole apparire sul meme.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Ora tocca a te scrivere una riga di codice. Sotto la riga che hai appena scritto, crea il codice per impostare la variabile chiamata `meme_text` per puntare all'elemento con l'ID `meme_text`, che è dove apparirà il testo del meme. Questo è il `<div>` che abbiamo creato in precedenza.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- Separiamo il codice che hai già scritto in modo che tu capisca cosa fa:
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `var user_text` crea una nuova variabile con il nome "user_text"
+* `=` imposta il valore di questa variabile a...
+* ...`document.getElementById("user_text")`, che cerca nella la pagina web e punta all'elemento con l'ID `user_text`, la casella di testo di input che abbiamo creato in precedenza
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+Utilizzando queste informazioni, puoi capire come creare la nuova riga di codice? --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- Le parti del codice che devi modificare sono evidenziate con `***` nel codice sottostante:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- hint --- Il codice che devi aggiungere è qui:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- Vogliamo impostare il `<div>` 'meme_text' in modo che contenga lo stesso testo digitato dall'utente nella casella di testo `meme_text`. Aggiungi questa riga di codice in fondo alla tua funzione JavaScript:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML` si riferisce a ciò che viene visualizzato all'interno di `<div>`
+  * `.value` si riferisce a ciò che viene digitato nella casella di testo chiamata `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Infine, dobbiamo dire alla casella di testo che quando qualcuno scrive in essa dovrà chiamare la funzione che abbiamo appena scritto in modo che il testo nel meme venga aggiornato. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Testo del meme: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Salva e aggiorna la tua pagina, quindi prova a digitare nella casella di testo e guarda cosa succede. Se il tuo codice funziona, il testo digitato dovrebbe apparire come il testo del meme, quasi come per magia!
