@@ -33,7 +33,9 @@ Si estás usando un archivo en tu ordenador, pon este código entre `<body>` y `
   * `type="text"` dice que los datos serán de texto
   * `id="user_text"` da a esta casilla un nombre o un ID, que se parece a un nombre de una variable
   * `maxlength="70"` es opcional - te impide escribir más de 70 letras para que tu texto no ocupe espacio más allá de la parte inferior de la imagen
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * La etiqueta
+
+después de la casilla de entrada añade un párrafo (un poco de espacio antes de la siguiente casilla de entrada)</li> </ul>
 
 ¿Puedes averiguar cómo crear otra casilla de entrada usando esta información?
 
