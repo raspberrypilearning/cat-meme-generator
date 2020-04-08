@@ -29,7 +29,7 @@ Hem de crear una àrea on es mostri el mem. Aquesta àrea començarà en blanc, 
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- Enganxa el codi següent entre les etiquetes `<style>` per donar al teu text un estil de mem. Si utilitzes CodePen, enganxa'l a la secció CSS.
 
     ```css
     #meme_text {
