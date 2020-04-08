@@ -1,4 +1,4 @@
-## Challenge
+## Πρόκληση
 
-* You could add some other CSS styles - why not change the style of the text, or give the image a border?
-* Add another input text box and position this text at the top of the meme, so you can have text on both the top and bottom.
+* Θα μπορούσες να προσθέσεις μερικά στυλ CSS - όπως να αλλάξεις το στυλ του κειμένου ή να προσθέσεις περιθώριο στην εικόνα.
+* Πρόσθεσε ακόμη ένα πλαίσιο εισαγωγής κειμένου και τοποθέτησε αυτό το κείμενο στο πάνω μέρος του meme, έτσι ώστε να έχεις κείμενο και στο πάνω και στο κάτω μέρος.
