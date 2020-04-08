@@ -2,28 +2,28 @@
 
 Volem que la gent pugui utilitzar la seva pròpia imatge i text per construir el mem, per la qual cosa necessitem una manera de proporcionar-los. Afegim un formulari que el nostre usuari pugui omplir.
 
-Si utilitzes un fitxer al teu ordinador, posa aquest codi entre `<body>` i `</body>`. If you're using CodePen, put this code in the HTML section.
+Si utilitzes un fitxer al teu ordinador, posa aquest codi entre `<body>` i `</body>`. Si utilitzes CodePen, posa aquest codi a la secció HTML.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Afegeix les etiquetes `<form>,` que indica l’inici del formulari i `</form>,` que indica el final del formulari.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- Dins el teu `<form>`, afegeix un requadre de text per tal que puguis escriure-hi el text del mem:
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Text de mem: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Desa el codi i refresca el navegador per veure el requadre que has creat.
 
-    ![First box](images/first-box.png)
+    ![Primer requadre](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Afegeix codi per crear un altre requadre d’entrada a la línia que hi ha a sota del primer requadre. Aquesta vegada, el requadre d’entrada no serà un requadre de text, sinó un requadre especial per seleccionar el fitxer d’imatge del mem. El tipus d’entrada hauria de ser `fitxer` i el nom de l’entrada hauria de ser `user_picture`.
 
 --- hints ---
 
