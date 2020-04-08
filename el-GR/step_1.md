@@ -1,18 +1,18 @@
-## What you will make
+## Τι θα φτιάξεις
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+Σε αυτόν τον πόρο θα δημιουργήσεις μια γεννήτρια για memes με γάτες. Χρησιμοποιώντας μια εικόνα της γάτας σου, μπορείς να δημιουργήσεις το δικό σου meme γάτας για να το δείξεις στους φίλους σου.
 
-![Example meme](images/example-meme.png)
+![Παράδειγμα meme](images/example-meme.png)
 
-## What you will learn
+## Τι θα μάθεις
 
-By creating a cat meme generator you will learn:
+Με τη δημιουργία μιας γεννήτριας memes με γάτες θα μάθεις:
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- Πώς να γράψεις συναρτήσεις στη JavaScript
+- Πώς να χρησιμοποιήσεις τη JavaScript για να χειριστείς την εισαγωγή δεδομένων από έναν χρήστη
+- Πώς να χρησιμοποιήσεις τα `oninput` και `onchange` για να κάνεις μια ιστοσελίδα να προσαρμόζεται ζωντανά ως απάντηση στις ενέργειες του χρήστη
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+Αυτός ο πόρος καλύπτει στοιχεία από τα ακόλουθα σκέλη του μαθήματος [Raspberry Pi Digital Making](https://www.raspberrypi.org/curriculum/){:target="_ blank"}:
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [Σχεδιασμός βασικών στοιχείων 2D και 3D](https://www.raspberrypi.org/curriculum/design/creator)"{:target="_blank"}
+- [Συνδύασε δομές προγραμματισμού για να λύσεις ένα πρόβλημα](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
