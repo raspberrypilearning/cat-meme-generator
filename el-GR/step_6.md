@@ -1,17 +1,17 @@
-## Display the text
+## Εμφάνιση του κειμένου
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Μέχρι στιγμής, όλος ο κώδικας που έγραψες είναι HTML και CSS, οπότε περιγράφει στη σελίδα τι πρέπει **να δείχνει**. Τώρα θα προσθέσουμε λίγο κώδικα JavaScript για να πούμε στη σελίδα **τι πρέπει να κάνει**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Όταν κάποιος πληκτρολογεί κείμενο στο πλαίσιο κειμένου, θέλουμε το κείμενό του να εμφανιστεί μέσα στο `<div id="meme_text">` που μόλις δημιουργήσαμε.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Εάν χρησιμοποιείς ένα αρχείο στον υπολογιστή σου, πρόσθεσε αυτά τα tags κάτω από τα tags σου `<div>` για να δημιουργήσεις μια ενότητα στην οποία θα γράψεις κώδικα JavaScript. Εάν χρησιμοποιείς το CodePen, μπορείς να παραλείψεις αυτό το βήμα - γράψε τον κώδικα σου στην έτοιμη JavaScript περιοχή.
 
   ```html
   <script type="text/javascript">
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- Πρώτον, θα γράψουμε μια συνάρτηση JavaScript για να πούμε στην ιστοσελίδα να πάρει οποιοδήποτε κείμενο που βρίσκεται στο πλαίσιο εισαγωγής και να το εμφανίσει στο "meme_text" `<div>`. Μεταξύ των δύο tags `<script>` που μόλις δημιούργησες, πρόσθεσε τον παρακάτω κώδικα. Φαίνεται πολύ διαφορετικό από τον κώδικα που έχουμε γράψει μέχρι στιγμής, επειδή είναι JavaScript, μια διαφορετική γλώσσα.
 
   ```JavaScript
   function update_text(){
@@ -19,31 +19,31 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  Μόλις δημιούργησες μια συνάρτηση JavaScript που ονομάζεται `update_text ()`. Δεν υπάρχουν οδηγίες στα άγκιστρα αυτή τη στιγμή, οπότε η συνάρτηση δεν κάνει τίποτα ακόμα.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- Μεταξύ των άγκιστρων `{ }` , πρόσθεσε τον παρακάτω κώδικα για να ορίσεις τη μεταβλητή `user_text` για να δείχνει στο πλαίσιο κειμένου όπου ο χρήστης πληκτρολογεί το κείμενο που θέλει να εμφανίζεται στο meme.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Τώρα είναι η σειρά σου να γράψεις μια γραμμή κώδικα. Κάτω από τη γραμμή που μόλις έγραψες, δημιούργησε κώδικα για να ορίσεις τη μεταβλητή που ονομάζεται `meme_text` για να δείξει το στοιχείο με το αναγνωριστικό `meme_text`, όπου θα εμφανιστεί το κείμενο του meme. Αυτό είναι το `<div>` που δημιουργήσαμε νωρίτερα.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- Ας αναλύσουμε τον κώδικα που μόλις έγραψες ώστε να καταλάβουμε τι κάνει:
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* Το `var user_text` δημιουργεί μια νέα μεταβλητή με το όνομα "user_text"
+* `=` Το = ορίζει την τιμή της μεταβλητής σε...
+* ...`document.getElementById("user_text")`, η οποία δείχνει στο στοιχείο με το αναγνωριστικό `user_text` εντός της ιστοσελίδας, το πλαίσιο εισαγωγής κειμένου που δημιουργήσαμε προηγουμένως
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+Χρησιμοποιώντας αυτές τις πληροφορίες, μπορείς να προσπαθήσεις να δημιουργήσεις τη νέα γραμμή κώδικα; --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- Τα μέρη του κώδικα που πρέπει να αλλάξεις επισημαίνονται με `***` στον παρακάτω κώδικα:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- hint --- Ο κώδικας που χρειάζεται να προσθέσεις είναι ο παρακάτω:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- Θέλουμε να ορίσουμε το 'meme_text' `<div>` να περιέχει το ίδιο κείμενο που έχει πληκτρολογήσει ο χρήστης στο πλαίσιο κειμένου ` meme_text `. Πρόσθεσε αυτή τη γραμμή κώδικα στο κάτω μέρος της συνάρτησης JavaScript:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * Το `.innerHTML` αναφέρεται σε αυτό που εμφανίζεται στο εσωτερικό του `<div>`
+  * Το `.value` αναφέρεται σε αυτό που πληκτρολογείται στο πλαίσιο κειμένου που ονομάζεται `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Τέλος, πρέπει να πούμε στο πλαίσιο κειμένου ότι όταν κάποιος πληκτρολογεί σε αυτό, θα πρέπει να καλέσει τη συνάρτηση που μόλις γράψαμε έτσι ώστε το κείμενο στο meme να ενημερωθεί. Βρες τον κώδικα για το πλαίσιο κειμένου και πρόσθεσε μία **παράμετρο** για το ` oninput = "update_text ()" ` έτσι ώστε τώρα να μοιάζει με αυτό:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Κείμενο meme: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Αποθήκευσε και ανανέωσε τη σελίδα σου, στη συνέχεια δοκίμασε να πληκτρολογήσεις στο πλαίσιο κειμένου και να δεις τι συμβαίνει. Εάν ο κώδικάς σου λειτουργεί, το κείμενο που πληκτρολογείς θα εμφανίζεται στο κείμενο του meme, σαν μαγεία!
