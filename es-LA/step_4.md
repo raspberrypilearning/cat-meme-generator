@@ -1,29 +1,29 @@
-## Getting the picture and text
+## Obteniendo la imagen y el texto
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+Queremos que las personas puedan usar su propia imagen y texto para crear el meme, por lo que necesitamos una forma para que puedan proporcionarlos. Agreguemos un formulario que nuestro usuario pueda completar.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Si estás usando un archivo en tu ordenador, pon este código entre `<body>` y `</body>`. Si estás usando CodePen, pon este código en la sección HTML.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Agrega las etiquetas `<form>,` que indican el inicio del formulario y `</form>,` que indican el final del formulario.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- Dentro de tu `<form>`, añade un cuadro de texto para que puedas escribir el texto del meme:
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Texto del meme: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Guarda tu código y actualiza tu navegador para ver la casilla que creaste.
 
     ![First box](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Agrega código para crear otra casilla de entrada en la línea debajo de tu primera casilla. Esta vez, la casilla de entrada no será una casilla de texto, sino una casilla especial para seleccionar el archivo de la imagen para el meme. The input type should be `file`, and the name of the input should be `user_picture`.
 
 --- hints ---
 
