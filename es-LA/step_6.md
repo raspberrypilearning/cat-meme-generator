@@ -2,16 +2,16 @@
 
 Hasta ahora, todo el código que has escrito es código HTML y CSS, que le dice a la página cómo **debería ser**. Ahora vamos a añadir algo de código JavaScript para decirle a la página **qué hacer**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Cuando alguien escribe texto en el cuadro de texto, queremos que su texto se muestre dentro del `<div id="meme_text">` que acabamos de crear.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Si está utilizando un archivo en tu ordenadora, agrega estas etiquetas debajo de las etiquetas `<div>` para crear una sección en la que escribir el código JavaScript. Si estás usando CodePen, puedes omitir este paso: escribe tu código en la sección de JavaScript ya hecha.
 
   ```html
   <script type="text/javascript">
-  </script>
+</script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- En primer lugar, escribiremos una función JavaScript para decirle a la página web que tome cualquier texto que esté en la casilla de entrada y que lo muestre en el "meme_text" `<div>`. Entre las dos etiquetas `<script>` que acabas de crear, añade el código de abajo. Se ve bastante diferente al código que hemos escrito hasta ahora, porque es JavaScript, un idioma diferente.
 
   ```JavaScript
   function update_text(){
@@ -19,7 +19,7 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  Acabas de crear una función JavaScript llamada `update_text()`. No hay instrucciones entre los corchetes en este momento, por lo que la función no hará nada todavía.
 
 - Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
 
@@ -27,17 +27,17 @@ When someone types text into the text box, we want their text to display inside 
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Ahora es tu turno de escribir una línea de código. Debajo de la línea que acabas de escribir, crea código para establecer la variable `meme_text` que apunta al elemento con ID `meme_text`, que es donde se mostrará el texto de meme. Este es el `<div>` que creamos antes.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- Analicemos el código que ya escribiste para que entiendas lo que hace:
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `var user_text` crea una nueva variable con el nombre "user_text"
+* `=` establece el valor de esta variable a...
+* ...`document.getElementById("user_text")`, que mira a través de la página web y apunta al elemento con el ID `user_text`, la casilla de texto de entrada que hemos creado anteriormente
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+Usando esta información, ¿puedes averiguar cómo crear la nueva línea de código? --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- Las partes del código que necesitas cambiar se resaltan con `***` en el siguiente código:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
