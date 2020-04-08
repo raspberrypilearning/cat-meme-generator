@@ -1,10 +1,10 @@
 ## Crea una pàgina web
 
-- Open up a blank file in your chosen text editor and save the file.
+- Obre un fitxer en blanc a l’editor de text escollit i desa'l.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- El codi HTML següent et proporciona l'estructura bàsica d'una pàgina. Copia'l i enganxa'l al fitxer que has creat i, a continuació, desa el fitxer. Mantén l’editor de text obert perquè puguis editar el fitxer.
 
   ```html
   <html>
@@ -17,10 +17,10 @@
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Vés a la carpeta on has desat la teva pàgina web. Obre també el fitxer amb el teu navegador d’internet, de manera que tinguis el mateix fitxer obert tant a l’editor de text com al navegador.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  A Windows, potser hauràs de fer clic amb el botó dret sobre el fitxer, escollir `Obre amb` i, a continuació, seleccionar el navegador d’internet.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Obre amb el navegador](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Sempre que canviïs el codi al teu editor de text, desa'l i, a continuació, prem el botó de refrescar del navegador per veure la pàgina actualitzada.
