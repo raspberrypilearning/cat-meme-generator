@@ -32,30 +32,30 @@ Si utilitzes un fitxer al teu ordinador, posa aquest codi entre `<body>` i `</bo
   * `input` diu que estem creant una manera perquè l’usuari proporcioni algunes dades
   * `type="text"` diu que les dades seran de text
   * `id="user_text"` dóna a aquest requadre en concret un nom o un ID (identificador), semblant a un nom de variable
-  * `maxlength="70" (longitud màxima)` és opcional: impedeix que escriguis més de 70 lletres de manera que el teu text no ocupi espai més enllà del final de la imatge
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `maxlength="70"`, longitud màxima, és opcional: impedeix que escriguis més de 70 lletres de manera que el teu text no ocupi espai més enllà del final de la imatge
+  * L’etiqueta `<p>` després del requadre d’entrada afegeix un paràgraf (una mica d’espai abans del següent requadre d’entrada)
 
-Can you work out how to create another input box using this information?
+Pots esbrinar com es pot crear un altre requadre d’entrada mitjançant aquesta informació?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+Has de canviar les parts ressaltades del codi amb `***` que venen a continuació:
 
 ```html
-Select a picture <input type="***" id="***"><p>
+Tria una imatge <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- hint --- Aquí tens el codi que has d'afegir:
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+Tria una imatge <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- Pots fer servir aquests requadres per escriure i triar un fitxer, però encara no passarà res. **Nota**: totes les imatges es conserven a l’ordinador - aquest programa no penja res a Internet.
