@@ -1,4 +1,4 @@
-## Display the text
+## Mostra el text
 
 So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
 
