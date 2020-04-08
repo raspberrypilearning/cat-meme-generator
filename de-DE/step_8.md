@@ -1,8 +1,8 @@
-## The finished code
+## Der fertige Code
 
-Now generate an awesome meme yourself, perhaps starring your own cat. The finished code is [here as a HTML file](resources/index.html) or on CodePen. <iframe height='567' scrolling='no' title='Cat Meme Generator' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
+Erstelle jetzt dein eigenes fantastisches Meme, vielleicht sogar mit deiner eigenen Katze. Der fertige Code ist [hier als HTML-Datei](resources/index.html) oder auf CodePen. <iframe height='567' scrolling='no' title='Katzen-Meme-Generator' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-Show off your meme to your friends!
+Zeige deine Memes deinen Freunden!
 
-It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme, you could use the Print Screen button (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` command in the terminal (Linux on Raspberry Pi) to take a screenshot of the page, and then crop it using your favourite image editor.
+Es ist ziemlich schwierig die Seite dazu zu bringen, das Meme automatisch als Bild zu generieren, das du speichern kannst. Wenn du dein Meme behalten möchtest, kannst du aber die Druck-Taste (Windows) / `Cmd + Shift + 4` (Mac OS) / den `scrot`-Befehl im Terminal (Linux auf dem Raspberry Pi) nutzen, um ein Bildschirmfoto der Seite zu machen und dieses dann mit deinem Lieblingsbildbearbeitungsprogramm zuschneiden.
