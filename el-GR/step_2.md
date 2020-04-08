@@ -1,15 +1,15 @@
-## What you will need
+## Τι θα χρειαστείς
 
-### Hardware
+### Υλικό
 
-- A computer
+- Έναν υπολογιστή
 
 
-### Software
+### Λογισμικό
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- Ένα πρόγραμμα περιήγησης ιστού (π.χ. Internet Explorer, Chrome, Safari)
+- Έναν επεξεργαστή κειμένου (π.χ. Notepad, TextEdit, nano) ή πρόσβαση στο [https://codepen.io](https://codepen.io/){:target="_ blank"}
 
-### Extras
+### Πρόσθετα
 
-- A picture of a cat in JPG, GIF, or PNG format
+- Μια εικόνα γάτας σε μορφή JPG, GIF ή PNG
