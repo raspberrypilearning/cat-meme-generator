@@ -1,24 +1,24 @@
-## Build the meme
+## Δημιουργία του meme
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Χρειάζεται να δημιουργήσουμε μια περιοχή όπου θα εμφανίζεται το meme. Αυτή η περιοχή θα ξεκινήσει κενή, επειδή όταν αρχίσει η φόρτωση της σελίδας, δεν θα γνωρίζουμε ποια εικόνα ή κείμενο θέλει να χρησιμοποιήσει ο χρήστης.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- Κάτω από την ετικέτα ` </form>`, πρόσθεσε μια νέα γραμμή κώδικα:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">Εδώ μπαίνει το υπόδειγμα κειμένου</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  Αυτό είναι ένα αντικείμενο `<div>` - είναι ένα αόρατο κουτί στο οποίο θα τοποθετηθεί τελικά το κείμενο για το meme μας. Του έχουμε δώσει ένα `id` όπως ακριβώς κάναμε και στα πλαίσια εισαγωγής.
 
-- Now add another `<div>` below the previous one:
+- Τώρα πρόσθεσε ακόμη ένα `<div>` κάτω από το προηγούμενο:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    Μέσα σε αυτό το `<div>`, υπάρχει επίσης μια άλλη ετικέτα που εμφανίζει μια εικόνα. Το `src=""` υποδεικνύει ποια εικόνα θα εμφανιστεί. Σε αυτήν την περίπτωση, αφήσαμε την εικόνα κενή, επειδή δεν έχουμε ακόμα την εικόνα από το χρήστη.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- Αποθήκευσε και ανανέωσε. Η εικόνα θα είναι ένα κενό πλαίσιο και το κείμενο του παραδείγματος θα εμφανιστεί στην προεπιλεγμένη γραμματοσειρά, η οποία δεν θυμίζει και πολύ γραμματοσειρά για meme:
 
     ![Example text default font](images/example-text-default.png)
 
