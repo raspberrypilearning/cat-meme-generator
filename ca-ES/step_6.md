@@ -53,7 +53,7 @@ var text_mem = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Afegeix aquesta línia de codi al final de la teva funció de JavaScript:
+- Volem que el `<div>` 'text_mem' contingui el mateix text que l'usuari ha escrit al requadre `meme_text`. Afegeix aquesta línia de codi al final de la teva funció de JavaScript:
 
   ``` JavaScript
   text_mem.innerHTML = text_usuari.value;
@@ -62,10 +62,10 @@ var text_mem = document.getElementById("meme_text");
   * `.innerHTML` fa referència al que es mostra dins del `<div>`
   * `.value` fa referència al que s'escriu al requadre de text anomenat `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Per acabar, hem de dir al requadre de text que, quan algú hi escriu, hauria de cridar a la funció que acabem d’escriure per tal que el text del mem s’actualitzi. Cerca el codi del requadre de text i afegeix-li un **atribut** `oninput="actualitzar_text()"` per tal que quedi així:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Text del mem: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Desa i actualitza la teva pàgina, a continuació torna a escriure al requadre de text i fixa't què passa. Si el teu codi funciona, el text que escrius hauria d’aparèixer com a text del mem, gairebé com màgia!
