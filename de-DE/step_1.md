@@ -1,18 +1,18 @@
-## What you will make
+## Was du machen wirst
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+In dieser Ressource wirst du einen Katzenmeme-Generator erstellen. Mithilfe eines Bildes deiner Katze kannst du dein eigenes Katzenmeme erstellen, um es deinen Freunden zu zeigen.
 
-![Example meme](images/example-meme.png)
+![Beispiel Meme](images/example-meme.png)
 
-## What you will learn
+## Was du lernen wirst
 
-By creating a cat meme generator you will learn:
+Beim Erstellen eines Katzenmeme-Generators wirst du lernen:
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- Wie du Funktionen in JavaScript schreibst
+- Wie du JavaScript nutzt um Daten zu bearbeiten, die von einem Benutzer eingegeben wurden
+- Wie du `oninput` und `onchange` verwendest um Dinge auf deiner Website live, als Antwort auf Benutzeraktionen, geschehen zu lassen
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+Diese Ressource umfasst Elemente aus den folgenden Abschnitten des [Raspberry Pi Digital Making Curriculums](https://www.raspberrypi.org/curriculum/){:target="_ blank"}:
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [Entwurf von grundlegenden 2D- und 3D-Konstruktionen](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
+- [Kombiniere Programmierkonstrukte, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_ blank"}
