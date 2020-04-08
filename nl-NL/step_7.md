@@ -1,52 +1,52 @@
-## Display the image
+## Toon een afbeelding
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+We zullen nu wat code schrijven om de afbeelding te gebruiken die de gebruiker heeft geselecteerd en deze in de meme te laten zien.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Definieer een nieuwe JavaScript-functie genaamd `update_image`. Zorg ervoor dat je deze code typt na de sluit accolade `}` van de vorige functie die je hebt gemaakt.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- Binnen de `update_image` functie, maak je twee nieuwe variabelen:
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Deze eerste variabele selecteert de eerste (en enige!) `<img>` tag in het document, zodat we de pagina kunnen vertellen waar de geselecteerde afbeelding moet worden weergegeven.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Deze tweede variabele verwijst naar het geselecteerde katten-afbeeldingsbestand.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Stel de image tag in om de afbeelding te bevatten die de gebruiker heeft geüpload:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Voeg nu wat code toe om de bestandsinvoer te vertellen de `update_image()` functie `onchange` aan te roepen wanneer iemand een bestand selecteert.
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- Onthoud dat je in de vorige stap de functie `update_text()` hebt aangeroepen wanneer nieuwe tekst in het `user_text` invoerveld werd getypt. Met behulp van wat je toen hebt geleerd, kun je erachter komen hoe je de functie `update_image()` aanroept, wanneer de gebruiker een bestand selecteert in het `user_file` invoerveld? --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- Je moet `onchange=""` toevoegen en vervang vervolgens de `***` met de functie die je wilt aanroepen:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Kies een afbeelding <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- Zoek de coderegel voor het invoervak Bestand kiezen en voeg `onchange="update_image()"` toe zoals hier:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Kies een afbeelding <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Bewaar en vernieuw de pagina. Als jouw code werkt, zou wanneer je een afbeelding selecteert in het **Bestand kiezen** invoervak, die afbeelding in het meme-vak eronder moeten verschijnen. Ook als je iets in het tekstvak typt, moet je meme-tekst in de afbeelding verschijnen.
 
-![Finished meme](images/finished-meme.png)
+![Voltooide meme](images/finished-meme.png)
