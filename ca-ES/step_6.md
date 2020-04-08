@@ -1,10 +1,10 @@
 ## Mostra el text
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Fins ara, tot el codi que has escrit és codi HTML i CSS, que indica a la pàgina **com s'ha de mostrar**. Ara afegiràs algun codi JavaScript per dir-li a la pàgina **què cal fer**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Quan algú escriu al requadre de text, volem que el seu text es mostri dins del `<div id="meme_text">` que acabem de crear.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Si utilitzes un fitxer del teu ordinador, afegeix aquestes etiquetes a sota de les teves etiquetes `<div>` per crear una secció on escriure codi JavaScript. Si utilitzes CodePen, pots obviar aquest pas - escriu el codi a la secció ja preparada de JavaScript.
 
   ```html
   <script type="text/javascript">
