@@ -2,7 +2,7 @@
 
 Volem que la gent pugui utilitzar la seva pròpia imatge i text per construir el mem, per la qual cosa necessitem una manera de proporcionar-los. Afegim un formulari que el nostre usuari pugui omplir.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Si utilitzes un fitxer al teu ordinador, posa aquest codi entre `<body>` i `</body>`. If you're using CodePen, put this code in the HTML section.
 
 - Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
 
