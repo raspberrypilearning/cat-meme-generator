@@ -1,26 +1,26 @@
-## Create a web page
+## Erstelle eine Webseite
 
-- Open up a blank file in your chosen text editor and save the file.
+- Öffne eine leere Datei in einem Texteditor deiner Wahl und speichere die Datei.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- Der folgende HTML-Code zeigt dir die Grundstruktur einer Seite. Kopiere ihn und füge ihn in die von dir erstellte Datei ein. Speichere dann die Datei. Lasse den Texteditor geöffnet, damit du die Datei bearbeiten kannst.
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>Meine Seite</title>
   </head>
   <body>
-    My content here
+    Mein Inhalt hier
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Gehe zu dem Ordner, in dem du deine Webseite gespeichert hast. Öffne die Datei auch mit deinem Internetbrowser, sodass du sowohl in deinem Texteditor als auch in deinem Browser dieselbe Datei geöffnet hast.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  Unter Windows musst du möglicherweise mit der rechten Maustaste auf die Datei klicken, `Öffnen mit` auswählen und dann deinen Internetbrowser auswählen.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Mit Browser öffnen](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Wann immer du den Code in deinem Texteditor änderst, speichere ihn und drücke die Aktualisierungstaste in deinem Browser, um die aktualisierte Seite anzuzeigen.
