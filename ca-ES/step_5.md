@@ -1,28 +1,28 @@
-## Build the meme
+## Construeix el mem
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Hem de crear una àrea on es mostri el mem. Aquesta àrea començarà en blanc, ja que quan es carregui la pàgina per primera vegada, no sabem quina imatge o text vol l'usuari.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- A sota de l'etiqueta `</form>`, afegeix una línia nova de codi:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">Aquí text d'exemple</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  Aquest és un element `<div>`: és un requadre invisible que temporalment contindrà el text per al nostre mem. Li hem donat un `id` de la mateixa manera que ho vas fer als requadres d’entrada.
 
-- Now add another `<div>` below the previous one:
+- Ara afegeix un altre `<div>` per sota de l’anterior:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    Dins d'aquest `<div>`, també hi ha una altra etiqueta que mostra una imatge. `src=""` indica quina imatge cal mostrar. En aquest cas, hem deixat la imatge en blanc, perquè encara no tenim la imatge de l’usuari.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- Desa i actualitza. La imatge serà un requadre en blanc i el text d’exemple es mostrarà en el tipus de lletra per defecte, que no s’assembla gaire a un mem:
 
-    ![Example text default font](images/example-text-default.png)
+    ![Font per defecte del text d'exemple](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- Si utilitzes un fitxer al teu ordinador, busca la secció `<head>` del teu codi i afegeix aquest codi entre `<head>` i `</head>`. (Omet aquest pas si utilitzes CodePen.)
 
   ```html
   <style type="text/css">
