@@ -11,15 +11,15 @@ Quan algú escriu al requadre de text, volem que el seu text es mostri dins del 
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Entre les dues etiquetes `<script>` que acabes de crear, afegeix el codi següent. Sembla força diferent el codi que hem escrit fins ara, perquè és JavaScript, que és un llenguatge diferent.
 
   ```JavaScript
-  function update_text(){
+  function actualitzar_text(){
 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  Acabes de crear una funció de JavaScript que es diu `actualitzar_text()`. En aquest moment no hi ha instruccions entre claus, de manera que la funció encara no farà res.
 
 - Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
 
