@@ -1,25 +1,25 @@
-## Create a web page
+## Creare una pagina Web
 
-- Open up a blank file in your chosen text editor and save the file.
+- Apri un file vuoto nell'editor di testo che hai scelto e salva il file.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- Il codice HTML qui sotto fornisce la struttura di base di una pagina. Copialo e incollalo nel file che hai creato, quindi salva il file. Tieni aperto l'editor di testo in modo da poter modificare il file.
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>La mia pagina</title>
   </head>
   <body>
-    My content here
+    Il mio contenuto
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Vai alla cartella in cui hai salvato la tua pagina web. Apri il file anche con il tuo browser Internet, in modo da avere lo stesso file aperto sia nell'editor di testo che nel browser.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  Su Windows, potrebbe essere necessario fare clic con il pulsante destro del mouse sul file, scegliere `Apri con`, quindi selezionare il browser Internet.
 
   ![Open with browser](images/open-with-browser.png)
 
