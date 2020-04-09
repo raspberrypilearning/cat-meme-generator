@@ -1,6 +1,6 @@
 ## Mostra l'immagine
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Ora scriveremo del codice per acquisire l'immagine del gatto che l'utente ha selezionato e visualizzarla sul meme.
 
 - Definisci una nuova funzione JavaScript chiamata `update_image` ("aggiorna immagine"). Fai attenzione a digitare questo codice dopo la parentesi graffa di chiusura `} ` della funzione precedente che hai creato.
 
@@ -26,7 +26,7 @@ We will now write some code to take the cat image that the user has selected and
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Ora aggiungi un po' di codice per dire all'input di tipo file di chiamare la funzione `update_image()` `onchange` quando qualcuno sceglie un file.
 
 --- hints ---
 
@@ -47,6 +47,6 @@ Scegli un'immagine <input type="file" id="user_picture" onchange="update_image()
 
 --- /hints ---
 
-- Salva e aggiorna la pagina. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Salva e aggiorna la pagina. Se il tuo codice funziona, quando selezioni un'immagine usando la casella di input **Scegli un'immagine**, quell'immagine dovrebbe apparire nel box del meme sottostante. Se si digita anche qualcosa nella casella di testo, il testo del tuo meme dovrebbe apparire sovrapposta all'immagine.
 
 ![Meme finito](images/finished-meme.png)
