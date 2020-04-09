@@ -1,4 +1,4 @@
-## Challenge
+## تحدي
 
-* You could add some other CSS styles - why not change the style of the text, or give the image a border?
-* Add another input text box and position this text at the top of the meme, so you can have text on both the top and bottom.
+* يمكنك إضافة بعض أنماط CSS الأخرى - لماذا لا تغير نمط النص، أو إعطاء الصورة حدود؟
+* أضف مربع نص آخر و ضع هذا النص في الجزء العلوي من المقاطع المضحكة، حتى يكون لديك نص في كل من الأعلى والأسفل.
