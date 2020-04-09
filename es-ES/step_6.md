@@ -19,21 +19,21 @@ Cuando alguien escribe texto en el cuadro de texto, queremos que su texto se mue
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. No hay instrucciones entre los corchetes por ahora, por lo que la función no hará nada todavía.
+  Acabas de crear una función JavaScript llamada `update_text()`. No hay instrucciones entre los corchetes por ahora, por lo que la función no hará nada todavía.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- Entre las llaves `{ }`, añade el código siguiente para establecer la variable `user_text` para que apunte al cuadro de texto donde el usuario escribe el texto que desea que aparezca en el meme.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Ahora es tu turno de escribir una línea de código. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. Este es el `<div>` que creamos antes.
+- Ahora es tu turno de escribir una línea de código. Debajo de la línea que acabas de escribir, crea código para establecer la variable `meme_text` que apunta al elemento con el ID `meme_text`, que es donde se mostrará el texto de meme. Este es el `<div>` que creamos antes.
 
 --- hints --- --- hint --- Vamos a analizar el código que has escrito para que entiendas lo que hace:
 
-* `var user_text` creates a new variable with the name "user_text"
+* `var user_text` crea una nueva variable con el nombre "user_text"
 * `=` establece el valor de esta variable a...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* ...`document.getElementById("user_text")`, que busca en la página web y apunta al elemento con el ID `user_text`, el cuadro de texto de entrada (input) que hemos creado anteriormente
 
 Usando esta información, ¿puedes averiguar cómo crear la nueva línea de código? --- /hint ---
 
@@ -53,16 +53,16 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Añade esta línea de código al final de tu función JavaScript:
+- Queremos establecer el `<div>` del 'meme_text' para que contenga el mismo texto que el usuario ha escrito en el cuadro de texto `meme_text`. Añade esta línea de código al final de tu función JavaScript:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
   * `.innerHTML` se refiere a lo que se muestra dentro del `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.value` se refiere a lo que se escribe en el cuadro de texto `user_text`
 
-- Por último, tenemos que decirle al cuadro de texto que cuando alguien escribe en él, debería llamar a la función que acabamos de crear para que el texto en el meme se actualize. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Por último, tenemos que decirle al cuadro de texto que cuando alguien escribe en él, debería llamar a la función que acabamos de crear para que el texto en el meme se actualize. Encuentra el código para tu cuadro de texto y añade un **atributo** para `oninput="update_text()"` de forma que ahora tenga este aspecto:
 
   ```html
   Texto del meme: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
