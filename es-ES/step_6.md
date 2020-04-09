@@ -1,17 +1,17 @@
-## Display the text
+## Muestra el texto
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Hasta ahora, todo el código que has escrito está en lenguaje HTML y CSS, que le dice a la página el **aspecto** que debería tener. Ahora vamos a añadir algo de código JavaScript para decirle a la página **qué hacer**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Cuando alguien escribe texto en el cuadro de texto, queremos que su texto se muestre dentro del `<div id="meme_text">` que acabamos de crear.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Si estás usando un archivo en tu ordenador, añade estas etiquetas debajo de tus etiquetas `<div>` para crear una sección en la que escribir código JavaScript. Si estás usando CodePen, puedes omitir este paso - escribe tu código en la sección de JavaScript.
 
   ```html
   <script type="text/javascript">
-  </script>
+</script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- En primer lugar, escribiremos una función JavaScript para decirle a la página web que coja cualquier texto que esté en el cuadro de entrada y que lo muestre en el `<div>` "texto del meme". Entre las dos etiquetas `<script>` que acabas de crear, añade el código indicado abajo. Tiene un aspecto bastante diferente al código que hemos escrito hasta ahora, porque es JavaScript, que es un lenguaje diferente.
 
   ```JavaScript
   function update_text(){
