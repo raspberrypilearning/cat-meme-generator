@@ -1,6 +1,6 @@
-## Create a web page
+## Crea una página web
 
-- Open up a blank file in your chosen text editor and save the file.
+- Abre un archivo en blanco en el editor de texto que hayas elegido y guárdalo.
 
 [[[generic-html-create-and-save]]]
 
