@@ -23,4 +23,4 @@ Mi contenido aquí
 
   ![Abrir con navegador](images/open-with-browser.png)
 
-  Cada vez que cambies el código en el editor de texto, guárdalo y luego pulsa el botón Actualizar del navegador para ver la página actualizada.
+  Cada vez que cambies el código en el editor de texto, guárdalo y luego pulsa el botón actualizar del navegador para ver la página actualizada.
