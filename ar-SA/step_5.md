@@ -1,35 +1,37 @@
 ## Build the meme
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+نحن بحاجة الى انشاء منطقة حيث سيعرض المقطع المضحك. ستبدأ هذه المنطقة فارغة لأنه عندما يتم تحميل الصفحة لأول مرة ، لن نعرف الصورة أو النص الذي يريد الشخص استخدامه.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- تحت علامة `</form>` ، أضف سطرًا جديدًا من التعليمات البرمجية:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">نص مثال هنا</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  هذا عنصر `<div>` - إنه صندوق غير مرئي سيحتوي في النهاية على نص مضحك. لقد أعطيناها `معرف` مثلما فعلنا في مربعات الإدخال.
 
-- Now add another `<div>` below the previous one:
+- الآن أضف `<div>` أسفل السابقة:
 
   ```html
-    <div id="meme_picture"><img src="" height="500" width="600"></div>
+    <div id="meme_picture">
+<img src="" height="500" width="600">
+</div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    داخل هذا `<div>`، هناك أيضًا علامة أخرى تعرض صورة. `src = ""` يشير إلى الصورة التي سيتم عرضها. في هذه الحالة ، تركنا الصورة فارغة ، لأنه ليس لدينا الصورة من المستخدم بعد.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- حفظ وتحديث. ستكون الصورة مربعًا فارغًا وسيظهر نص المثال بالخط الافتراضي ، وهو ليس مشابهًا جدًا للنص المضحك:
 
-    ![Example text default font](images/example-text-default.png)
+    ![الخط الافتراضي لنص المثال](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- إذا كنت تستخدم ملفًا على جهاز الكمبيوتر الخاص بك ، فابحث عن قسم `<head>` في الكود وأضف هذا الكود بين `<head>` و `</head>`. (تخط هذه الخطوة إذا كنت تستخدم CodePen.)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- قم بلصق الشفرة أدناه بين علامتي `<style>` لإعطاء النص نمط مضحك. إذا كنت تستخدم CodePen ، فضع هذا الرمز في قسم HTML.
 
     ```css
     #meme_text {
@@ -45,6 +47,6 @@ We need to create an area where the meme will be displayed. This area will start
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  `اليسار: 15 بكسل` و `العلوي: 400 بكسل` أسطر تحدد المسافة بين النص من اليسار وأعلى الصفحة. يمكنك تغيير هذه الأرقام لجعل النص يظهر في مكان مختلف إذا أردت. إذا كنت ترغب في معرفة المزيد عن الأنماط CSS، بزيارة [w3schools CSS إشارة](http://www.w3schools.com/CSSref/){: الهدف = "_ فارغا"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![مثال للنص](images/example-text-memey.png)
