@@ -1,50 +1,50 @@
-## Build the meme
+## 建立模因
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+我们需要创建一个显示模因的区域。 该区域将从空白开始，因为首次加载页面时我们不知道这个人要使用的图片或文字。
 
-- Underneath the `</form>` tag, add in a new line of code:
+- 在`</form>`标签下，添加新的代码行：
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">这是示例文本</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  这是一个 `<div>` 元素-它一个用户不可见的输入控件，用来保存的模因文字。 我们给了它一个 `id`，就像我们对输入框所做的一样。
 
-- Now add another `<div>` below the previous one:
+- 现在在前一个控件下面添加另一个 `<div>`：
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    在这个 `<div>` 中，还有另一个用于显示图像的标签。 `src =""` 指示要显示的图像。 在这种情况下，我们将图像留空了，因为我们还没有用户的图片。
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- 保存并刷新。 图片将是一个空白框，示例文本将以默认字体显示，这不是很像模因：
 
-    ![Example text default font](images/example-text-default.png)
+    ![示例文字默认字体](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- 如果你正在使用本地的文件，请在代码中找到 `<head>` 部分，并将此代码添加到 `<head>`和`</head>` 之间。 (如果你使用的是CodePen，请跳过此步骤)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- 将以下代码粘贴在 `<style>` 标记之间，以使你的文本具有模因样式。 如果你使用的是 CodePen，请将其粘贴到 CSS 部分。
 
     ```css
     #meme_text {
-        background-color: transparent;
-        font-size: 40px;
-        font-family: "Impact";
-        color: white;
-        text-shadow: black 0px 0px 10px;
-        width: 600px;
-        position: absolute;
-        left: 15px;
-        top: 400px;
-    }
+background-color: transparent;
+font-size: 40px;
+font-family: "Impact";
+color: white;
+text-shadow: black 0px 0px 10px;
+width: 600px;
+position: absolute;
+left: 15px;
+top: 400px;
+}
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  `left: 15px` 和 `top: 400px` 行决定文本距页面左侧和顶部的距离。 如果你喜欢，你可以更改这些数字，以使文本显示在模因上的其他位置。 如果你想进一步了解 CSS 样式，请访问 [w3schools CSS 参考](http://www.w3schools.com/CSSref/){:target="_blank"}。
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![模因中的示例文本](images/example-text-memey.png)
