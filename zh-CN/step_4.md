@@ -23,39 +23,39 @@
 
     ![第一个输入框](images/first-box.png)
 
-- 在第一个输入框下面的添加代码以创建另一个输入框。 This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- 在第一个输入框下面的添加代码以创建另一个输入框。 这次输入控件不是文本框，而是用于选择模因图像文件的特殊控件。 输入控件的 type 应为 `file`，输入控件的 name 应为 `user_picture`。
 
---- hints ---
+--- hint ---
 
---- hint --- Here's what the code you already wrote does:
+---提示--- 这是您已经编写的代码：
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `input` 表示我们正在为用户提供一种提供数据的方式
+  * `type ="text"` 表示数据将为文本
+  * `id="user_text"` 为该输入控件指定 name 或 ID，有点像变量名
+  * `maxlength="70"` 是可选的-它使您无法输入70个以上的字母，因此您的文本不会超出图像底部的空间
+  * 输入控件后的 `<p>` 标记添加一个段落(为下一个输入控件提供一些空间)
 
-Can you work out how to create another input box using this information?
+您能根据已有代码创建另一个输入控件吗？
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+您将需要更改下面用 `***` 突出显示的代码：
 
 ```html
-Select a picture <input type="***" id="***"><p>
+选择图片 <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+---提示--- 这是您需要添加的代码：
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+选择图片 <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- 您可以使用这些输入控件键入文本和选择文件，但是什么也不会发生。 **注**：所有图像都保存在您的计算机上-该程序不会将任何内容上传到 Internet。
