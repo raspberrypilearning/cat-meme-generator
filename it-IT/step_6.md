@@ -62,7 +62,7 @@ var meme_text = document.getElementById("meme_text");
   * `.innerHTML` si riferisce a ciò che viene visualizzato all'interno di `<div>`
   * `.value` si riferisce a ciò che viene digitato nella casella di testo chiamata `user_text`
 
-- Infine, dobbiamo dire alla casella di testo che quando qualcuno scrive in essa dovrà chiamare la funzione che abbiamo appena scritto in modo che il testo nel meme venga aggiornato. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Infine, dobbiamo dire alla casella di testo che quando qualcuno scrive in essa dovrà chiamare la funzione che abbiamo appena scritto in modo che il testo nel meme venga aggiornato. Trova il codice per la tua casella di testo e aggiungi un **attributo** per ` oninput="update_text()" ` così che ora appaia così:
 
   ```html
   Testo del meme: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
