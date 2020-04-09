@@ -1,15 +1,15 @@
-## What you will make
+## 你将制作：
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+在此资源中，您将制作猫咪表情包生成器。 使用猫的图片，您可以创建自己的猫表情包向朋友展示。
 
-![Example meme](images/example-meme.png)
+![模因例子](images/example-meme.png)
 
-## What you will learn
+## 你将学到什么
 
-By creating a cat meme generator you will learn:
+通过创建猫表情包生成器，您将学到：
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
+- 如何用JavaScript编写函数
+- 如何使用JavaScript来操纵用户的数据输入
 - How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
 
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
