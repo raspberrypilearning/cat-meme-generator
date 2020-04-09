@@ -8,7 +8,7 @@ Dobbiamo creare un'area in cui verrà visualizzato il meme. Questa area partirà
   <div id="meme_text">Testo di esempio qui</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. Gli abbiamo dato un `id` proprio come abbiamo fatto per le caselle di input.
+  Questo è un elemento `<div>` - è un riquadro invisibile che alla fine conterrà il testo per il nostro meme. Gli abbiamo dato un `id` proprio come abbiamo fatto per le caselle di input.
 
 - Ora aggiungi un altro `<div>` sotto quello precedente:
 
