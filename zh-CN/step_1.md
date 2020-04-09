@@ -9,10 +9,10 @@
 通过创建猫表情包生成器，您将学到：
 
 - 如何用JavaScript编写函数
-- 如何使用JavaScript来操纵用户的数据输入
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- 如何使用 JavaScript 来处理用户的数据输入
+- 如何使用 `oninput` 和 `onchange` 来响应用户操作
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+该资源涵盖了 [树莓派数字创作课程](https://www.raspberrypi.org/curriculum/){:target="_blank"}中的以下方面：
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [设计基本 2D 和 3D 数字资产](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
+- [利用编程来解决问题](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
