@@ -20,33 +20,33 @@
 
     第二个变量指向所选的猫图片文件。
 
-- Set the image tag to contain the picture that the user has uploaded:
+- 设置 img 标签以包含用户上传的图片：
 
     ```javascript
-    img.src =  window.URL.createObjectURL(file);
+    img.src = window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- 现在添加一些代码，告诉输入控件在选择文件后，也就是 `onchange` 发生时调用 `update_image()` 函数。
 
---- hints ---
+--- hint ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- 提示--- 记住，在之前步骤中，当新文本被写入`user_text` 输入框时，你调用了`update_text()` 函数。 使用所学的知识， 当用户在 `user_file` 输入框中选择一个文件时，你会调用函数`update_image()`吗？ --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+---提示--- 你将需要添加 `onchange=""` 然后用你要调用的函数替换`***`：
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+选择图片 <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+---提示--- 找到文件输入框的代码行，并添加`onchange="update_image()"` 像这样：
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+选择图片 <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- 保存并刷新页面。 如果代码有效，则在选择图片时使用 **选择图片** 输入框，该图片应显示在下面的模因框中。 如果你还在文本框中键入了内容，则你的模因文本应出现在图片顶部。
 
-![Finished meme](images/finished-meme.png)
+![完成的模因](images/finished-meme.png)
