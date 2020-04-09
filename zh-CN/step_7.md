@@ -1,24 +1,24 @@
-## Display the image
+## 显示图像
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+现在，我们将编写一些代码来回去用户选择的猫图像并将其显示在模因上。
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- 定义一个新的 JavaScript 函数，名为 `update_image` 。 请注意在你创建的上一个函数的大括号 `}` 之后输入此代码。
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- 在 `update_image` 函数内，创建两个新变量：
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    这个变量选择文档中的第一个(也是唯一的) `<img>` 标签，这样我们就可以告诉页面在何处显示所选图像。
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    第二个变量指向所选的猫图片文件。
 
 - Set the image tag to contain the picture that the user has uploaded:
 
