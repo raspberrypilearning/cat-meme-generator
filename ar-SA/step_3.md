@@ -1,26 +1,26 @@
-## Create a web page
+## قم بإنشاء صفحة ويب
 
-- Open up a blank file in your chosen text editor and save the file.
+- افتح ملفًا فارغًا في محرر النصوص الذي اخترته واحفظ الملف.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- يمنحك كود HTML أدناه البنية الأساسية للصفحة. انسخه والصقه في الملف الذي أنشأته ، ثم احفظ الملف. اترك محرر النصوص مفتوحًا حتى تتمكن من تعديل الملف.
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>صفحتي</title>
   </head>
   <body>
-    My content here
+    المحتوى الخاص بي هنا
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- انتقل إلى المجلد حيث قمت بحفظ صفحة الويب الخاصة بك. افتح الملف باستخدام متصفح الإنترنت أيضًا ، بحيث يكون لديك نفس الملف مفتوحًا في كل من محرر النصوص ومتصفحك.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  في نظام التشغيل Windows ، قد تحتاج إلى النقر بزر الماوس الأيمن فوق الملف واختيار `فتح باستخدام` ثم تحديد مستعرض الإنترنت الخاص بك.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![فتح باستخدام المتصفح](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  كلما قمت بتغيير الكود في محرر النصوص الخاص بك ، قم بحفظه ثم اضغط على زر التحديث في متصفحك لرؤية الصفحة المحدثة.
