@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- 我们想要设置 "meme_text" `<div>` 来保存用户输入到`meme_text` 文本框中的文本。 将以下代码行添加到 JavaScript 函数的底部：
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML` 是指在 `<div>` 中显示的内容
+  * `.value` 指的是在文本框 `user_text` 中输入的内容
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- 最后，我们需要告诉文本框，当有人在其中键入内容时，它应该调用我们刚编写的函数，以便更新模因中的文本。 找到你的文本框的代码，并对`oninput="update_text()"` 添加一个 **attribute**，现在看起来像这样：
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  模因文字：<input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - 保存并刷新页面，然后尝试在文本框中输入内容，然后看看会发生什么。 如果你的代码有效，则你键入的文本应显示为模因文本，几乎就像魔术一样！
