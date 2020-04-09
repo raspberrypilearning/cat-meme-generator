@@ -9,8 +9,8 @@ ingredient: false
 listed: true
 copyedit: true
 curriculum: 2, design-1, programming-2, phys-comp-0, manufacture-0, community-0
-interests: animals
-technologies: html-css-javascript
+interests: 动物
+technologies: html/css
 hardware: ''
 software: html-css-javascript
 site_areas: projects
