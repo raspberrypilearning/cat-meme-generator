@@ -1,8 +1,8 @@
-## The finished code
+## El código terminado
 
-Now generate an awesome meme yourself, perhaps starring your own cat. The finished code is [here as a HTML file](resources/index.html) or on CodePen. <iframe height='567' scrolling='no' title='Cat Meme Generator' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
+Ahora genera un meme impresionante tú mismo, quizás protagonizado por tu propio gato. Puedes acceder al código terminado [aquí como archivo HTML](resources/index.html) o en CodePen. <iframe height='567' scrolling='no' title='Generador de memes de gatos' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">Ver el <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Generador de Memes de Gatos</a> de Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) en <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-Show off your meme to your friends!
+¡Presume de tu meme ante tus amigos!
 
-It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme, you could use the Print Screen button (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` command in the terminal (Linux on Raspberry Pi) to take a screenshot of the page, and then crop it using your favourite image editor.
+Es bastante complicado hacer que la página genere automáticamente el meme como una imagen que se pueda guardar. Sin embargo, si quieres mantener tu meme, puedes usar el botón Imprimir Pantalla (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` en el terminal (Linux en Raspberry Pi) para tomar una captura de pantalla de la página, y luego recortarlo usando tu editor de imágenes favorito.
