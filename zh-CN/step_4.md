@@ -1,29 +1,29 @@
-## Getting the picture and text
+## 获取图片和文字
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+我们希望人们能够使用自己的图片和文字来制作模因，因此我们来为他们制作这种工具。 让我们添加一个用户可以填写的表单。
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+如果您在使用本地文本文件，请将此代码置于 `<body>` 和 `</body>`。 如果您使用的是 CodePen，请将此代码放入 HTML 部分。
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- 添加标记 `<form>，` 指示表单的开始，`</form>，` 指示表单的结尾。
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- 在您的 `<form>` 标签内，添加一个文本框，以便您可以输入模因文本：
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Meme文字： <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- 保存您的代码并刷新浏览器以查看创建的输入框。
 
-    ![First box](images/first-box.png)
+    ![第一个输入框](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- 在第一个输入框下面的添加代码以创建另一个输入框。 This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
 
 --- hints ---
 
