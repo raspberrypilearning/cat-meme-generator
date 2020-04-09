@@ -4,23 +4,23 @@
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- El siguiente código HTML contiene la estructura básica de una página. Cópialo y pégalo en el archivo que has creado, después guárdalo de nuevo. Mantén abierto el editor de texto para que puedas editar el archivo.
 
   ```html
   <html>
-  <head>
-    <title>My page</title>
-  </head>
-  <body>
-    My content here
-  </body>
-  </html>
+<head>
+<title>Mi página</title>
+</head>
+<body>
+Mi contenido aquí
+</body>
+</html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Ve a la carpeta en la que has guardado la página web. Abre el archivo con tu navegador también, de manera que tengas el mismo archivo abierto tanto en el editor de texto como en el navegador.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  En Windows, es posible que tengas que hacer clic derecho en el archivo, elegir `Abrir con` y luego seleccionar tu navegador de Internet.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Abrir con navegador](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Cada vez que cambies el código en el editor de texto, guárdalo y luego pulsa el botón Actualizar del navegador para ver la página actualizada.
