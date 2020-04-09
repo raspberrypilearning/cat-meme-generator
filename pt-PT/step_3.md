@@ -4,15 +4,15 @@
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- O código HTML abaixo fornece a estrutura básica de uma página. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>Minha página</title>
   </head>
   <body>
-    My content here
+    Meu conteúdo aqui
   </body>
   </html>
   ```
