@@ -1,6 +1,6 @@
 ## Baue das Meme
 
-Wir müssen einen Bereich erstellen, in dem das Meme angezeigt wird. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Wir müssen einen Bereich erstellen, in dem das Meme angezeigt wird. Dieser Bereich wird zu Beginn leer sein, denn wenn die Seite zum ersten Mal geladen wird, wissen wir nicht, welches Bild oder welchen Text die Person verwenden möchte.
 
 - Füge unter dem `</form>`-Tag eine neue Codezeile hinzu:
 
@@ -45,6 +45,6 @@ Wir müssen einen Bereich erstellen, in dem das Meme angezeigt wird. This area w
     }
     ```
 
-  Die Zeilen `left: 15px` und `top: 400px` bestimmen, wie weit der Text vom linken und oberen Rand der Seite entfernt ist. You can alter these numbers to make the text appear in a different place on your meme if you like. Wenn du mehr über "CSS-Styles" erfahren möchtest, besuche die [w3schools CSS-Referenz](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  Die Zeilen `left: 15px` und `top: 400px` bestimmen, wie weit der Text vom linken und oberen Rand der Seite entfernt ist. Wenn du willst, kannst du diese Zahlen ändern, um den Text an einer anderen Stelle auf deinem Meme zu platzieren. Wenn du mehr über "CSS-Styles" erfahren möchtest, besuche die [w3schools CSS-Referenz](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Beispieltext in Meme](images/example-text-memey.png)
