@@ -30,7 +30,9 @@ Wenn jemand Text in das Textfeld eingibt wollen wir, dass sein Text im soeben er
 - Jetzt ist es an dir, eine Zeile Code zu schreiben. Erstelle unterhalb der Zeile, die du gerade geschrieben hast, Code um die Variable namens `meme_text` auf das Element mit der ID `meme_text`, welches den Meme-Text anzeigen wird, zeigen zu lassen. Das ist das `<div>`, welches wir vorhin erstellt haben.
 
 --- hints ---
- --- hint --- Lass uns den Code entschlüsseln, den du bisher geschrieben hast, damit du verstehst was er tut:
+ --- hint --- 
+ 
+Lass uns den Code entschlüsseln, den du bisher geschrieben hast, damit du verstehst was er tut:
 
 * `var user_text` erstellt eine neue Variable mit dem Namen "user_text"
 * `=` setzt den Wert dieser Variable auf...
@@ -40,13 +42,17 @@ Kannst du mithilfe dieser Informationen herausfinden, wie du die neue Codezeile 
 --- /hint ---
 
 
---- Hinweis --- Die Teile des Codes, die du ändern musst, sind im folgenden Code mit `***` hervorgehoben:
+--- hint --- 
+
+Die Teile des Codes, die du ändern musst, sind im folgenden Code mit `***` hervorgehoben:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- Das ist der Code, den du hinzufügen musst:
+--- hint --- 
+
+Das ist der Code, den du hinzufügen musst:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");

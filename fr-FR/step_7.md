@@ -30,17 +30,18 @@ Nous allons maintenant écrire du code pour prendre l'image de chat que l'utilis
 
 --- hints ---
 
-
+--- hint ---
 N'oublie pas qu'à l'étape précédente, tu as appelé la fonction `update_text()` lorsqu'un nouveau texte a été écrit dans la zone de saisie `user_text`. En utilisant ce que tu as appris alors, peux-tu déterminer comment appeler la fonction `update_image()` lorsque l'utilisateur sélectionne un fichier dans la zone de saisie `user_file`?
 --- /hint ---
 
-
+--- hint ---
 Tu dois ajouter `onchange=""` et ensuite remplacer le `***` avec la fonction que tu souhaites appeler:
 ```javascript
 Sélectionne une image <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
+--- hint ---
 Recherche la ligne de code pour la zone de saisie de fichier et ajoute `onchange="update_image()"` comme ceci:
 ```html
 Sélectionne une image <input type="file" id="user_picture" onchange="update_image()">

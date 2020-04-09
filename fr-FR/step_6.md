@@ -29,6 +29,9 @@ Lorsque quelqu'un tape du texte dans la zone de texte, nous voulons que son text
 
 - Maintenant c'est à ton tour d'écrire une ligne de code. Sous la ligne que tu viens d'écrire, crée du code pour définir la variable appelée `meme_text` pour pointer vers l'élément avec l'ID `meme_text`, qui est l'endroit où le texte du mème s'affiche. C'est le `<div>` que nous avons créé plus tôt.
 
+--- hints ---
+--- hint ---
+
 Décomposons le code que tu as déjà écrit afin de comprendre ce qu'il fait:
 
 * `var user_text` crée une nouvelle variable avec le nom « user_text »
@@ -38,13 +41,14 @@ Décomposons le code que tu as déjà écrit afin de comprendre ce qu'il fait:
 À l'aide de ces informations, peux-tu déterminer comment créer la nouvelle ligne de code?
 --- /hint ---
 
-
+--- hint ---
 Les parties du code que tu dois modifier sont surlignées avec `***` dans le code ci-dessous:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
+--- hint ---
 Le code que tu dois ajouter est ici :
 
 ```JavaScript

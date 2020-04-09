@@ -15,7 +15,7 @@ Si tu utilises un fichier sur ton ordinateur, mets ce code entre `<body>` et `</
 
   ```html
   <form>
-  Texte du mème : <input type="text" id="user_text" maxlength="70"><p>
+  Texte du mème: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
@@ -27,7 +27,7 @@ Si tu utilises un fichier sur ton ordinateur, mets ce code entre `<body>` et `</
 
 --- hints ---
 
-
+--- hint ---
 Voici ce que fait le code que tu as déjà écrit:
 
   * `input` indique que nous créons un moyen pour l'utilisateur de fournir des données
@@ -49,6 +49,7 @@ Sélectionne une image <input type="***" id="***"><p>
 ```
 
 --- /hint ---
+--- hint ---
 
 Voici le code que tu dois ajouter:
 
