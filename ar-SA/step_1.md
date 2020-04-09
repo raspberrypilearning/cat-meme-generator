@@ -1,18 +1,18 @@
-## What you will make
+## ما الذي ستصنعه
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+في هذا المورد ، ستقوم بإنشاء مولد مقاطع مضحكة للقط. باستخدام صورة قطتك ، يمكنك إنشاء مقطع مضحك لقطتك لتتباهى به مع أصدقائك.
 
-![Example meme](images/example-meme.png)
+![مثال مقطع مضحك](images/example-meme.png)
 
-## What you will learn
+## ما الذي ستتعلمه
 
-By creating a cat meme generator you will learn:
+من خلال إنشاء مولد مقاطغ مضحكة للقط ستتعلم:
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- كيفية كتابة الوظائف في جافا سكريبت
+- كيفية استخدام JavaScript للتعامل مع إدخال البيانات من قبل المستخدم
+- كيفية استخدام `الإدخال` و `التغيير` لجعل الأشياء تحدث مباشرة على صفحة الويب استجابة لإجراءات المستخدم
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+يغطي هذا المورد عناصر من السلاسل التالية من [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){: target = "_ blank"}:
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [تصميم الأصول الأساسية ثنائية الأبعاد وثلاثية الأبعاد](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
+- [دمج بنيات البرمجة لحل المشكلة](https://www.raspberrypi.org/curriculum/programming/builder){: target = "_ blank"}
