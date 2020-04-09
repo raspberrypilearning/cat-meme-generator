@@ -20,7 +20,7 @@ Wir werden nun Code schreiben, um das vom Benutzer ausgewählte Katzenbild zu ne
 
     Diese zweite Variable verweist auf die ausgewählte Katzenbilddatei.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Stelle das Bild- (img-) Tag so ein, dass es das Bild enthält, welches der Benutzer hochgeladen hat:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
@@ -30,7 +30,7 @@ Wir werden nun Code schreiben, um das vom Benutzer ausgewählte Katzenbild zu ne
 
 --- hints ---
 
---- hint --- Erinnere dich daran, dass du, im vorherigen Schritt, eine Funktion `update_text()` aufgerufen hast, wann immer neuer Text in das `user_text`-Eingabefeld geschrieben wurde. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- Erinnere dich daran, dass du, im vorherigen Schritt, eine Funktion `update_text()` aufgerufen hast, wann immer neuer Text in das `user_text`-Eingabefeld geschrieben wurde. Kannst du anhand dessen, was du dabei gelernt hast herausfinden, wie du die Funktion `update_image()` aufrufst, wenn der Benutzer eine Datei im `user_file`-Eingabefeld auswählt? --- /hint ---
 
 --- hint --- Du musst `onchange=""` hinzufügen und dann die`***` durch die Funktion ersetzen, die du aufrufen möchtest:
 ```javascript
