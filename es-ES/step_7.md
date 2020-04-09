@@ -2,11 +2,11 @@
 
 Ahora vamos a escribir código para coger la imagen del gato que el usuario ha seleccionado y mostrarla en el meme.
 
-- Define a new JavaScript function called `update_image`. Ten cuidado y escribe este código después de la llave de cierre `}` de la función que creaste antes.
+- Define una nueva función JavaScript llamada `update_image`. Ten cuidado y escribe este código después de la llave de cierre `}` de la función que creaste antes.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- Dentro de la función `update_image`, crea dos nuevas variables:
 
     ```javascript
     var img = document.querySelector('img');
@@ -26,11 +26,11 @@ Ahora vamos a escribir código para coger la imagen del gato que el usuario ha s
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Ahora añade código para decirle al input (entrada) del archivo que llame a la función `update_image()` `onchange` cuando alguien selecciona un archivo.
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- Recuerda que, en el paso anterior, llamabas a la función `update_text()` cuando se introducía texto nuevo en el cuadro de entrada `user_text`. Utilizando lo que ya has aprendido, ¿Puedes averiguar cómo llamar a la función `update_image()` cuando el usuario selecciona un archivo en el cuadro de entrada `user_file`? --- /hint ---
 
 --- hint --- Necesitarás añadir `onchange=""` y luego reemplazar el `***` con la función que te gustaría llamar:
 ```javascript
@@ -38,7 +38,7 @@ Selecciona una imagen <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- Encuentra la línea de código para el cuadro de entrada (input) del archivo y añade `onchange="update_image()"` así:
 ```html
 Selecciona una imagen <input type="file" id="user_picture" onchange="update_image()">
 ```
@@ -47,6 +47,6 @@ Selecciona una imagen <input type="file" id="user_picture" onchange="update_imag
 
 --- /hints ---
 
-- Guarda y actualiza la página. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. Si también escribes algo en el cuadro de texto, tu texto meme debería aparecer encima de la imagen.
+- Guarda y actualiza la página. Si tu código funciona, cuando selecciones una imagen usando el cuadro de entrada **Elige una imagen**, esa imagen debe aparecer en el cuadro de meme de abajo. Si también escribes algo en el cuadro de texto, tu texto meme debería aparecer encima de la imagen.
 
 ![Meme terminado](images/finished-meme.png)
