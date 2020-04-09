@@ -18,9 +18,9 @@ Ahora vamos a escribir código para coger la imagen del gato que el usuario ha s
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Esta segunda variable apunta al archivo con la imagen del gato seleccionada.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Establece la etiqueta de imagen (img) para que contenga la imagen que el usuario ha subido:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
@@ -32,21 +32,21 @@ Ahora vamos a escribir código para coger la imagen del gato que el usuario ha s
 
 --- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- Necesitarás añadir `onchange=""` y luego reemplazar el `***` con la función que te gustaría llamar:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Selecciona una imagen <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
 --- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Selecciona una imagen <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Guarda y actualiza la página. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. Si también escribes algo en el cuadro de texto, tu texto meme debería aparecer encima de la imagen.
 
-![Finished meme](images/finished-meme.png)
+![Meme terminado](images/finished-meme.png)
