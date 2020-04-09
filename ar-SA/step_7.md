@@ -1,42 +1,42 @@
-## Display the image
+## عرض صورة
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+سنكتب الآن بعض التعليمات البرمجية لالتقاط صورة القط التي حددها المستخدم وعرضها على النص المضحك.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- حدد وظيفة JavaScript جديدة تسمى `update_image`. كن حذراً لكتابة هذا الرمز بعد قوس المجموعة `}` من الدالة السابقة التي أنشأتها.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- داخل الدالة `update_image` ، أنشئ متغيرين جديدين:
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    يحدد هذا المتغير الأول العلامة الأولى (والوحيدة!) `<img>` في المستند ، حتى نتمكن من إخبار الصفحة بمكان عرض الصورة المحددة.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    يشير هذا المتغير الثاني إلى ملف صورة القط المحدد.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- قم بتعيين علامة الصورة بحيث تحتوي على الصورة التي قام المستخدم بتحميلها:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- أضف الآن بعض التعليمات البرمجية لإخبار إدخال الملف لاستدعاء الوظيفة `update_image ()` `onchange` عندما يقوم شخص ما بتحديد ملف.
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- تذكر أنك، في الخطوة السابقة، قمت بتسمية الدالة `update_text()` عندما تم كتابة نص جديد في `user_text` مربع الإدخال. باستخدام ما تعلمته آنذاك، هل يمكنك البحث عن كيفية الاتصال بالدالة `update_image()` عندما يختار المستخدم ملف في مربع الادخال `user_file`؟ --- hint/ ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- ستحتاج إلى إضافة `onchange=""` ثم استبدال `***` بالوظيفة التي ترغب في استدعائها:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+حدد صورة <input type="file" id="user_picture" onchange="***">
 ```
---- /hint ---
+--- hint/ ---
 
 --- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
 ```html
