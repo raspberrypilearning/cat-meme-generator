@@ -1,7 +1,7 @@
 ---
-title: Cat meme generator
+title: 猫表情包生成器
 hero_image: images/banner.png
-description: Make cool cat memes to share with your friends
+description: 制作酷酷猫咪表情包与您的朋友分享
 original_url: https://www.raspberrypi.org/learning/cat-meme-generator/
 theme: orange
 duration: 2
@@ -18,20 +18,20 @@ version: 4
 last_tested: 2017-11-01
 steps:
   - 
-    title: Introduction
+    title: 介绍
   - 
-    title: What you will need
+    title: 你将需要什么
   - 
-    title: Create a web page
+    title: 创建一个网页
   - 
-    title: Getting the picture and text
+    title: 获取图片和文字
   - 
-    title: Build the meme
+    title: 建立模因
   - 
-    title: Display the text
+    title: 显示文字
   - 
-    title: Display the image
+    title: 显示图像
   - 
-    title: The finished code
+    title: 完成的代码
   - 
-    title: Challenge
+    title: 挑战
