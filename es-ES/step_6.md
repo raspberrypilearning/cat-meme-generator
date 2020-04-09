@@ -19,7 +19,7 @@ Cuando alguien escribe texto en el cuadro de texto, queremos que su texto se mue
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  You've just created a JavaScript function called `update_text()`. No hay instrucciones entre los corchetes por ahora, por lo que la función no hará nada todavía.
 
 - Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
 
@@ -27,23 +27,23 @@ Cuando alguien escribe texto en el cuadro de texto, queremos que su texto se mue
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Ahora es tu turno de escribir una línea de código. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. Este es el `<div>` que creamos antes.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- Vamos a analizar el código que has escrito para que entiendas lo que hace:
 
 * `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
+* `=` establece el valor de esta variable a...
 * ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+Usando esta información, ¿puedes averiguar cómo crear la nueva línea de código? --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- Las partes del código que necesitas cambiar están resaltadas con `***` en el siguiente código:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- hint --- El código que necesitas añadir está aquí:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Añade esta línea de código al final de tu función JavaScript:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
+  * `.innerHTML` se refiere a lo que se muestra dentro del `<div>`
   * `.value` refers to what is typed into the text box called `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Por último, tenemos que decirle al cuadro de texto que cuando alguien escribe en él, debería llamar a la función que acabamos de crear para que el texto en el meme se actualize. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Texto del meme: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Guarda y actualiza tu página, y luego intenta escribir en tu cuadro de texto para ver lo que sucede. Si tu código funciona, el texto que escribas debería aparecer como el texto de meme, ¡casi por arte de magia!
