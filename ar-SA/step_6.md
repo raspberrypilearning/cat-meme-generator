@@ -1,17 +1,17 @@
-## Display the text
+## اعرض النص
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+حتى الآن، كل التعليمات البرمجية التي كتبتها هي رمز HTML و CSS، الذي يخبر الصفحة ما ينبغي أن **تبدو عليه **. سنقوم الآن بإضافة بعض تعليمات JavaScript البرمجية لإخبار الصفحة **بما يجب فعله**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+عندما يكتب شخص ما نصًا في مربع النص ، نريد عرض نصه داخل `<div id="meme_text">` الذي أنشأناه للتو.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- إذا كنت تستخدم ملفًا على جهاز الكمبيوتر ، فأضف هذه العلامات أسفل علامات `<div>` لإنشاء قسم لكتابة شفرة جافا سكريبت. إذا كنت تستخدم CodePen ، فيمكنك تخطي هذه الخطوة - اكتب التعليمات البرمجية في قسم JavaScript الجاهز.
 
   ```html
   <script type="text/javascript">
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- أولاً ، سنكتب وظيفة JavaScript لإخبار صفحة الويب بأخذ أي نص موجود في مربع الإدخال وعرضه في "meme_text" `<div>`. بين العلامتين `<script>` التي أنشأتها للتو ، أضف الرمز أدناه. يبدو مختلفًا تمامًا عن الرمز الذي كتبناه حتى الآن ، لأنه جافا سكريبت ، وهي لغة مختلفة.
 
   ```JavaScript
   function update_text(){
@@ -19,53 +19,53 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  لقد أنشأت للتو وظيفة JavaScript تسمى `update_text ()`. لا توجد تعليمات بين قوسين في الوقت الحالي ، لذلك لن تقوم الوظيفة بأي شيء حتى الآن.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- بين الأقواس المتعرجة `{ }`، أضف الكود أدناه لتعيين المتغير `user_text` للإشارة إلى مربع النص حيث يكتب المستخدم النص الذي يريده أن يظهر في النص المضحك.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- الآن حان دورك لكتابة سطر من التعليمات البرمجية. أسفل السطر الذي كتبته للتو ، قم بإنشاء كود لتعيين المتغير المسمى `meme_text` للإشارة إلى العنصر بالمعرف `meme_text`، حيث سيتم عرض النص المضحك. هذا هو `<div>` الذي أنشأناه سابقًا.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- دعونا نحلل التعليمات البرمجية التي كتبتها بالفعل حتى تفهم ما يفعله:
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `var user_text` ينشئ متغير جديد باسم "user_text"
+* `=` يضبط قيمة هذا المتغير على...
+* ...`document.getElementById ("user_text")`، الذي ينظر من خلال صفحة الويب ويشير إلى العنصر بالمعرف `user_text`، مربع نص الإدخال الذي أنشأناه سابقًا
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+باستخدام هذه المعلومات ، هل يمكنك معرفة كيفية إنشاء سطر التعليمات البرمجية الجديد؟ --- hint/ ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- يتم تمييز أجزاء الكود التي تحتاج إلى تغييرها مع `***` في الكود أدناه:
 ```JavaScript
-var *** = document.getElementById("***");
+var *** = document.getElementById ("***") ؛;
 ```
---- /hint ---
+--- hint/ ---
 
---- hint --- The code you need to add is here:
+--- hint --- الكود الذي تحتاج إلى إضافته هو هنا:
 
 ```JavaScript
-var meme_text = document.getElementById("meme_text");
+var meme_text = document.getElementById ("meme_text") ،;
 ```
---- /hint ---
+--- hint/ ---
 
---- /hints ---
+--- hints/ ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- نريد تعيين "meme_text" `<div>` بحيث يحتوي على نفس النص الذي كتبه المستخدم في مربع النص `meme_text`. أضف هذا السطر من التعليمات البرمجية إلى أسفل وظيفة JavaScript الخاصة بك:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * يشير `.innerHTML` إلى ما يتم عرضه داخل`<div>`
+  * تشير القيمة `.value` إلى ما يتم كتابته في مربع النص المسمى `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- أخيرًا ، نحتاج إلى إخبار مربع النص أنه عندما يكتبه شخص ما ، يجب أن يستدعي الوظيفة التي كتبناها للتو حتى يتم تحديث النص المضحك. العثور على رمز لمربع النص الخاص بك وإضافة في **السمة attribute** ل `oninput = "update_text ()"` بحيث يبدو الآن مثل هذا:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  النص المضحك:<input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - احفظ صفحتك وقم بتحديثها ، ثم حاول الكتابة في مربع النص الخاص بك وشاهد ما سيحدث. إذا كانت الشفرة تعمل ، فيجب أن يظهر النص الذي تكتبه كنص مضحك، مثل السحر تقريبًا!
