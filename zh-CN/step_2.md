@@ -1,15 +1,15 @@
-## What you will need
+## 你需要什么
 
-### Hardware
+### 硬件部分
 
-- A computer
+- 一台计算机
 
 
-### Software
+### 软件部分
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- 浏览器(例如Internet Explorer，Chrome，Safari)
+- 文本编辑器(例如记事本，TextEdit，nano)或访问 [https://codepen.io](https://codepen.io/){:target="_blank"}
 
-### Extras
+### 附加功能
 
-- A picture of a cat in JPG, GIF, or PNG format
+- JPG，GIF 或 PNG 格式的猫图片
