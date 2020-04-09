@@ -1,8 +1,8 @@
-## Display the image
+## Muestra la imagen
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Ahora vamos a escribir código para coger la imagen del gato que el usuario ha seleccionado y mostrarla en el meme.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Define a new JavaScript function called `update_image`. Ten cuidado y escribe este código después de la llave de cierre `}` de la función que creaste antes.
 
 [[[generic-javascript-create-a-function]]]
 
