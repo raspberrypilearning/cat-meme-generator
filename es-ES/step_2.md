@@ -1,15 +1,15 @@
-## What you will need
+## Lo que necesitarás
 
 ### Hardware
 
-- A computer
+- Un ordenador
 
 
 ### Software
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- Un navegador web (por ejemplo, Internet Explorer, Chrome, Safari)
+- Un editor de texto (por ejemplo, Bloc de notas, TextEdit, nano) o acceso a [https://codepen.io](https://codepen.io/){:target="_blank"}
 
 ### Extras
 
-- A picture of a cat in JPG, GIF, or PNG format
+- Una imagen de un gato en formato JPG, GIF o PNG
