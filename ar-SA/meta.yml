@@ -1,7 +1,7 @@
 ---
-title: Cat meme generator
+title: مولد المقاطع المضحكة للقط
 hero_image: images/banner.png
-description: Make cool cat memes to share with your friends
+description: اصنع مقاطع مضحكة رائعة للقط لمشاركتها مع أصدقائك
 original_url: https://www.raspberrypi.org/learning/cat-meme-generator/
 theme: orange
 duration: 2
@@ -18,20 +18,20 @@ version: 4
 last_tested: 2017-11-01
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: What you will need
+    title: ما ستحتاج إليه
   - 
-    title: Create a web page
+    title: قم بإنشاء صفحة ويب
   - 
-    title: Getting the picture and text
+    title: الحصول على الصورة والنص
   - 
-    title: Build the meme
+    title: أنشاء المقاطع المضحكة
   - 
-    title: Display the text
+    title: اعرض النص
   - 
-    title: Display the image
+    title: اعرض الصورة
   - 
-    title: The finished code
+    title: الكود النهائي
   - 
-    title: Challenge
+    title: تحدي
