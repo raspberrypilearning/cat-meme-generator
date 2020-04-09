@@ -12,7 +12,7 @@ Ahora vamos a escribir código para coger la imagen del gato que el usuario ha s
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Esta primera variable selecciona la primera (¡y única!) etiqueta `<img>` del documento para que podamos indicar a la página dónde mostrar la imagen seleccionada.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
