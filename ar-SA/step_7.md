@@ -38,15 +38,15 @@
 ```
 --- hint/ ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- ابحث عن سطر التعليمات البرمجية لمربع إدخال الملف وأضف `onchange = "update_image ()"` مثل هذا:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+أختر صورة <input type="file" id="user_picture" onchange="update_image()">
 ```
 
---- /hint ---
+--- hint/ ---
 
---- /hints ---
+--- hints/ ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- حفظ وتحديث الصفحة. إذا كان الرمز الخاص بك يعمل ، عند تحديد صورة باستخدام مربع الإدخال **أختر صورة** ، يجب أن تظهر تلك الصورة في مربع الميم أدناه. إذا قمت أيضًا بكتابة شيء ما في مربع النص ، فيجب أن يظهر النص المضحك الخاص بك أعلى الصورة.
 
-![Finished meme](images/finished-meme.png)
+![نص مضحك مكتمل](images/finished-meme.png)
