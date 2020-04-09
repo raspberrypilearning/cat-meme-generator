@@ -23,7 +23,7 @@ Texto del meme: <input type="text" id="user_text" maxlength="70"><p>
 
     ![Primera cuadro](images/first-box.png)
 
-- Añade código para crear otro cuadro de entrada (input) en la línea por debajo del primero. Esta vez, el cuadro de entrada no será un cuadro de texto, sino un cuadro especial para seleccionar la imagen para el meme. El tipo de entrada debe ser `archivo`, y el nombre de la entrada debe ser `user_picture`.
+- Añade código para crear otro cuadro de entrada (input) en la línea por debajo del primero. Esta vez, el cuadro de entrada no será un cuadro de texto, sino un cuadro especial para seleccionar la imagen para el meme. El tipo de entrada debe ser `file` (archivo), y el nombre de la entrada debe ser `user_picture`.
 
 --- hints ---
 
