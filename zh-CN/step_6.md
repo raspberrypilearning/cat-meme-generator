@@ -1,49 +1,49 @@
-## Display the text
+## 显示文本
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+到目前为止，你编写的所有代码都是HTML和CSS代码，它可以控制页面 **看起来** 是什么样的。 现在，我们将添加一些 JavaScript 代码来告诉页面 **要做什么** 。
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+当有人在文本框中输入文本时，我们希望他们的文本显示在我们刚创建的 `<div id="meme_text">` 中。
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- 如果您正在使用计算机上的文件，请在 `<div>` 标记下添加这些标记，用于添加 JavaScript 代码。 如果你正在使用 CodePen, 你可以跳过这个步骤 - 将你的代码写入准备好的 JavaScript 部分。
 
   ```html
   <script type="text/javascript">
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- 首先，我们将编写一个 JavaScript 函数来告诉网页接受输入框中的任何文本，并将其显示在 "meme_text" `<div>` 中。 在你刚创建的两个 `<script>` 标记之间，添加以下代码。 它看起来与目前为止我们编写的代码完全不同，因为它是JavaScript，这是另一种语言。
 
   ```JavaScript
   function update_text(){
 
-  }
+}
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  你刚刚创建了一个名为 `update_text()` 的 JavaScript 函数。 目前大括号中没有指令，因此该函数没有任何功能。
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- 在大括号 `{ }` 之间， 添加下面的代码来设置变量 `user_text`，它的值是用户在文本框中输入的想要在模因中显示的文本。
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- 现在轮到你自己写一行代码了。 在你刚刚写的行下面，创建代码以设置名为 `meme_text`的变量，指向 ID 为 `meme_text` 的元素，用以控制模因文本的显示位置。 这是我们先前创建的`<div>`。
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+---提示--- ---提示--- 让我们分解一下你已经编写的代码，以便你了解它的作用：
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `var user_text`创建一个名称为 "user_text" 的新变量
+* `=` 将此变量的值设置为...
+* ... `document.getElementById("user_text")`，它会遍历网页并指向我们之前创建的输入文本框中 ID 为 `user_text` 的元素。
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+使用已有的代码，你能想出如何添加新的代码吗？ --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+---提示--- 在下面的代码中，你需要更改的代码部分突出显示为 ` ***`：
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+---提示--- 你需要添加的代码在这里：
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
