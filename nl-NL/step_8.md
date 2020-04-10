@@ -7,4 +7,4 @@ Genereer nu zelf een geweldige meme, misschien met in de hoofdrol je eigen kat. 
 
 Laat je vrienden je meme eens zien!
 
-Het is best lastig om een pagina die automatisch een meme genereert als een afbeelding op te slaan. Als je jouw meme echter wilt bewaren, kun je de knop Print Screen (Windows), ` Cmd + Shift + 4, ` (Mac OS) of het `scrot`-commando in de terminal (Linux op Raspberry Pi) gebruiken om een schermafbeelding van de pagina te maken en deze vervolgens bij te snijden met je favoriete afbeeldingseditor.
+Het is best lastig om een pagina die automatisch een meme genereert als een afbeelding op te slaan. Als je jouw meme echter wilt bewaren, kun je de knop Print Screen (Windows), `Cmd + Shift + 4`, (Mac OS) of het `scrot`-commando in de terminal (Linux op Raspberry Pi) gebruiken om een schermafbeelding van de pagina te maken en deze vervolgens bij te snijden met je favoriete afbeeldingseditor.

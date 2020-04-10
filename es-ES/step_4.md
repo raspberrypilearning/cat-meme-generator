@@ -8,15 +8,15 @@ Si estás utilizando un archivo en tu ordenador, añade este código entre `<bod
 
     ```html
     <form>
-</form>
+    </form>
     ```
 
 - Dentro de tu `<form>`, añade un cuadro de texto para poder escribir el texto del meme:
 
   ```html
   <form>
-Texto del meme: <input type="text" id="user_text" maxlength="70"><p>
-</form>
+  Texto del meme: <input type="text" id="user_text" maxlength="70"><p>
+  </form>
   ```
 
 - Guarda el código y actualiza el navegador para ver el cuadro que has creado.
@@ -28,7 +28,8 @@ Texto del meme: <input type="text" id="user_text" maxlength="70"><p>
 --- hints ---
 
 
---- hint --- Èsto es lo que hace el código que ya has escrito:
+--- hint --- 
+Èsto es lo que hace el código que ya has escrito:
 
   * `input` dice que estamos creando una forma para que el usuario proporcione algunos datos
   * `type = "text"` dice que los datos serán texto
@@ -50,7 +51,8 @@ Selecciona una imagen <input type="***" id="***"><p>
 
 --- /hint ---
 
---- hint --- Aquí está el código que tienes que añadir:
+--- hint --- 
+Aquí está el código que tienes que añadir:
 
 ```html
 Selecciona una imagen <input type="file" id="user_picture"><p>

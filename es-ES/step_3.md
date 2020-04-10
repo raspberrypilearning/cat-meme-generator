@@ -8,13 +8,13 @@
 
   ```html
   <html>
-<head>
-<title>Mi página</title>
-</head>
-<body>
-Mi contenido aquí
-</body>
-</html>
+  <head>
+    <title>Mi página</title>
+  </head>
+  <body>
+    Mi contenido aquí
+  </body>
+  </html>
   ```
 
 - Ve a la carpeta en la que has guardado la página web. Abre el archivo con tu navegador también, de manera que tengas el mismo archivo abierto tanto en el editor de texto como en el navegador.

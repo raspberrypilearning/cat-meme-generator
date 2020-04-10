@@ -26,7 +26,7 @@ Necesitamos crear un área donde se mostrará el meme. Esta área comenzará en 
 
   ```html
   <style type="text/css">
-</style>
+  </style>
   ```
 
 - Pega el código siguiente entre las etiquetas `<style>` para dar a tu texto un estilo más de meme. Si estás usando CodePen, pégalo en la sección CSS.
