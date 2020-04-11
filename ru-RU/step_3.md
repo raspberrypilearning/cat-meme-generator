@@ -1,26 +1,26 @@
-## Create a web page
+## Создание веб-страницы
 
-- Open up a blank file in your chosen text editor and save the file.
+- Открой пустой файл в выбранном тобою текстовом редакторе и сохрани его.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- HTML-код ниже дает тебе основную структуру страницы. Скопируй и вставь его в созданный тобою файл, затем сохрани его. Держи текстовый редактор открытым, чтобы ты мог редактировать файл.
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>Моя страница</title>
   </head>
   <body>
-    My content here
+    Мой контент здесь
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Перейди в папку, где ты сохранил свою веб-страницу. Открой файл также с помощью интернет-браузера, чтобы у тебя был один и тот же файл, открытый как в текстовом редакторе, так и в браузере.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  В Windows тебе может потребоваться щелкнуть правой кнопкой мыши на файл, выбрать `Открыть с`, а затем выбрать свой интернет-браузер.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Открыть с помощью браузера](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Всякий раз, когда ты изменяешь код в текстовом редакторе, сохраняй его, а затем нажимай кнопку обновить в браузере, чтобы увидеть обновленную страницу.
