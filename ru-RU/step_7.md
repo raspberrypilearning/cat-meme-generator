@@ -1,52 +1,52 @@
-## Display the image
+## Показ изображения
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Теперь мы напишем некоторый код для того, чтобы взять изображение кошки, которое выбрал пользователь, и отобразить его на меме.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Создай новую функцию в JavaScript с именем `update_image`. Будь осторожен при вводе этого кода после закрывающей фигурной скобки `}` предыдущей функции, которую ты создал.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- Внутри функции `update_image` создай две новые переменные:
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Эта первая переменная выбирает первый (и единственный!) в файле тег `<img>`, чтобы мы могли указать странице, где отображать выбранное изображение.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Эта вторая переменная указывает на выбранный файл изображения кошки.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Задай для тега image содержимое изображения, загруженное пользователем:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Теперь добавь код, который говорит полю ввода твоего файла вызвать функцию `update_image()` в событии `onchange`, когда кто-то выбирает файл.
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- Вспомни, что на предыдущем шаге ты уже вызвал функцию `update_text()`, когда новый текст был записан в поле ввода `user_text`. Используя то, что ты узнал тогда, ты можешь решить, как вызвать функцию `update_image()` когда пользователь выбирает файл в поле ввода `user_file`? --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- Тебе нужно добавить `onchange=""` и затем заменить `***` функцией, которую ты хотел бы вызвать:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Выбери изображение <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- Найди строку кода для поля ввода файла и добавь `onchange="update_image()"` как здесь:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Выбери изображение <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Сохрани и обнови страницу. Если твой код работает, то при выборе изображения с помощью поля ввода **Выбери изображение**, эта картинка должна появиться в окне мема ниже. Если ты также введешь что-то в текстовое поле, текст мема должен появиться в верхней части изображения.
 
-![Finished meme](images/finished-meme.png)
+![Законченный мем](images/finished-meme.png)
