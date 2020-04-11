@@ -1,32 +1,32 @@
-## Display the image
+## 画像を表示する
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+次に、ユーザーが選択した猫の画像を取得してミームに表示するコードを記述します。
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- `update_image`という新しいJavaScript関数を定義します 。 以前に作成した関数の閉じ中括弧`}`の後にこのコードを入力するように注意してください。
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- ` update_image`関数の中に、2つの新しい変数を作成します。
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    この最初の変数は、ドキュメント内の最初の（そして唯一の！）`<img>`タグを選択します。これにより、選択した画像を表示する場所をページに伝えることができます。
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    この2番目の変数は、選択した猫の画像ファイルを指します。
 
-- Set the image tag to contain the picture that the user has uploaded:
+- ユーザーがアップロードした写真を含むようにイメージタグを設定します。
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- 次に、誰かがファイルを選択したとき `onchange`イベントで 、`update_image()`関数を呼び出すように指示するコードを追加します。
 
 --- hints ---
 
