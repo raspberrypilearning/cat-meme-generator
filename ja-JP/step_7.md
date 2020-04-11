@@ -30,23 +30,23 @@
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- 前のステップで、新しいテキストが`user_text`入力ボックスに書き込まれたときに関数`update_text()`を呼び出したことを思い出してください。 そのとき学んだことを使用して、ユーザーが`user_file`入力ボックスでファイルを選択したとき、関数`update_image()`を呼び出す方法を理解できますか？ --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- `onchange=""`を追加する必要があります。そして、`***`を呼び出したい関数で置き換えます：
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+画像を選択 < input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- ファイル入力ボックスのコード行を見つけて、`onchange＝"update_image()"`を追加します：
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+画像を選択 < input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- ページを保存して更新します。 コードが機能している場合、**画像を選択**入力ボックスをで画像を選択すると、その画像が下のミームボックスに表示されます。 テキストボックスにも何かを入力すると、ミームテキストが画像の上に表示されます。
 
-![Finished meme](images/finished-meme.png)
+![完成したミーム](images/finished-meme.png)
