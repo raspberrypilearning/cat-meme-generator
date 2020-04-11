@@ -1,14 +1,14 @@
-## Build the meme
+## ミームを構築する
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+ミームを表示する領域を作成する必要があります。 ページが最初に読み込まれたとき、ユーザーが使用したい画像やテキストがわからないため、この領域は空白で始まります。
 
-- Underneath the `</form>` tag, add in a new line of code:
+- `</form>`タグの下に、新しいコード行を追加します：
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">ここに例文</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  これは`<div>`要素です-最終的に私たちのミームのテキストを保持する非表示のボックスです。 We have given it an `id` just like we did to the input boxes.
 
 - Now add another `<div>` below the previous one:
 
