@@ -21,7 +21,7 @@
 
 - Сохрани код и обнови браузер, чтобы увидеть созданную тобою форму.
 
-    ![First box](images/first-box.png)
+    ![Первый блок](images/first-box.png)
 
 - Добавь код для создания другого поля ввода в строке ниже своего первого поля. На этот раз поле ввода будет не текстовым, а специальным полем для выбора файла изображения для мема. Типом элемента формы input должен быть `file`, а именем элемента формы input должно быть `user_picture`.
 
@@ -33,29 +33,31 @@
   * `type="text"` говорит о том, что данные будут текстовыми
   * `id="user_text"` даёт этому конкретному блоку имя или идентификатор, немного похожий на имя переменной
   * `maxlength="70"` не обязателен – он не позволяет вводить текст более 70 букв, чтобы он не занимал место за нижней частью изображения
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * Тег
 
-Can you work out how to create another input box using this information?
+после поля ввода добавляет абзац (немного места перед следующим полем ввода)</li> </ul>
+
+Можешь ли ты решить, как создать ещё одно поле ввода, используя эту информацию?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+Тебе нужно будет изменить места кода, выделенные `***`, как показано ниже:
 
 ```html
-Select a picture <input type="***" id="***"><p>
+Выбери изображение <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- hint --- Вот код, который нужно добавить:
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+Выбери изображение <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- Ты можешь использовать эти поля для ввода и выбора файла, но пока ничего не произойдет. **Примечание**: все изображения хранятся на вашем компьютере – эта программа ничего не загружает в интернет.
