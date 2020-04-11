@@ -1,4 +1,4 @@
-## Challenge
+## チャレンジ
 
-* You could add some other CSS styles - why not change the style of the text, or give the image a border?
-* Add another input text box and position this text at the top of the meme, so you can have text on both the top and bottom.
+* 他のCSSスタイルを追加することもできます。テキストのスタイルを変更したり、画像に境界線を付けたりしてみませんか？
+* 別の入力テキストボックスを追加し、このテキストをミームの上部に配置して、上部と下部の両方にテキストを配置できるようにします。
