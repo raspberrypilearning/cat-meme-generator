@@ -1,7 +1,7 @@
 ---
-title: Cat meme generator
+title: 猫ミームジェネレータ
 hero_image: images/banner.png
-description: Make cool cat memes to share with your friends
+description: かっこいい猫のミームを作って友達と共有しましょう
 original_url: https://www.raspberrypi.org/learning/cat-meme-generator/
 theme: orange
 duration: 2
@@ -9,7 +9,7 @@ ingredient: false
 listed: true
 copyedit: true
 curriculum: 2, design-1, programming-2, phys-comp-0, manufacture-0, community-0
-interests: animals
+interests: 動物
 technologies: html-css-javascript
 hardware: ''
 software: html-css-javascript
@@ -18,20 +18,20 @@ version: 4
 last_tested: 2017-11-01
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: What you will need
+    title: 必要なもの
   - 
-    title: Create a web page
+    title: Webページを作成する
   - 
-    title: Getting the picture and text
+    title: 画像とテキストを取得する
   - 
-    title: Build the meme
+    title: ミームを構築する
   - 
-    title: Display the text
+    title: テキストを表示する
   - 
-    title: Display the image
+    title: 画像を表示する
   - 
-    title: The finished code
+    title: 完成したコード
   - 
-    title: Challenge
+    title: チャレンジ
