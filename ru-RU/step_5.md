@@ -1,35 +1,35 @@
-## Build the meme
+## Построй мем
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Нам нужно создать область, где будет отображаться мем. Эта область будет пустой, потому что при первой загрузке страницы мы не будем знать, какое изображение или какой текст хочет использовать человек.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- Под тегом `</form>`, добавьте новую строку кода:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">Здесь пример текста</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  Это элемент `<div>` – это невидимое поле, которое в конечном итоге будет содержать текст для нашего мема. Мы дали ему `id` так же, как мы сделали для полей ввода.
 
-- Now add another `<div>` below the previous one:
+- Теперь добавь еще один `<div>` ниже предыдущего:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    Внутри этого `<div>`, также есть другой тег, который отображает изображение. `src=""` указывает какое изображение показать. В данном случае мы оставили изображение пустым, потому, что у нас пока нет изображения от пользователя.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- Сохрани и обнови. Изображение будет пустым, а текст примера будет отображаться шрифтом по умолчанию, который не очень похож на мем:
 
-    ![Example text default font](images/example-text-default.png)
+    ![Пример шрифта текста по умолчанию](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- Если ты работаешь с файлом на компьютере, найди секцию `<head>` в своем коде и добавь этот код между `<head>` и `</head>`. (Пропусти этот шаг, если ты используешь CodePen.)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- Вставь код, указанный ниже, между тегами `<style>`, чтобы придать своему тексту стиль мема. Если ты используешь CodePen, помести этот код в раздел HTML.
 
     ```css
     #meme_text {
@@ -45,6 +45,6 @@ We need to create an area where the meme will be displayed. This area will start
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  Строки `left: 15px` и `top: 400px` определяют, насколько далеко находится текст слева и вверху страницы. Ты можешь изменить эти цифры, чтобы текст отображался в другом месте в твоём меме, если хочешь. Если ты хочешь узнать больше о стилях CSS, посети [ссылку w3schools CSS](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Пример текста в меме](images/example-text-memey.png)
