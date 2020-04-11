@@ -1,15 +1,15 @@
-## What you will need
+## 必要なもの
 
-### Hardware
+### ハードウェア
 
-- A computer
+- コンピューター
 
 
-### Software
+### ソフトウェア
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- ウェブブラウザー（例：Internet Explorer、Chrome、Safari）
+- テキストエディター（メモ帳、TextEdit、nanoなど）または [https://codepen.io](https://codepen.io/){:target="_blank"}へのアクセス
 
-### Extras
+### その他
 
-- A picture of a cat in JPG, GIF, or PNG format
+- JPG、GIF、またはPNG形式の猫の写真
