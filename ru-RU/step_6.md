@@ -1,17 +1,17 @@
-## Display the text
+## Показ текста
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Пока что весь код, который ты написал, представляет собой код HTML и CSS, который сообщает странице, как она должна **выглядеть**. Теперь мы собираемся добавить код JavaScript, чтобы сообщить странице **что делать**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Когда кто-то вводит текст в текстовое поле, мы хотим, чтобы его текст отображался внутри только что созданного `<div id="meme_text">`.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Если ты работаешь с файлом на своем компьютере, добавь эти теги под тегами `<div>`, чтобы создать раздел для написания кода JavaScript. Если ты используешь CodePen, ты можешь пропустить этот шаг - напиши свой код в готовом разделе JavaScript.
 
   ```html
   <script type="text/javascript">
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- Прежде всего, мы напишем функцию JavaScript, которая сообщит веб-странице, что нужно взять любой текст, который находится в поле ввода, и отобразить его в «meme_text» `<div>`. Между двумя тегами `<script>`, которые ты только что создал, добавь код, указанный ниже. Он выглядит немного иначе, чем код, который мы писали до сих пор, потому что это JavaScript, который является другим языком.
 
   ```JavaScript
   function update_text(){
@@ -19,31 +19,31 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  Ты только что создал функцию JavaScript с именем `update_text()`. На данный момент в скобках нет никаких команд, поэтому функция пока ничего не сделает.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- Между фигурными скобками `{ }` добавь код, указанный ниже, чтобы задать переменную `user_text`, связанную с текстовым полем, в котором пользователь вводит текст, который хочет отобразить в меме.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Теперь твоя очередь написать строку кода. Ниже строки, которую ты только что написал, создай код, задающий переменную с именем `meme_text`, связанную с элементом с идентификатором `meme_text`, где будет отображаться текст мема. Это `<div>`, который мы создали ранее.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- Давай разберем код, который ты уже написал, чтобы ты понял, что он делает:
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `var user_text` создает новую переменную с именем "user_text"
+* `=` устанавливает значение этой переменной в...
+* ...`document.getElementById("user_text")`, который просматривает веб-страницу и указывает на элемент с идентификатором (id) `user_text` блока ввода текста, который мы создали ранее
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+Используя эту информацию, можешь ли ты решить, как создать новую строку кода? --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- Места кода, которые необходимо изменить, выделены `***` в коде, указанном ниже:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- hint --- Код, который тебе нужно добавить, находится здесь:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- Мы хотим, чтобы в 'meme_text' `<div>` содержался тот же текст, который пользователь ввел в текстовое окно `meme_text`. Добавь эту строку кода в конец своей функции JavaScript:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML` относится к тому, что отображается внутри `<div>`
+  * `.value` относится к тому, что введено в текстовое поле с именем `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Наконец, нам нужно сообщить текстовому полю, что когда кто-то печатает в нём, оно должно вызывать функцию, которую мы только что написали, чтобы обновился текст в меме. Найди код для своего текстового поля и добавь в **attribute** для `oninput="update_text()"`, так чтобы он теперь выглядел так:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Текст мема: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Сохрани и обнови страницу, затем попробуй ввести текст в поле и посмотри, что получится. Если твой код работает, напечатанный тобою текст должен отображаться как текст мема, почти как по волшебству!
