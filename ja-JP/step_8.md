@@ -5,4 +5,4 @@
 
 ミームを友達に自慢しましょう！
 
-It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme, you could use the Print Screen button (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` command in the terminal (Linux on Raspberry Pi) to take a screenshot of the page, and then crop it using your favourite image editor.
+保存できる画像としてミームを自動的に生成するページを作るのはかなり難しいです。 ただし、ミームを保持したい場合は、Print Screen ボタン（Windows）/ `Cmd + Shift + 4`（Mac OS） / ` scrot `コマンドをターミナルで実行（Linux on Raspberry Pi）によりページのスクリーンショットを撮り、お気に入りの画像エディターを使用して切り取ることはできます。
