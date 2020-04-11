@@ -1,8 +1,8 @@
-## The finished code
+## Готовый код
 
-Now generate an awesome meme yourself, perhaps starring your own cat. The finished code is [here as a HTML file](resources/index.html) or on CodePen. <iframe height='567' scrolling='no' title='Cat Meme Generator' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
+А теперь создай самостоятельно потрясающий мем, возможно, в котором в главной роли твой собственный кот. Готовый код [здесь как HTML файл](resources/index.html) или на CodePen. <iframe height='567' scrolling='no' title='Генератор кошачьего мема' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">Смотри Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Генератор кошачьего мема</a> Лауры Сач (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) на <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-Show off your meme to your friends!
+Покажи свой мем своим друзьям!
 
-It's pretty tricky to make the page automatically generate the meme as a picture you can save. However, if you want to keep your meme, you could use the Print Screen button (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` command in the terminal (Linux on Raspberry Pi) to take a screenshot of the page, and then crop it using your favourite image editor.
+Довольно сложно заставить страницу автоматически генерировать мем в виде изображения, которое ты можешь сохранить. Однако, если ты хочешь сохранить свой мем, ты можешь использовать кнопку Print Screen (Windows) / `Cmd + Shift + 4` (Mac OS) / `scrot` введя команду в терминале (Linux на Raspberry Pi), чтобы сделать скриншот страницы, а затем обрезать его, используя твой любимый графический редактор.
