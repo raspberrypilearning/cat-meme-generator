@@ -23,39 +23,39 @@
 
     ![最初のボックス](images/first-box.png)
 
-- 最初のボックスの下の行に別の入力ボックスを作成するコードを追加します。 今回は、入力ボックスはテキストボックスではなく、ミームの画像ファイルを選択するための特別なボックスになります。 The input type should be `file`, and the name of the input should be `user_picture`.
+- 最初のボックスの下の行に別の入力ボックスを作成するコードを追加します。 今回は、入力ボックスはテキストボックスではなく、ミームの画像ファイルを選択するための特別なボックスになります。 入力タイプは `file`で、入力の名前は `user_picture`である必要があります。
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- hint --- ここで記述したコードの意味は次のとおりです。
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `input` は、ユーザーがデータを提供する方法を作成していることを示します
+  * `type="text"` は、データがテキストであることを示します
+  * `id="user_text"` は、この特定のボックスに変数名のような名前またはIDを付けます。
+  * `maxlength="70"` はオプションです-70文字を超えて入力するのを防ぎ、テキストが画像の下部を超えてスペースを取らないようにします
+  * 入力ボックスの後の `<p>` タグは段落を追加します（次の入力ボックスの前に少しスペースを取ります）
 
-Can you work out how to create another input box using this information?
+この情報を使用して別の入力ボックスを作成する方法を理解できますか？
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+以下の `***` 強調表示されているコードの部分を変更する必要があります。
 
 ```html
-Select a picture <input type="***" id="***"><p>
+画像を選択 <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- hint --- 追加する必要があるコードは次のとおりです。
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+画像を選択 <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- これらのボックスを使用して文字の入力およびファイルを選択できますが、まだ何も起こりません。 **注**：すべての画像はコンピュータに保存されます-このプログラムはインターネットに何もアップロードしません。
