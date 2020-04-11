@@ -1,15 +1,15 @@
-## What you will make
+## 作るもの
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+この教材では、猫のミームジェネレーターを作成します。 猫の画像を使用して、自分の猫のミームを作成し、友達に自慢することができます。
 
-![Example meme](images/example-meme.png)
+![ミームの例](images/example-meme.png)
 
-## What you will learn
+## あなたが学ぶもの
 
-By creating a cat meme generator you will learn:
+猫ミームジェネレータを作成することにより、次のことを学ぶことができます：
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
+- JavaScriptで関数を記述する方法
+- JavaScriptを使用してユーザーが入力したデータを操作する方法
 - How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
 
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
