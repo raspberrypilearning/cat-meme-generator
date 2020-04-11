@@ -8,28 +8,28 @@
   <div id="meme_text">ここに例文</div>
   ```
 
-  これは`<div>`要素です-最終的に私たちのミームのテキストを保持する非表示のボックスです。 We have given it an `id` just like we did to the input boxes.
+  これは`<div>`要素です-最終的に私たちのミームのテキストを保持する非表示のボックスです。 入力ボックスのときと同様、`id`を付けます。
 
-- Now add another `<div>` below the previous one:
+- 次に、別の`<div>`を、前のdivの下に追加します。
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    この`<div>`内には、画像を表示するための別のタグもあります。 `src=""`は、表示する画像を示します。 この場合、ユーザーからの写真がまだないため、画像は空白のままにします。
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- 保存して更新します。 画像は空白のボックスになり、サンプルテキストはデフォルトのフォントで表示されます。ミームらしくありません。
 
-    ![Example text default font](images/example-text-default.png)
+    ![サンプルテキストのデフォルトフォント](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- コンピューターでファイルを使用している場合は、コードで`<head>`セクションを見つけ、次のコードを`<head>`と`</head>`の間に追加します 。 （CodePenを使用している場合は、この手順をスキップしてください。）
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- 以下のコードを`<style>`タグの間に貼り付けて、テキストにミームスタイルを付けます。 CodePenを使用している場合は、CSSセクションに貼り付けます。
 
     ```css
     #meme_text {
@@ -45,6 +45,6 @@
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  `left: 15px`と`top: 400px` 行は、テキストがページの左と上からどれだけ離れているかを決定します。 これらの数字を変更して、必要に応じてテキストをミームの別の場所に表示することができます。 CSSスタイルについて詳しく知りたい場合は、[w3schools CSS reference](http://www.w3schools.com/CSSref/) {:target="_blank"}を参照してください。
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![ミームのテキストの例](images/example-text-memey.png)
