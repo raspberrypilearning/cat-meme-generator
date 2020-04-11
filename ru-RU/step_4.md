@@ -1,38 +1,38 @@
-## Getting the picture and text
+## Получение изображения и текста
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+Мы хотим, чтобы люди могли использовать свою собственную картинку и текст для создания мема, поэтому нам нужен способ реализовать это. Давай добавим форму, которую может заполнить наш пользователь.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Если ты используешь файл на своем компьютере, помести этот код между `<body>` и `</body>`. Если ты используешь CodePen, помести этот код в раздел HTML.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Добавь теги `<form>,` обозначающие начало формы, и `</form>,`, обозначающие конец формы.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- Внутри твоего `<form>` добавь текстовое поле, чтобы ты мог ввести текст мема:
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Текст мема: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Сохрани код и обнови браузер, чтобы увидеть созданную тобою форму.
 
     ![First box](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Добавь код для создания другого поля ввода в строке ниже своего первого поля. На этот раз поле ввода будет не текстовым, а специальным полем для выбора файла изображения для мема. Типом элемента формы input должен быть `file`, а именем элемента формы input должно быть `user_picture`.
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- hint --- Вот то, что делает код, который ты уже написал:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
+  * `input` говорит о том, что мы создаем способ предоставить пользователю некоторые данные
+  * `type="text"` говорит о том, что данные будут текстовыми
+  * `id="user_text"` даёт этому конкретному блоку имя или идентификатор, немного похожий на имя переменной
+  * `maxlength="70"` не обязателен – он не позволяет вводить текст более 70 букв, чтобы он не занимал место за нижней частью изображения
   * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
 
 Can you work out how to create another input box using this information?
