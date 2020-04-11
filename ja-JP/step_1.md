@@ -10,9 +10,9 @@
 
 - JavaScriptで関数を記述する方法
 - JavaScriptを使用してユーザーが入力したデータを操作する方法
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- ユーザーのアクションに応じて、Webページ上に変化を起こすための `oninput` および `onchange` を使用する方法
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+このリソースは、 [Raspberry Piデジタル・メイキング・カリキュラム](https://www.raspberrypi.org/curriculum/){:target="_blank"}の次の要素をカバーします：
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [基本的な2Dおよび3Dアセットを設計する](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
+- [問題を解決するためにプログラミング構造を組み合わせる](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
