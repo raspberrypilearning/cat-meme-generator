@@ -1,26 +1,26 @@
-## Create a web page
+## Webページを作成する
 
-- Open up a blank file in your chosen text editor and save the file.
+- いずれかのテキストエディターで空のファイルを開き、ファイルを保存します。
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- 以下のHTMLコードは、ページの基本構造を示しています。 作成したファイルにコピーして貼り付け、ファイルを保存します。 テキストエディタを開いたままにして、ファイルを編集できるようにします。
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>マイページ</title>
   </head>
   <body>
-    My content here
+    ここにマイコンテンツ
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Webページを保存したフォルダーに移動します。 インターネットブラウザーでもファイルを開いて、テキストエディターとブラウザーの両方で同じファイルを開きます。
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  Windowsでは、ファイルを右クリックし、`プログラムから開く`を選択して、インターネットブラウザを選択する必要がある場合があります。
 
-  ![Open with browser](images/open-with-browser.png)
+  ![ブラウザで開く](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  テキストエディターでコードを変更するたびに、コードを保存し、ブラウザーの更新ボタンを押して、更新されたページを表示します。
