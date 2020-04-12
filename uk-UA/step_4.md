@@ -1,37 +1,37 @@
 ## Отримання малюнка та тексту
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+Ми хочемо, щоб люди могли використовувати власні картинки та текст, щоб робити меми, тому нам потрібно, щоб вони могли їх надавати. Давай створимо форму, яку зможе заповнювати користувач.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Якщо ти використовуєш файл на своєму комп’ютері, поставте цей код між `<body>` та `</body>`. Якщо ти використовуєш CodePen, додай цей код у розділ HTML.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Додай теги `<form>,` що вказує на початок форми, і `</form>,` що вказує на її кінець.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- Усередині свого `<form>`, додай текстове поле так, щоб ти міг ввести текст мема:
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Текст мема: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Збережи свій код і онови веббраузер, щоб побачити створене поле.
 
     ![First box](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Додай код, щоб створити ще одне поле для вводу в наступному рядку після попереднього. Цього разу поле вводу буде не текстовим, а спеціальним для вибору файлу зображення для мема. Тип поля повинен бути `file`, а його ім’я має бути `user_picture`.
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- hint --- Ось що робить код, який ти вже написав (-ла):
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
+  * `input` означає, що ми створюємо користувачу засіб для надання певних даних
+  * `type="text"` означає, що дані будуть текстовими
+  * `id="user_text"` дає цьому конкретному полю ім'я або ідентифікатор (ID), на зразок імені змінної
   * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
   * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
 
