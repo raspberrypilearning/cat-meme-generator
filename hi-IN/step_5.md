@@ -1,35 +1,35 @@
-## Build the meme
+## मज़ेदार चित्र (meme) को बनाएं
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+हमें एक ऐसा क्षेत्र बनाने की ज़रुरत है जहां मज़ेदार चित्र (meme) को प्रदर्शित किया जाएगा। यह क्षेत्र शुरुआत में खाली रहेगा क्योंकि जब पेज पहले लोड होता है तो हम यह नहीं जान सकते कि उपयोगकर्ता (user) किस चित्र या पाठ का उपयोग करना चाहते हैं।
 
-- Underneath the `</form>` tag, add in a new line of code:
+- नया कोड इस `</form>` टैग (tag) के नीचे जोड़े:
 
   ```html
   <div id="meme_text">Example text here</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  यह एक `<div>` तत्व है | यह एक अदृश्य बॉक्स है जिसमें अंत हमारे मज़ेदार चित्र (meme) के लिए पाठ होगा। हमने इसे एक `id` दिया है ठीक वैसे ही जैसे हमने इनपुट बॉक्सेस को दिया था।
 
-- Now add another `<div>` below the previous one:
+- आइये अब एक और `<div>` जोड़ें पिछले वाले के नीचे:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    इस `<div>` के अंदर एक और टैग (tag) भी है जो एक चित्र दिखाता है। `src=""` यह जताता है कि किस चित्र को दिखाना चाहिए | इस मामले में हमने चित्र को खाली छोड़ दिया है क्योंकि हमारे पास अभी तक उपयोगकर्ता (user) से चित्र नहीं है।
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- सहेजें (save) और रिफ्रेश (refresh) करें। चित्र अभी एक खाली बॉक्स जैसा होगा और हमें उदहारण के तौर पर जो पाठ है वो डिफ़ॉल्ट फ़ॉन्ट (default font) में दिखेगा जो फिलहाल बहुत मज़ेदार नहीं लगेगा:
 
     ![Example text default font](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- यदि आप अपने कंप्यूटर के फ़ाइल का उपयोग कर रहे हैं तो अपने कोड में `<head>` अनुभाग ढूंढें और इस कोड को `<head>` और `</head>` के बीच में जोड़ें | (यदि आप CodePen का उपयोग कर रहे हैं तो इस चरण को छोड़ दें।)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- अपने पाठ (text) को एक मज़ेदार अंदाज़ देने के लिए नीचे दिए गए कोड को `<style>` टैग्स (tags) के बीच में चिपकाएं (paste) यदि आप CodePen का उपयोग कर रहे हैं तो इस कोड को CSS के भाग में चिपकाएं (paste)
 
     ```css
     #meme_text {
@@ -45,6 +45,6 @@ We need to create an area where the meme will be displayed. This area will start
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  यह `left: 15px` और `top: 400px` लाइन्स यह निर्धारित करती हैं कि पाठ (text) बाईं ओर और पेज के शीर्ष से कितना दूर है। यदि आप चाहें तो पाठ को अपने मज़ेदार चित्र (meme) पर एक अलग स्थान पर प्रदर्शित करने के लिए इन संख्याओं को बदल सकते हैं। यदि आप CSS शैलियों के बारे में और जानना चाहते हैं तो यहाँ क्लिक करें [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
   ![Example text in meme](images/example-text-memey.png)
