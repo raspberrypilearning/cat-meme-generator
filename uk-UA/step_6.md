@@ -32,18 +32,18 @@
 --- hints --- --- hint --- Давай розберемо вже написаний код, щоб ти розумів (-ла), що він робить:
 
 * `var user_text` створює нову змінну з іменем "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `=` встановлює занчення цієї змінної відповідно до...
+* ...`document.getElementById("user_text")`, який знаходить на веб сторінці і вказує на елемент з ідентифікатором (ID) `user_text`, текстовим полем вводу, яке ми створили раніше
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+Чи можеш ти, маючи цю інформацію, розібратися, як створити новий рядок коду? --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- Частини коду, які тобі треба змінити нижче, виділені `***`:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- hint --- Тобі треба додати наступний код:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,16 +53,16 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- Нам треба зробити так, щоб `<div>` "meme_text" містив той же текст, який було введено в текстове поле `user_text`. Додай цей рядок в кінець своєї функції JavaScript:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML` вказує на те, що відображається в `<div>`
+  * `.value` посилається на те, що вводиться в текстове поле з назвою `user_text`
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Нарешті, нам потрібно сказати текстовому полю, що коли хтось вводить текст, воно має викликати функцію, яку ми щойно написали, для оновлення тексту в мемі. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
 
   ```html
   Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
