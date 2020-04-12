@@ -28,7 +28,7 @@ Jeśli używasz pliku na komputerze, ustaw ten kod między `<body>` a `</body>`.
 --- hints ---
 
 
---- wskazówka --- Oto, co robi już napisany kod:
+--- hint --- Oto, co robi już napisany kod:
 
   * `input` mówi, że tworzymy sposób na dostarczenie przez użytkownika pewnych danych
   * `type="text"` mówi, że dane będą tekstowe
