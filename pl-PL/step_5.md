@@ -20,7 +20,7 @@ Musimy stworzyć obszar, w którym zostanie wyświetlony mem. Obszar ten zacznie
 
 - Zapisz i odśwież. Obraz będzie pustym polem i przykładowy tekst będzie wyświetlany w domyślnej czcionce, która nie jest zbyt "memiczna":
 
-    ![Example text default font](images/example-text-default.png)
+    ![Przykładowy tekst domyślnej czcionki](images/example-text-default.png)
 
 - Jeśli używasz pliku na komputerze, znajdź sekcję `<head>` w swoim kodzie i dodaj ten kod między `<head>` a `</head>`. (Pomiń ten krok, jeśli używasz CodePen.)
 
@@ -29,7 +29,7 @@ Musimy stworzyć obszar, w którym zostanie wyświetlony mem. Obszar ten zacznie
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- Wklej poniższy kod pomiędzy tagami `<style>`, aby nadać tekstowi styl mema. Jeśli używasz CodePen, wklej go do sekcji CSS.
 
     ```css
     #meme_text {
@@ -45,6 +45,6 @@ Musimy stworzyć obszar, w którym zostanie wyświetlony mem. Obszar ten zacznie
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  Linie `left: 15px` i `top: 400px` określają, jak daleko jest tekst od lewej i od górnej krawędzi strony. Możesz zmienić te liczby, aby tekst pojawiał się w innym miejscu memu, jeśli chcesz. Jeśli chcesz dowiedzieć się więcej o stylach CSS, odwiedź [w3School CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Przykładowy tekst w memie](images/example-text-memey.png)
