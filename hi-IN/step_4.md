@@ -1,17 +1,17 @@
-## Getting the picture and text
+## चित्र और पाठ प्राप्त करना
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. आइए एक ऐसा फॉर्म (form) जोड़ें जिसे हमारा उपयोगकर्ता (user) भर सकता हैं।
+हम चाहते हैं कि लोग मज़ेदार चित्र (meme) बनाने के लिए अपने स्वयं के चित्र और पाठ का उपयोग करने में सक्षम हों इसलिए हमें इन्हें प्रदान करने के लिए एक समाधान की आवश्यकता है। आइए एक ऐसा फॉर्म (form) जोड़ें जिसे हमारा उपयोगकर्ता (user) भर सकता हैं।
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+यदि आप अपने कंप्यूटर से फ़ाइल का उपयोग कर रहे हैं तो इस कोड को `<body>` और `</body>` के बीच रखें । यदि आप CodePen का उपयोग कर रहे हैं तो इस कोड को HTML के भाग में रखें।
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- फॉर्म की शुरुआत को जताने के लिए यह टैग्स (tags) जोड़ें `<form>,` और फॉर्म के अंत को जताने के लिए, यह टैग्स जोड़ें, `</form>,` |
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- अपने `<form>` के अंदर, एक टेक्स्ट बॉक्स (text box) जोड़ें ताकि आप मज़ेदार चित्र (meme) टेक्स्ट टाइप कर सकें:
 
   ```html
   <form>
@@ -19,43 +19,43 @@ If you're using a file on your computer, put this code between `<body>` and `</b
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- अपना कोड को सेव (save) करें और अपने ब्राउज़र में आपके द्वारा बनाए गए बॉक्स को देखने के लिए रिफ्रेश (refresh) करें।
 
-    ![First box](images/first-box.png)
+    ![पहला बॉक्स](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- अपने पहले बॉक्स के नीचे लाइन पर एक और इनपुट (input) बॉक्स बनाने के लिए कोड जोड़ें। इस बार इनपुट बॉक्स एक टेक्स्ट बॉक्स (text box) नहीं होगा, लेकिन एक विशेष बॉक्स होगा जिसमे हमें मज़ेदार चित्र (meme) के लिए एक चित्र का चयन करना होगा । यह इनपुट `file` के प्ररूप में होने चाहिए और इस इनपुट का नाम `user_picture` होना चाहिए |
 
---- hints ---
+--- hint ---
 
---- hint --- Here's what the code you already wrote does:
+--- संकेत --- आइये देखते हैं की आपके द्वारा लिखा गया कोड क्या करता है:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `input` यह कहता है कि हम उपयोगकर्ता (user) के लिए कुछ डेटा प्रदान करने का एक तरीका बना रहे हैं
+  * `type="text"` यह कहता है कि डेटा (data) पाठ (text) होगा
+  * `id="user_text"` इस विशेष बॉक्स को एक नाम या आईडी (ID) देता है, कही ना कही यह एक वेरिएबल नाम (variable name) के जैसा है
+  * `maxlength="70"` वैकल्पिक है - यह आपको 70 से अधिक अक्षरों को टाइप करने से रोकता है ताकि आपका पाठ चित्र के निचले भाग में जगह न ले
+  * इनपुट बॉक्स के बाद `<p>` टैग (tag) एक अनुच्छेद (paragraph) जोड़ता है (अगले इनपुट बॉक्स से पहले थोड़ी सी जगह)
 
-Can you work out how to create another input box using this information?
+क्या आप इस जानकारी का उपयोग करके एक और इनपुट बॉक्स (input box) बनाने का काम कर सकते हैं?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+आपको नीचे दिए गए कोड में `***` दिए गए भागो को बदला होगा:
 
 ```html
-Select a picture <input type="***" id="***"><p>
+एक चित्र चुनें <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- hint --- यहाँ आपको जोड़ने के लिए आवश्यक कोड है:
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+एक चित्र चुनें <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- आप इन बक्सों को टाइप करने के लिए और एक फ़ाइल को चुनने के लिए उपयोग कर सकते हैं, लेकिन अभी तक कुछ भी नहीं होगा। ** ध्यान दें**: सभी चित्र आपके कंप्यूटर पर रखे गए हैं | यह प्रोग्राम इंटरनेट पर कुछ भी अपलोड (upload) नहीं करता है।
