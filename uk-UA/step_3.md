@@ -17,10 +17,10 @@
   </html>
   ```
 
-- Перейди до папки, в якій збережено твою вебсторінку. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Перейди до папки, в якій збережено твою вебсторінку. Також відкрий файл в Інтернет-браузері, щоб у тебе був відкритий один і той же файл у текстовому редакторі та у браузері.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  У Windows тобі можливо треба буде клацнути файл правою кнопкою миші, вибрати `Відкрити за допомогою`, а потім вибрати веббраузер.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Відкрити за допомогою браузера](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Щоразу, коли ти змінюватимеш код у текстовому редакторі, зберігай його та натискай кнопку оновлення у веббраузері, щоб побачити змінену сторінку.
