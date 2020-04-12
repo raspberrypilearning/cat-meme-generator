@@ -30,7 +30,7 @@
 
 --- hints ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- hint --- Згадай, що на попередньому кроці ти викликав (-ла) функцію `update_text()` коли новий текст вводився в поле `user_text`. Використовуючи ці знання, чи можеш ти придумати, як викликати функцію `update_image()`, коли користувач вибирає файл в полі `user_file`? --- /hint ---
 
 --- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
 ```javascript
