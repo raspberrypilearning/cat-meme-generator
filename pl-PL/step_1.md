@@ -1,18 +1,18 @@
 ## Co stworzysz
 
-W tym zasobie utworzysz generator kocich memów. Using an image of your cat, you can create your own cat meme to show off to your friends.
+W tym zasobie utworzysz generator kocich memów. Korzystając z obrazu twojego kota, możesz stworzyć własnego kociego mema, aby pochwalić się znajomym.
 
-![Example meme](images/example-meme.png)
+![Przykład mema](images/example-meme.png)
 
-## What you will learn
+## Czego się nauczysz
 
-By creating a cat meme generator you will learn:
+Tworząc generator kocich memów nauczysz się:
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- Jak pisać funkcje w JavaScript
+- Jak używać JavaScript do manipulowania danymi wprowadzanymi przez użytkownika
+- Jak używać `oninput` i `onchange` aby rzeczy działały na żywo na stronie internetowej w odpowiedzi na działania użytkownika
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+Ten projekt obejmuje elementy z następujących wątków z [Cyfrowego Programu Nauczania Raspberry Pi](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [Projektowanie podstawowych zasobów 2D i 3D](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
+- [Połącz konstrukcje programistyczne, aby rozwiązać problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_ blank"}
