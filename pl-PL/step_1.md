@@ -1,6 +1,6 @@
-## What you will make
+## Co stworzysz
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+W tym zasobie utworzysz generator kocich memów. Using an image of your cat, you can create your own cat meme to show off to your friends.
 
 ![Example meme](images/example-meme.png)
 
