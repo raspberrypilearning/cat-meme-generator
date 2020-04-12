@@ -1,6 +1,8 @@
 ## Завершений код
 
-А тепер самостійно створи чудовий мем, можливо зі своїм котом в головній ролі. Завершений код доступний [тут як файл HTML](resources/index.html) або в CodePen. <iframe height='567' scrolling='no' title='Генератор котячих мемів' src='//codepen.io/Translation_RPF/embed/JjYdYaX/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/Translation_RPF/pen/JjYdYaX/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
+А тепер самостійно створи чудовий мем, можливо зі своїм котом в головній ролі. Завершений код доступний [тут як файл HTML](resources/index.html) або в CodePen. 
+
+<iframe height='567' scrolling='no' title='Генератор котячих мемів' src='//codepen.io/Translation_RPF/embed/JjYdYaX/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/Translation_RPF/pen/JjYdYaX/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 Покажи свій мем друзям!
