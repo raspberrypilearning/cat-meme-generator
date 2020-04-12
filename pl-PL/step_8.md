@@ -1,6 +1,6 @@
 ## Gotowy kod
 
-Teraz sam stwórz niesamowitego mema, być może z udziałem własnego kota. Ukończony kod jest [tutaj jako plik HTML](resources/index.html) lub na CodePen. <iframe height='567' scrolling='no' title='Generator Kocich memów' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
+Teraz sam stwórz niesamowitego mema, być może z udziałem własnego kota. Ukończony kod jest [tutaj jako plik HTML](resources/index.html) lub na CodePen. <iframe height='567' scrolling='no' title='Generator Kocich memów' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">Zobacz ten <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Generator kocich memów</a> autorstwa Laury Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) na <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 Pochwal się swoim memem przed znajomymi!
