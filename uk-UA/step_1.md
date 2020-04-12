@@ -1,18 +1,18 @@
-## What you will make
+## Що ти зробиш
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+В цьому проєкті ти зробиш генератор котячих мемів. Використовуючи зображення своєї кішки, ти можеш створити власний котячий мем, щоб показати своїм друзям.
 
 ![Example meme](images/example-meme.png)
 
-## What you will learn
+## Що ти вивчиш
 
-By creating a cat meme generator you will learn:
+Створивши генератор котячих мемів, ти дізнаєшся:
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- Як писати функції в JavaScript
+- Як використовувати JavaScript для маніпулювання введеними користувачем даними
+- Як використовувати `oninput` та `onchange` для того, щоб на вебсторінці щось відбувалося у відповідь на дії користувача
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+Цей проєкт охоплює елементи з наступних частин [Електронного навчального плану Raspberry Pi](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
 
 - [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
 - [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
