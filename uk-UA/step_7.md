@@ -26,27 +26,27 @@
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Тепер додай код, щоб сказати файловому полю викликати функцію `update_image()`, коли хтось вибирає файл (`onchange`).
+- Тепер додай код, щоб сказати полю вводу файлу викликати функцію `update_image()`, коли хтось вибирає файл (`onchange`).
 
 --- hints ---
 
 --- hint --- Згадай, що на попередньому кроці ти викликав (-ла) функцію `update_text()` коли новий текст вводився в поле `user_text`. Використовуючи ці знання, чи можеш ти придумати, як викликати функцію `update_image()`, коли користувач вибирає файл в полі `user_file`? --- /hint ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- hint --- Тобі необхідно додати `onchange="***"` і замінити `***` функцією, яку ти хочеш викликати:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Вибрати зображення <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- hint --- Знайди рядок коду для поля вводу файлу і додай `onchange="update_image()"` таким чином:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Вибрати зображення <input type="file" id="user_picture" onchange="update_image()">
 ```
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Збережи та онови сторінку. Якщо твій код працює правильно, тоді коли ти вибереш зображення за допомогою поля вводу **Вибрати зображення**, воно має з’явитися в полі для мему внизу. Також якщо ти щось введеш в текстове поле, твій текст мема має відобразитися поверх зображення.
 
-![Finished meme](images/finished-meme.png)
+![Завершений мем](images/finished-meme.png)
