@@ -1,17 +1,17 @@
-## Display the text
+## Показ тексту
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+Поки що весь твій код був написаний на HTML та CSS, що визначає, як сторінка має **виглядати**. А зараз ти додаси трохи коду JavaScript, щоб визначати, що сторінка має **робити**.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+Коли хтось вводить текст в текстове поле, ми хочемо, щоб він відобразився всередині `<div id="meme_text">`, який ми щойно створили.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- Якщо ти використовуєш файл на своєму комп’ютері, додай ці теги під тегами `<div>` для створення секції, в якій можна писати код JavaScript. Якщо ж ти використовуєш CodePen, то можеш пропустити цей крок, пиши свій код в окремій JavaScript-секції.
 
   ```html
   <script type="text/javascript">
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- Спочатку ми напишемо JavaScript-функцію, щоб брати будь-який текст, що знаходиться в полі для вводу і відображати його в `<div>` "meme_text". Між двома щойноствореними тегами `<script>` додай нижченаведений код. Він виглядає зовсім інакше від усього коду, який ми писали досі, тому що це — JavaScript, який є іншою мовою.
 
   ```JavaScript
   function update_text(){
@@ -19,15 +19,15 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  Ти щойно створив функцію JavaScript з назвою `update_text()`. Наразі між фігурними дужками немає жодних інструкцій, тому ця функція ще нічого не робить.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- Між фігурними дужками `{ }` додай нижченаведений код, щоб визначити змінну `user_text`, яка буде вказувати на текстове поле, куди користувач вводитиме те, що він хоче побачити в мемі.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Тепер твоя черга написати рядок коду. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
 
 --- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
 
