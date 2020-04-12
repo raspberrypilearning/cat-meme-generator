@@ -1,15 +1,15 @@
-## What you will need
+## आपको किन चीज़ों की आवश्यकता होगी
 
-### Hardware
+### हार्डवेयर
 
-- A computer
+- एक कंप्यूटर
 
 
-### Software
+### सॉफ्टवेयर
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- एक वेब ब्राउज़र (जैसे इंटरनेट एक्सप्लोरर, क्रोम, सफारी)
+- एक टेक्स्ट एडिटर (जैसे नोटपैड, टेक्स्टएडिट, नैनो) या [https://codepen.io](https://codepen.io/){:target="_blank"} पर क्लिक करें
 
-### Extras
+### अतिरिक्त
 
-- A picture of a cat in JPG, GIF, or PNG format
+- JPG, GIF, या PNG फार्मेट में एक बिल्ली की तस्वीर
