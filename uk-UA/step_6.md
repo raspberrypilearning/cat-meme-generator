@@ -27,11 +27,11 @@
   var user_text = document.getElementById("user_text");
   ```
 
-- Тепер твоя черга написати рядок коду. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Тепер твоя черга написати рядок коду. Під щойнододаним рядком напиши код, що визначатиме змінну з іменем `meme_text`, яка буде вказувати на елемент з ідентифікатором (ID) `meme_text`, куди і буде виводитись текст мема. Це — `<div>`, який ми створили раніше.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- Давай розберемо вже написаний код, щоб ти розумів (-ла), що він робить:
 
-* `var user_text` creates a new variable with the name "user_text"
+* `var user_text` створює нову змінну з іменем "user_text"
 * `=` sets the value of this variable to...
 * ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
 
