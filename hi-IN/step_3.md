@@ -1,26 +1,27 @@
-## Create a web page
+## एक वेबपेज बनाएँ
 
-- Open up a blank file in your chosen text editor and save the file.
+- अपने चुने हुए टेक्स्ट एडिटर में एक खाली फाइल खोलें और फाइल को सेव (save) करें।
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- नीचे दिया गया HTML कोड आपको एक पेज की मूल संरचना देता है। आपके द्वारा बनाई गई फ़ाइल में कॉपी और पेस्ट (copy & paste) करें, फिर फ़ाइल को सेव (save) करलें। अपने टेक्स्ट एडिटर को खोले रखें ताकि आप अपने फाइल में साथ साथ काम भी कर सकें |
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>मेरा पेज</title>
   </head>
   <body>
-    My content here
+    पेज का सामग्री यहाँ
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- उस फ़ोल्डर पर जाएं जहां आपने अपना वेबपेज सहेजा (saved) है। अपने इंटरनेट ब्राउजर के साथ अपना फाइल खोलें जिससे की आपके टेक्स्ट एडिटर और ब्राउजर दोनों में ही फाइल एक साथ खुली रहे।
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  अगर आपके पास विंडोज़ (windows) है तो आपको फ़ाइल पे राइट-क्लिक करने की आवश्यकता हो सकती है| उसके बाद </code>Open with पर क्लिक करे, और फिर अपना इंटरनेट ब्राउज़र चुनें।</p>
 
-  ![Open with browser](images/open-with-browser.png)
+<p spaces-before="2"><img src="images/open-with-browser.png" alt="ब्राउज़र से खोलें" /></p>
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+<p spaces-before="2">जब भी आप अपने टेक्स्ट एडिटर में कोड बदलते हैं, तो उसे सेव करें और फिर अपडेट किए गए पेज को देखने के लिए अपने ब्राउज़र पर रिफ्रेश (refresh) बटन दबाएं।</p></li>
+</ul>
