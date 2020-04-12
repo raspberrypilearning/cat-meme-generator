@@ -1,61 +1,61 @@
-## Getting the picture and text
+## Pozyskiwanie obrazu i tekstu
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+Chcemy, aby ludzie mogli używać własnego obrazu i tekstu do tworzenia memu, dlatego potrzebujemy sposobu, aby je udostępnić. Dodajmy formularz, który nasz użytkownik może wypełnić.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Jeśli używasz pliku na komputerze, ustaw ten kod między `<body>` a `</body>`. Jeśli używasz CodePen, umieść ten kod w sekcji HTML.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Dodaj tagi `<form>,` które wskazują początek formularza, oraz `</form>,` które wskazują koniec formularza.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- Wewnątrz `<form>`dodaj pole tekstowe, aby móc wpisać treść mema:
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Treść mema: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Zapisz kod i odśwież przeglądarkę, aby zobaczyć utworzone pole.
 
-    ![First box](images/first-box.png)
+    ![Pierwsze pole](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Dodaj kod, aby utworzyć kolejne pole wprowadzania w wierszu poniżej pierwszego pola. Tym razem pole wprowadzania nie będzie polem tekstowym, ale specjalnym polem do wyboru pliku obrazu dla mema. Typem wejściowym powinien być `plik`, a nazwa wejściowa powinna wynosić `user_picture`.
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- wskazówka --- Oto, co robi już napisany kod:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `input` mówi, że tworzymy sposób na dostarczenie przez użytkownika pewnych danych
+  * `type="text"` mówi, że dane będą tekstowe
+  * `id="user_text"` nadaje temu polowi nazwę lub identyfikator, trochę jak nazwa zmiennej
+  * `maxlength="70"` jest opcjonalny - powstrzymuje Cię przed wpisaniem więcej niż 70 liter, więc Twój tekst nie zajmuje miejsca poniżej dołu obrazu
+  * Znacznik `<p>` po polu wprowadzania dodaje paragraf (trochę miejsca przed następnym polem wejściowym)
 
-Can you work out how to create another input box using this information?
+Czy potrafisz wymyślić, jak utworzyć kolejne pole wprowadzania przy użyciu tych informacji?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+Musisz zmienić części kodu wyróżnione `***` poniżej:
 
 ```html
-Select a picture <input type="***" id="***"><p>
+Wybierz zdjęcie <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- hint --- Oto kod, który musisz dodać:
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+Wybierz zdjęcie <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- Możesz użyć tych pól do wpisania i wybrania pliku, ale nic się jeszcze nie wydarzy. **Uwaga**: wszystkie obrazy są przechowywane na twoim komputerze - ten program nie przesyła niczego do Internetu.
