@@ -1,4 +1,4 @@
-## Getting the picture and text
+## Отримання малюнка та тексту
 
 We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
 
