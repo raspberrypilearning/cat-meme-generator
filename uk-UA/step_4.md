@@ -32,27 +32,27 @@
   * `input` означає, що ми створюємо користувачу засіб для надання певних даних
   * `type="text"` означає, що дані будуть текстовими
   * `id="user_text"` дає цьому конкретному полю ім'я або ідентифікатор (ID), на зразок імені змінної
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `maxlength="70"` є необов’язковим — це не дозволяє вводити більше 70 символів, щоб твій текст не виліз за нижню частину зображення
+  * Тег `<p>` після поля для вводу додає абзац (трохи місця перед наступним полем)
 
-Can you work out how to create another input box using this information?
+Чи можеш ти на основі цієї інформації придумати, як створити ще одне поле для вводу?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+Нижче тобі потрібно змінити частини коду, позначені `***`:
 
 ```html
-Select a picture <input type="***" id="***"><p>
+Вибрати зображення <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- hint --- Ось код, який потрібно додати:
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+Вибрати зображення <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
