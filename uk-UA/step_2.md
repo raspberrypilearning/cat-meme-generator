@@ -1,15 +1,15 @@
-## What you will need
+## Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-- A computer
+- Комп'ютер
 
 
-### Software
+### Програмне забезпечення
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- Веббраузер (напр. Internet Explorer, Chrome, Safari)
+- Текстовий редактор (напр. Блокнот (Notepad), Мініредактор (TextEdit), nano) або доступ до [https://codepen.io](https://codepen.io/){:target="_ blank"}
 
-### Extras
+### Додатково
 
-- A picture of a cat in JPG, GIF, or PNG format
+- Зображення кішки у форматі JPG, GIF або PNG
