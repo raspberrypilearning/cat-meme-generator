@@ -1,28 +1,28 @@
-## Build the meme
+## Zbuduj mema
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Musimy stworzyć obszar, w którym zostanie wyświetlony mem. Obszar ten zacznie się wyświetlać jako pusty, ponieważ gdy strona ładuje się po raz pierwszy, nie będziemy wiedzieć, jakiego obrazu lub jakiego tekstu osoba chce użyć.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- Pod znacznikiem `</form>`, dodaj nową linię kodu:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">Tutaj wstaw przykładowy tekst</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  Jest to element `<div>` - to niewidzialne pudełko, które ostatecznie pomieści tekst naszego mema. Daliśmy jej `identyfikator` tak samo jak w polach wejściowych.
 
-- Now add another `<div>` below the previous one:
+- Teraz dodaj kolejny `<div>` poniżej poprzedniego:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    Wewnątrz tego `<div>`, jest również inny tag, który wyświetla obraz. `src=""` wskazuje, który obraz ma być wyświetlony. W tym przypadku zostawiliśmy obraz pusty, ponieważ nie mamy jeszcze zdjęcia od użytkownika.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- Zapisz i odśwież. Obraz będzie pustym polem i przykładowy tekst będzie wyświetlany w domyślnej czcionce, która nie jest zbyt "memiczna":
 
     ![Example text default font](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- Jeśli używasz pliku na komputerze, znajdź sekcję `<head>` w swoim kodzie i dodaj ten kod między `<head>` a `</head>`. (Pomiń ten krok, jeśli używasz CodePen.)
 
   ```html
   <style type="text/css">
