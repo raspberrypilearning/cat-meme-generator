@@ -1,32 +1,32 @@
-## Display the image
+## Показ зображення
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Тепер ми напишемо код, щоб взяти зображення кота, яке користувач вибрав, і відобразити його в мемі.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Створи нову функцію JavaScript з іменем `update_image`. Будь уважним, цей код треба ввести після закриваючої фігурної дужки `}` функції, яку ти вже створив.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- Всередині функції `update_image` створи дві нові змінні:
 
     ```javascript
     var img = document.querySelector('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Перша змінна вибирає перший (і єдиний!) тег `<img>` в документі, щоб ми могли сказати, де відображати вибрану картинку.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Друга змінна вказує на вибраний файл із зображеннням кота.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Зроби, щоб тег зображення містив картинку, яку завантажив користувач:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Тепер додай код, щоб сказати файловому полю викликати функцію `update_image()`, коли хтось вибирає файл (`onchange`).
 
 --- hints ---
 
