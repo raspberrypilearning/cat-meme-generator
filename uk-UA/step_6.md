@@ -62,10 +62,10 @@ var meme_text = document.getElementById("meme_text");
   * `.innerHTML` вказує на те, що відображається в `<div>`
   * `.value` посилається на те, що вводиться в текстове поле з назвою `user_text`
 
-- Нарешті, нам потрібно сказати текстовому полю, що коли хтось вводить текст, воно має викликати функцію, яку ми щойно написали, для оновлення тексту в мемі. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Нарешті, нам потрібно сказати текстовому полю, що коли хтось вводить текст, воно має викликати функцію, яку ми щойно написали, для оновлення тексту в мемі. Знайди код для свого текстового поля і додай **атрибут** `oninput="update_text()"`, щоб він виглядав ось так:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Текст мема: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Збережи та онови свою сторінку, а потім спробуй вводити текст в текстове поле і подивись, що відбуватиметься. Якщо код працює, то текст, що ти ввів має відобразитися як текст мема, майже магія!
