@@ -1,6 +1,6 @@
 ## O que vais fazer
 
-Neste recurso, vais criar um gerador de memes de gatos. Using an image of your cat, you can create your own cat meme to show off to your friends.
+Neste recurso, vais criar um gerador de memes de gatos. Usando uma imagem do teu gato, podes criar teu próprio meme de gato para mostrar aos seus amigos.
 
 ![Meme de exemplo](images/example-meme.png)
 
@@ -9,8 +9,8 @@ Neste recurso, vais criar um gerador de memes de gatos. Using an image of your c
 Criando um gerador de memes de gatos, vais aprender:
 
 - Como escrever funções em JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- Como usar JavaScript para manipular a entrada de dados por um utilizador
+- Como usar `entrada` e `troca` para que as coisas aconteçam ao vivo em uma página da web em resposta a ações do utilizador
 
 Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](https://www.raspberrypi.org/curriculum/){:target = "_ blank"}:
 
