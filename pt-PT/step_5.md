@@ -22,14 +22,14 @@ Precisamos criar uma área onde o meme será exibido. Essa área começará em b
 
     ![Example text default font](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- Se você estiver usando um arquivo em seu computador, encontre a seção `<head>` do seu código e adicione este código entre `<head>` e `</head>`. (Pule este passo se estiveres a usar o CodePen.)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- Copia o código abaixo entre as tags `<style>` para dar ao seu texto um estilo de meme. Se estiveres a usar o CodePen, coloca este código na secção CSS.
 
     ```css
     #meme_text {
