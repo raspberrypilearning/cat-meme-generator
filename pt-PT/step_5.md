@@ -10,15 +10,15 @@ Precisamos criar uma área onde o meme será exibido. Essa área começará em b
 
   Este é um elemento `<div>` - é uma caixa invisível que eventualmente terá o texto do nosso meme. Demos a ele um Id ` ` assim como fizemos nas caixas de entrada.
 
-- Now add another `<div>` below the previous one:
+- Agora adicione outro `<div>` abaixo do anterior:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    Dentro desta `<div>`, há também outra tag que exibe uma imagem. `src=""` indica qual imagem exibir. Nesse caso, deixamos a imagem em branco, porque ainda não temos a imagem do utilizador.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- Guardar e Atualizar. A imagem será uma caixa em branco e o texto de exemplo será exibido na fonte padrão, que não é muito parecido com um meme:
 
     ![Example text default font](images/example-text-default.png)
 
