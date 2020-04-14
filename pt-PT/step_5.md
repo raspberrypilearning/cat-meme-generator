@@ -20,7 +20,7 @@ Precisamos criar uma área onde o meme será exibido. Essa área começará em b
 
 - Guardar e Atualizar. A imagem será uma caixa em branco e o texto de exemplo será exibido na fonte padrão, que não é muito parecido com um meme:
 
-    ![Example text default font](images/example-text-default.png)
+    ![Exemplo de fonte padrão de texto](images/example-text-default.png)
 
 - Se você estiver usando um arquivo em seu computador, encontre a seção `<head>` do seu código e adicione este código entre `<head>` e `</head>`. (Pule este passo se estiveres a usar o CodePen.)
 
@@ -45,6 +45,6 @@ Precisamos criar uma área onde o meme será exibido. Essa área começará em b
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  As linhas `left: 15 px` e `top: 400 px` determinam a que distância o texto está da esquerda e da parte superior da página. Podes alterar esses números para fazer o texto aparecer em um lugar diferente no teu meme, se quiseres. Se gostavas de saber mais sobre estilos CSS, visita a referência CSS [w3schools ](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Exemplo de texto no meme](images/example-text-memey.png)
