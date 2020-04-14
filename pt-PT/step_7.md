@@ -1,52 +1,52 @@
-## Display the image
+## Exibir a imagem
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Agora vamos escrever algum código para usar a imagem de gato que o utilizador selecionou e exibi-la no meme.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- Define uma nova função JavaScript chamada ` update_image `. Tem cuidado ao digitar este código após a chave de fechamento `}` da função anterior que você criou.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- Dentro da ` update_image `, crie duas novas variáveis:
 
     ```javascript
-    var img = document.querySelector('img');
+    var img = document.querySelector ('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Esta primeira variável seleciona a primeira (e única!) `<img>`tag no documento, para que possamos dizer à página onde exibir a imagem selecionada.
 
     ```javascript
-    var file = document.querySelector('input[type=file]').files[0];
+    var file = document.querySelector ('input [type = file]'). files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Essa segunda variável aponta para o ficheiro de imagem de gato selecionado.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Defina a tag da imagem para conter a imagem que o utilizador enviou:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Agora adiciona algum código para informar a entrada do ficheiro para chamar a função `update_image()` `onchange` quando alguém seleciona um ficheiro.
 
---- hints ---
+--- dicas ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- dica --- Lembra-te de que, na etapa anterior, chamaste a função ` update_text () ` quando um novo texto foi gravado na caixa de entrada ` user_text `. Usando o que aprendeste, podes descobrir como chamar a função `update_image()` quando o utilizador seleciona um ficheiro na caixa de entrada `user_file`? --- /dica ---
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+--- dica --- Vais precisar de adicionar ` onchange = "" ` e depois substitui o ` *** ` com a função que gostarias de chamar:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Selecione uma imagem <input type="file" id="user_picture" onchange="***">
 ```
---- /hint ---
+--- /dica---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
+--- dica --- Encontre a linha de código da caixa de entrada do ficheiro e adiciona `onchange = "update_image ()"` assim:
 ```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
+Selecione uma imagem <input type="file" id="user_picture" onchange="update_image()">
 ```
 
---- /hint ---
+--- /dica ---
 
---- /hints ---
+--- /dicas ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Guardar e atualizar a página. Se o teu código estiver a funcionar, quando selecionares uma imagem usando o botão ** Selecionar uma imagem. ** Na caixa de entrada, essa imagem deve aparecer na caixa de meme abaixo. Se digitares algo na caixa de texto, o texto do seu meme aparecerá na parte superior da imagem.
 
-![Finished meme](images/finished-meme.png)
+![Meme finalizado](images/finished-meme.png)
