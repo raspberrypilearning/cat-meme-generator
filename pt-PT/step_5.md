@@ -1,6 +1,6 @@
-## Build the meme
+## Constroi o meme
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Precisamos criar uma área onde o meme será exibido. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
 
 - Underneath the `</form>` tag, add in a new line of code:
 
