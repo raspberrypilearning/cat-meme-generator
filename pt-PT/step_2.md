@@ -7,7 +7,7 @@
 
 ### Software
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
+- Um navegador de Internet (por exemplo, Internet Explorer, Chrome, Safari)
 - Um editor de texto (por exemplo, Bloco de notas, TextEdit, nano) ou acesso a [https://codepen.io](https://codepen.io/){: target = "_ blank"}
 
 ### Extras
