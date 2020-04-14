@@ -1,5 +1,5 @@
 ---
-title: Gerador de meme de gatos
+title: Gerador de memes de gatos
 hero_image: images/banner.png
 description: Faça memes fixes de gatos para compartilhar com seus amigos
 original_url: https://www.raspberrypi.org/learning/cat-meme-generator/
@@ -9,11 +9,11 @@ ingredient: false
 listed: true
 copyedit: true
 curriculum: 2, design-1, programming-2, phys-comp-0, manufacture-0, community-0
-interests: animals
+interests: animais
 technologies: html-css-javascript
 hardware: ''
 software: html-css-javascript
-site_areas: projects
+site_areas: projetos
 version: 4
 last_tested: 2017-11-01
 steps:
