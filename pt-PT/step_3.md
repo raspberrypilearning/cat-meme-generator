@@ -1,10 +1,10 @@
-## Create a web page
+## Cria uma página de Internet
 
-- Open up a blank file in your chosen text editor and save the file.
+- Abre um ficheiro em branco no editor de texto escolhido e salve o arquivo.
 
 [[[generic-html-create-and-save]]]
 
-- O código HTML abaixo fornece a estrutura básica de uma página. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- O código HTML abaixo fornece a estrutura básica de uma página. Copie e cole-o no ficheiro que você criou e guarde o ficheiro. Mantenha o editor de texto aberto para poder editar o ficheiro.
 
   ```html
   <html>
@@ -17,10 +17,10 @@
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Vai para a pasta onde salvaste a tua página web. Abre também o ficheiro com o teu navegador da Internet, para que tenhas o mesmo ficheiro aberto no editor de texto e no navegador.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  No Windows, pode ser necessário clicar com o botão direito do rato no ficheiro, escolher `Abrir com`e selecionar o teu navegador da Internet.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Abrir com o navegador](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Sempre que alterares o código no teu editor de texto, guarda-o e pressione o botão de atualização no seu navegador para ver a página atualizada.
