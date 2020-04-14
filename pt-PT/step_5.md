@@ -1,14 +1,14 @@
 ## Constroi o meme
 
-Precisamos criar uma área onde o meme será exibido. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Precisamos criar uma área onde o meme será exibido. Essa área começará em branco porque, quando a página for carregada pela primeira vez, não saberemos qual imagem ou qual texto a pessoa deseja usar.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- Debaixo da ` </form>` tag, adicione uma nova linha de código:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">Exemplo de texto aqui</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  Este é um elemento `<div>` - é uma caixa invisível que eventualmente terá o texto do nosso meme. Demos a ele um Id ` ` assim como fizemos nas caixas de entrada.
 
 - Now add another `<div>` below the previous one:
 
