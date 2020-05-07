@@ -12,7 +12,7 @@ Nous allons maintenant écrire du code pour prendre l'image de chat que l'utilis
     var img = document.querySelector('img');
     ```
 
-    Cette première variable sélectionne la première balise `<img>` (et uniquement !) dans le document, afin que nous puissions indiquer à la page où afficher l'image sélectionnée.
+    Cette première variable sélectionne la première (et seule !) balise `<img>` dans le document, afin que nous puissions indiquer à la page où afficher l'image sélectionnée.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
