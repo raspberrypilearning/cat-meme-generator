@@ -1,35 +1,35 @@
-## Build the meme
+## Mem'i yarat
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Mem'in görüntüleneceği bir alan yaratmamız gerekiyor. Bu alan boş olarak başlayacaktır çünkü sayfa ilk yüklendiğinde, kişinin hangi resimi veya hangi metni kullanmak istediğini bilemeyiz.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- `</form>` etiketinin altına yeni bir sıra kod ekleyin:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">Örnek metin buraya</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  Bu bir `<div>` öğesi - sonunda bizim mem'imiz için metni tutacak görünmez bir kutu. Bir ` kimliği verdik ` tıpkı giriş kutularına yaptığımız gibi.
 
-- Now add another `<div>` below the previous one:
+- Şimdi bir öncekinin altına `<div>` daha ekleyin:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    Bu `<div>`ın içinde bir imaj gösteren başka bir etiket daha var. ` src = "" ` hangi görüntünün gösterileceğini gösterir. Bu durumda, imajı boş bıraktık, çünkü henüz kullanıcıdan resmimiz almadık.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- Kaydet ve yenile. Resim boş bir kutu olacak ve örnek metin varsayılan yazı tipinde görüntülenecektir, bu çok mem benzeri değildir:
 
-    ![Example text default font](images/example-text-default.png)
+    ![Örnek metin varsayılan yazı tipi](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- Bilgisayarınızda bir dosya kullanıyorsanız, kodunuzdaki `<head>` bölümünü bulun ve bu kodu `<head>` ve `</head>` arasına ekleyin. (CodePen kullanıyorsanız bu adımı atlayın.)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- Metninize bir mem stili vermek için aşağıdaki kodu `<style>` etiketleri arasına yapıştırın. CodePen kullanıyorsanız, bunu CSS bölümüne yapıştırın.
 
     ```css
     #meme_text {
@@ -45,6 +45,6 @@ We need to create an area where the meme will be displayed. This area will start
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  `left: 15px` ve `top: 400px` satırları metnin sayfanın solundan ve üstünden ne kadar uzakta olduğunu belirler. İsterseniz metnin meminizde farklı bir yerde görünmesini sağlamak için bu sayıları değiştirebilirsiniz. CSS stilleri hakkında daha fazla bilgi edinmek için [ w3schools CSS reference](http://www.w3schools.com/CSSref/) {:target = "_ blank"} ziyaret edebilirsiniz.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Mem içinde örnek metin](images/example-text-memey.png)
