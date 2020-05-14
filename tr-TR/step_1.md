@@ -1,18 +1,18 @@
-## What you will make
+## Ne yapacaksınız
 
-In this resource you will make a cat meme generator. Using an image of your cat, you can create your own cat meme to show off to your friends.
+Bu kaynakta bir kedi mem üreticisi yapacaksınız. Kedinizin bir görüntüsünü kullanarak, arkadaşlarınıza göstermek için kendi kedi memizi oluşturabilirsiniz.
 
-![Example meme](images/example-meme.png)
+![Örnek mem](images/example-meme.png)
 
-## What you will learn
+## Ne öğreneceksiniz
 
-By creating a cat meme generator you will learn:
+Bir kedi mem üreticisi oluşturarak şunları öğreneceksiniz:
 
-- How to write functions in JavaScript
-- How to use JavaScript to manipulate data input by a user
-- How to use `oninput` and `onchange` to make things happen live on a web page in response to user actions
+- JavaScript'te işlevler nasıl yazılır
+- Bir kullanıcı tarafından veri girişini değiştirmek için JavaScript nasıl kullanılır
+- `oninput` ve `Onchange` kullanıcı eylemlerine yanıt olarak bir web sayfasında canlı gerçekleşmesi için nasıl kullanılır
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/){:target="_blank"}:
+Bu kaynak, [Raspberry Pi Dijital Yapma Müfredatı](https://www.raspberrypi.org/curriculum/){: target = "_ blank"} 'ın aşağıdaki satırlarındaki öğeleri kapsar:
 
-- [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator){:target="_blank"}
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+- [Basit 2D ve 3D varlıklar tasarlama](https://www.raspberrypi.org/curriculum/design/creator){: target = "_ blank"}
+- [Bir sorunu çözmek için programlama yapılarını birleştirin](https://www.raspberrypi.org/curriculum/programming/builder){: target = "_ blank"}
