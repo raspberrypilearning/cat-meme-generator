@@ -1,26 +1,26 @@
-## Create a web page
+## Web sayfası oluşturun
 
-- Open up a blank file in your chosen text editor and save the file.
+- Seçtiğiniz metin düzenleyicisinde boş bir dosya açın ve dosyayı kaydedin.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- Aşağıdaki HTML kodu size bir sayfanın temel yapısını verir. Kopyalayıp oluşturduğunuz dosyaya yapıştırın, ardından dosyayı kaydedin. Dosyayı düzenleyebilmek için metin düzenleyicisini açık tutun.
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>Sayfam</title>
   </head>
   <body>
-    My content here
+    Buradaki içeriğim
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- Web sayfanızı kaydettiğiniz klasöre gidin. Dosyayı internet tarayıcınızla da açın, böylece aynı dosyayı hem metin düzenleyicinizde hem de tarayıcınızda açın.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  Windows'da dosyayı sağ tıklamanız, ``ile aç'ı seçmeniz ve ardından internet tarayıcınızı seçmeniz gerekebilir.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![Tarayıcı ile aç](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  Metin düzenleyicinizdeki kodu her değiştirdiğinizde kaydedin ve güncellenen sayfayı görmek için tarayıcınızdaki yenile düğmesine basın.
