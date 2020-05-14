@@ -1,52 +1,54 @@
-## Display the image
+## Resmi görüntüle
 
-We will now write some code to take the cat image that the user has selected and display it on the meme.
+Şimdi kullanıcının seçtiği kedi görüntüsünü almak ve mem üzerinde görüntülemek için bazı kodlar yazacağız.
 
-- Define a new JavaScript function called `update_image`. Be careful to type this code after the closing curly bracket `}` of the previous function you created.
+- `update_image` adlı yeni bir JavaScript işlevi tanımlayın. Bu kodu `}` da yer alan yazdığınız bir önceki fonksiyonun dalgalı parantezinden sonra ekleyin.
 
 [[[generic-javascript-create-a-function]]]
 
-- Inside the `update_image` function, create two new variables:
+- `update_image` fonksiyonunun içine iki yeni değişken oluşturun:
 
     ```javascript
-    var img = document.querySelector('img');
+    var img = document.querySelector ('img');
     ```
 
-    This first variable selects the first (and only!) `<img>` tag in the document, so that we can tell the page where to display the selected image.
+    Bu ilk değişken, belgedeki ilk (ve tek!) `<img>` etiketini seçer, böylece sayfaya seçilen görüntünün nerede görüntüleneceğini söyleyebiliriz.
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
     ```
 
-    This second variable points to the selected cat picture file.
+    Bu ikinci değişken seçilen kedi resim dosyasını gösterir.
 
-- Set the image tag to contain the picture that the user has uploaded:
+- Resim etiketini, kullanıcının yüklediği resmi içerecek şekilde ayarlayın:
 
     ```javascript
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- Now add some code to tell the file input to call the `update_image()` function `onchange` when someone selects a file.
+- Birisi dosya seçtiğinde dosya girişine `update_image()` öğesini çağırmasını söylemek için birkaç kod ekleyin  `onchange` .
 
---- hints ---
+--- ipuçları ---
 
---- hint --- Remember that, in the previous step, you called the function `update_text()` when new text was written into the `user_text` input box. Using what you learned then, can you work out how to call the function `update_image()` when the user selects a file in the `user_file` input box? --- /hint ---
+--- ipucu --- Bir önceki adımda, `user_text` giriş kutusuna metin yazıldığında `update_text()` fonksiyonunu kullandığınızı unutmayın. Daha önce öğrendiklerinizi kullanarak kullanıcı `user_file` input box'tan dosya seçtiğinde ` update_image () işlevini nasıl çağırabileceğinizi çözebilir misiniz?
+--- /hint ---</p>
 
---- hint --- You will need to add `onchange=""` and then replace the `***` with the function you would like to call:
+<p spaces-before="0">--- ipucu ---
+<code>onchange=""` eklemeniz gerekecek ve sonra `***` 'ı istediğiniz komut ile değiştirmeniz gerekecek:
 ```javascript
-Select a picture <input type="file" id="user_picture" onchange="***">
+Bir resim seçin <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
---- hint --- Find the line of code for the file input box and add `onchange="update_image()"` like this:
-```html
-Select a picture <input type="file" id="user_picture" onchange="update_image()">
-```
+--- ipucu --- Dosya giriş kutusu için kod satırını bulun ve `onchange="update_image ()" ekleyin, bunun gibi:</p>
+
+<pre><code class="html">Bir resim seçin <input type="file" id="user_picture" onchange="update_image()">
+`</pre>
 
 --- /hint ---
 
 --- /hints ---
 
-- Save and refresh the page. If your code is working, when you select a picture using the **Select a picture** input box, that picture should appear in the meme box below. If you also type something into the text box, your meme text should appear on top of the picture.
+- Sayfayı kaydedin ve yenileyin. Kodunuz çalışıyorsa, **Select a picture** giriş kutusu seçeneğini kullanarak bir resim seçtiğinizde bu resim aşağıdaki mem kutusunda görünmelidir. Metin kutusuna da bir şey yazarsanız, mem metniniz resmin üstünde görünecektir.
 
-![Finished meme](images/finished-meme.png)
+![Bitmiş mem](images/finished-meme.png)
