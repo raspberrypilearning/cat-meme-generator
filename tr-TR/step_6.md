@@ -27,45 +27,45 @@ Birisi metin kutusuna metin yazdığında, metninin az önce oluşturduğumuz `<
   var user_text = document.getElementById ("user_text");
   ```
 
-- Şimdi bir kod satırı yazma sırası sizde. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- Şimdi bir kod satırı yazma sırası sizde. `meme_text` kimliğine sahip öğeye işaret etmek için az önce yazdığınız satırın altında `meme_text` adlı değişkeni ayarlamak için kod oluşturun, burada mem metni görüntülenecektir. Bu daha önce yarattığımız `<div>`.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- ipuçları --- --- ipucu --- Ne yazdığınızı anlayabilmeniz için önceden yazdığınız kodu parçalayalım:
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* ` var user_text ` "user_text" adıyla yeni bir değişken oluşturur
+* `=` bu değişkenin değerini ... olarak ayarlar
+* ... ` document.getElementById ( "user_text") ` , web sayfasına bakar ve ` kullanıcı_metni kimliğine sahip öğeye işaret eder ` , daha önce oluşturduğumuz giriş metin kutusu
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+Bu bilgileri kullanarak yeni kod satırını nasıl oluşturacağınızı çözebilir misiniz? --- /ipucu ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- ipucu --- Aşağıdaki kodda, kodda değiştirmeniz gereken kısımlar ` ***` ile vurgulanmıştır:
 ```JavaScript
-var *** = document.getElementById("***");
+var *** = document.getElementById ("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- ipucu --- Eklemeniz gereken kod burada:
 
 ```JavaScript
-var meme_text = document.getElementById("meme_text");
+var meme_text = document.getElementById ("meme_text");
 ```
 --- /hint ---
 
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- 'meme_text' `<div>` nın kullanıcının ` meme_text` metin kutusunun içine yazdığı aynı metni içerecek şekilde ayarlamak istiyoruz. Bu kod satırını JavaScript işlevinizin altına ekleyin:
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML` `<div>` 'in içinde görüntüleni simgeler.
+  * `.value` ise `user_text` metin kutusuna yazılanları simgeler
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- Son olarak, metin kutusuna birisi yazdığında, yazdığımız işlevi çağırması gerektiğini söylemeliyiz, böylece memdeki metin güncellenecektir. Metin kutunuzun kodunu bulun ve `oninput="update_text()"` için bir **attribute** ekleyin, şimdi şöyle görünür:
 
   ```html
-  Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
+  Mem metni: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - Sayfanızı kaydedin ve yenileyin, ardından metin kutunuza yazmayı deneyin ve ne olacağını görün. Kodunuz çalışıyorsa, yazdığınız metnin mem metni olarak görünmesi gerekir, tıpkı sihir gibi!
