@@ -1,15 +1,15 @@
-## What you will need
+## Neye ihtiyacınız olacak
 
-### Hardware
+### Donanım
 
-- A computer
+- Bir bilgisayar
 
 
-### Software
+### Yazılım
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- Bir web tarayıcısı (ör. Internet Explorer, Chrome, Safari)
+- Bir metin düzenleyicisi (örneğin Not Defteri, TextEdit, nano) veya [https://codepen.io](https://codepen.io/){: target = "_ blank"} 'e erişim
 
-### Extras
+### Ekstralar
 
-- A picture of a cat in JPG, GIF, or PNG format
+- JPG, GIF veya PNG formatında bir kedi resmi
