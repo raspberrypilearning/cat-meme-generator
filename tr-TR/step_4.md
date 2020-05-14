@@ -1,36 +1,36 @@
-## Getting the picture and text
+## Resim ve metin alma
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+İnsanların memi yapmak için kendi resimlerini ve metinlerini kullanabilmelerini istiyoruz, bu yüzden bunları sağlamak için bir yola ihtiyacımız var. Kullanıcılarımızın doldurabileceği bir form ekleyelim.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Bilgisayarınızda bir dosya kullanıyorsanız, bu kodu `<body>` ile `</body>`arasına yerleştirin. CodePen kullanıyorsanız, bu kodu HTML bölümüne yerleştirin.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Formun başlangıcını gösteren `<form>,` ve formun sonunu gösteren `</form>,` etiketlerini ekleyin.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- `<form>` içinde, mem yazısı yazabilmek için metin kutusu ekleyin:
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Meme metni: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Kodunuzu kaydedin ve oluşturduğunuz kutuyu görmek için tarayıcınızı yenileyin.
 
     ![First box](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- İlk kutunuzun altındaki satırda başka bir giriş kutusu oluşturmak için kod ekleyin. Bu kez giriş kutusu bir metin kutusu değil, mem için görüntü dosyasını seçmek için özel bir kutu olacaktır. Giriş türü `file`ve giriş adı `user_picture`olmalıdır.
 
---- hints ---
+--- ipuçları ---
 
---- hint --- Here's what the code you already wrote does:
+--- ipucu --- İşte zaten yazdığınız kodun yaptığı:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
+  * `input` kullanıcının bazı veri girişi için bir yol oluşturduğumuzu söylüyor
+  * `type = "text"` , verilerin metin olacağını söylüyor
   * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
   * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
   * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
