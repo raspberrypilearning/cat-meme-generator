@@ -1,6 +1,6 @@
 ## Le code terminé
 
-Maintenant, génère un super mème toi-même, peut-être avec ton chat. Le code terminé est [ici sous forme de fichier HTML](resources/index.html) ou sur CodePen. <iframe height='567' scrolling='no' title='Générateur de mèmes de chat' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
+Maintenant, génère un super mème toi-même, peut-être avec ton chat. Le code terminé est [ici sous forme de fichier HTML](resources/index.html) ou sur CodePen. <iframe height='567' scrolling='no' title='Générateur de mèmes de chat' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">Voir le Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Générateur de Mème de Chat</a> par Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) sur <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 Montre ton mème à tes amis !
