@@ -1,26 +1,26 @@
-## Create a web page
+## 建立一個網頁
 
-- Open up a blank file in your chosen text editor and save the file.
+- 在你選擇的文字編輯器中打開一個空白文件，然後儲存該文件。
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- 下面的HTML程式碼為你提供了頁面的基本結構。 將其複製並貼上到你建立的檔案中，然後儲存該檔案。 保持文字編輯器處於打開狀態，以便你可以編輯此文件。
 
   ```html
   <html>
   <head>
-    <title>My page</title>
+    <title>我的頁面</title>
   </head>
   <body>
-    My content here
+    我的內容在這裡
   </body>
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- 請到你儲存該網頁的資料夾。 也請你使用網頁瀏覽器打開該文件，如此在你的文字編輯器和瀏覽器中都同步打開相同的文件。
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  在Windows上，你可能需要右鍵單擊該文件，選擇 `Open with`，然後選擇你的網頁瀏覽器。
 
-  ![Open with browser](images/open-with-browser.png)
+  ![用網頁瀏覽器打開](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  每當你在文字編輯器中更改程式碼時，請儲存該程式碼，接著按瀏覽器上的重新整理按鈕來查看更新後的頁面。
