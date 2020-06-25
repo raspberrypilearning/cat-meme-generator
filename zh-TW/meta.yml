@@ -1,7 +1,7 @@
 ---
-title: Cat meme generator
+title: 貓咪迷因製造機
 hero_image: images/banner.png
-description: Make cool cat memes to share with your friends
+description: 製作酷炫的貓咪迷因與你的朋友分享
 original_url: https://www.raspberrypi.org/learning/cat-meme-generator/
 theme: orange
 duration: 2
@@ -18,20 +18,20 @@ version: 4
 last_tested: 2017-11-01
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: What you will need
+    title: 你會需要
   - 
-    title: Create a web page
+    title: 建立一個頁面
   - 
-    title: Getting the picture and text
+    title: 取得圖片和文字
   - 
-    title: Build the meme
+    title: 建立迷因
   - 
-    title: Display the text
+    title: 顯示文字
   - 
-    title: Display the image
+    title: 顯示圖片
   - 
-    title: The finished code
+    title: 最終的程式碼
   - 
-    title: Challenge
+    title: 挑戰
