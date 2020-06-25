@@ -1,4 +1,4 @@
-## Challenge
+## 挑戰
 
-* You could add some other CSS styles - why not change the style of the text, or give the image a border?
-* Add another input text box and position this text at the top of the meme, so you can have text on both the top and bottom.
+* 你還可以新增其他CSS樣式 - 何不更改文字的樣式或為圖片增加邊框呢？
+* 新增另一個文字輸入框，並將此文字放置在迷因的最上方，以便可以在迷因的頂部和底部同時顯示文字。
