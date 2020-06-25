@@ -1,61 +1,61 @@
-## Getting the picture and text
+## 取得圖片和文字
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+我們希望所有人能夠使用自己的圖片和文字來製作迷因，因此我們需要為他們提供一個方式來達成。 讓我們新增一個我們的使用者可以填寫的表格。
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+如果你想使用你電腦中的檔案，請將此程式碼置於 `<body>` 和 `</body>` 標籤內。 如果你使用的是CodePen，請將此程式碼放入HTML區塊中。
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- 新增 `<form>,` 標籤，代表表格的開頭，和 `</form>,` 標籤，代表表格的結尾。
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- 在你的 `<form>` 標籤內，新增一個文字框，以便你可以輸入迷因文字：
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  Meme文字： <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- 儲存你的程式碼並重新整理你的瀏覽器頁面來查看新建立的的文字框。
 
-    ![First box](images/first-box.png)
+    ![第一個文字框](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- 在你的第一個文字框的程式碼下面新增程式碼來建立另一個輸入框。 這次，輸入框將不是文字框，而是一個用於選擇迷因圖片檔案的特殊框。 輸入類型應為 `file`，且輸入框的名稱應為 `user_picture`。
 
---- hints ---
+--- 提示 ---
 
---- hint --- Here's what the code you already wrote does:
+---提示--- 這是你已經編寫好的程式碼的功能：
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `輸入` 表示我們正在為使用者建立一種提供資料的方式
+  * `type =“ text”` 表示這些資料將為文字
+  * `id =“ user_text”` 為這個特定的框指定名稱或ID，有點像變數名稱
+  * `maxlength =“ 70”` 是可自由選擇的 - 這將使你無法輸入70個以上的字母，如此你的文字不會佔用超過圖片底部的空間
+  * 輸入框後面的 `<p>` 標籤，增加一個段落（下一個輸入框前的一些空間）
 
-Can you work out how to create another input box using this information?
+你是否可以想出如何透過這些資訊來建立另一個輸入框的方法呢？
 
 --- /hint ---
 
---- hint ---
+--- 提示 ---
 
-You will need to change the parts of the code highlighted with `***` below:
+你將需要更改下面用 `***` 突出顯示的程式碼：
 
 ```html
-Select a picture <input type="***" id="***"><p>
+選擇一張圖片 <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+---提示--- 這是你需要新增的程式碼：
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+選擇一張圖片 <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- 你可以使用這些框來輸入和選擇一個檔案，但是什麼也不會發生。 **Note**：所有圖片都儲存在你的電腦中 - 這個程式不會將任何內容上傳到Internet。
