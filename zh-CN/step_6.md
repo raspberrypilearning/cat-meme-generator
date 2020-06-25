@@ -16,7 +16,7 @@
   ```JavaScript
   function update_text(){
 
-}
+  }
   ```
 
   你刚刚创建了一个名为 `update_text()` 的 JavaScript 函数。 目前大括号中没有指令，因此该函数没有任何功能。
@@ -29,7 +29,10 @@
 
 - 现在轮到你自己写一行代码了。 在你刚刚写的行下面，创建代码以设置名为 `meme_text`的变量，指向 ID 为 `meme_text` 的元素，用以控制模因文本的显示位置。 这是我们先前创建的`<div>`。
 
----提示--- ---提示--- 让我们分解一下你已经编写的代码，以便你了解它的作用：
+--- hints ---
+--- hint ---
+
+ 让我们分解一下你已经编写的代码，以便你了解它的作用：
 
 * `var user_text`创建一个名称为 "user_text" 的新变量
 * `=` 将此变量的值设置为...
@@ -39,13 +42,17 @@
 --- /hint ---
 
 
----提示--- 在下面的代码中，你需要更改的代码部分突出显示为 `***`：
+--- hint ---
+
+ 在下面的代码中，你需要更改的代码部分突出显示为 `***`：
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
----提示--- 你需要添加的代码在这里：
+--- hint ---
+
+你需要添加的代码在这里：
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");

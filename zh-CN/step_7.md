@@ -28,19 +28,24 @@
 
 - 现在添加一些代码，告诉输入控件在选择文件后，也就是 `onchange` 发生时调用 `update_image()` 函数。
 
---- hint ---
+--- hints ---
 
---- 提示--- 记住，在之前步骤中，当新文本被写入`user_text` 输入框时，你调用了`update_text()` 函数。 使用所学的知识， 当用户在 `user_file` 输入框中选择一个文件时，你会调用函数`update_image()`吗？
+--- hint--- 
+记住，在之前步骤中，当新文本被写入`user_text` 输入框时，你调用了`update_text()` 函数。 使用所学的知识， 当用户在 `user_file` 输入框中选择一个文件时，你会调用函数`update_image()`吗？
 --- /hint ---
 
 
----提示--- 你将需要添加 `onchange=""` 然后用你要调用的函数替换`***`：
+--- hint --- 
+
+你将需要添加 `onchange=""` 然后用你要调用的函数替换`***`：
 ```javascript
 选择图片 <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
----提示--- 找到文件输入框的代码行，并添加`onchange="update_image()"` 像这样：
+--- hint --- 
+
+找到文件输入框的代码行，并添加`onchange="update_image()"` 像这样：
 ```html
 选择图片 <input type="file" id="user_picture" onchange="update_image()">
 ```

@@ -15,7 +15,7 @@
 
   ```html
   <form>
-  Meme文字： <input type="text" id="user_text" maxlength="70"><p>
+  模因文本：<input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
@@ -25,9 +25,11 @@
 
 - 在第一个输入框下面的添加代码以创建另一个输入框。 这次输入控件不是文本框，而是用于选择模因图像文件的特殊控件。 输入控件的 type 应为 `file`，输入控件的 name 应为 `user_picture`。
 
+--- hints ---
+
 --- hint ---
 
----提示--- 这是您已经编写的代码：
+ 这是您已经编写的代码：
 
   * `input` 表示我们正在为用户提供一种提供数据的方式
   * `type ="text"` 表示数据将为文本
@@ -49,7 +51,7 @@
 
 --- /hint ---
 
----提示--- 这是您需要添加的代码：
+--- hint --- 这是您需要添加的代码：
 
 ```html
 选择图片 <input type="file" id="user_picture"><p>
