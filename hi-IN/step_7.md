@@ -12,7 +12,7 @@
     var img = document.querySelector('img');
     ```
 
-    यह पहला वेरियबल (variable) दस्तावेज़ (document) में सिर्फ पेहले (और केवल!) `<img>` टैग (tag) को चुनता है ताकि हम पेज को बता सके कि जो चुनी गयी चित्र है वो कहा दिखनी चाहिए।
+    यह पहला वेरियबल (variable) दस्तावेज़ (document) में सिर्फ पहले (और केवल!) `<img>` टैग (tag) को चुनता है ताकि हम पेज को बता सके कि जो चुनी गयी चित्र है वो कहा दिखनी चाहिए।
 
     ```javascript
     var file = document.querySelector('input[type=file]').files[0];
@@ -26,7 +26,7 @@
     img.src =  window.URL.createObjectURL(file);
     ```
 
-- अब आपको कुछ और कोड जोड़ना होगा ताकी अगर कोई एक फाइल को चुनें तो वो `update_image()` फंक्शन (function) को `onchange` में बदल दें
+- अब आपको कुछ और कोड जोड़ना होगा ताकि अगर कोई एक फाइल को चुनें तो वो `update_image()` फंक्शन (function) को `onchange` में बदल दें
 
 --- hints ---
 
@@ -34,7 +34,7 @@
 
 --- hint --- आपको `onchange=""` को जोड़ने की आवश्यकता होगी और फिर `***` को उस फंक्शन (function) से बदले जिसे आप बुलाना चाहेंगे:
 ```javascript
-एक चित्र चुनें <input type="file" id="user_picture" onchange="***">
+Select a picture <input type="file" id="user_picture" onchange="***">
 ```
 --- /hint ---
 
