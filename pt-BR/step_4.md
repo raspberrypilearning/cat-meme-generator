@@ -1,17 +1,17 @@
-## Getting the picture and text
+## Obtendo a foto e o texto
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+Queremos que as pessoas possam usar sua própria imagem e texto para criar o meme, por isso precisamos de uma maneira de fornecê-los. Vamos adicionar um formulário que nosso usuário possa preencher.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+Se você estiver usando um arquivo no seu computador, coloque esse código entre `<body>` e `</body>`. Se você estiver usando o CodePen, coloque esse código na seção HTML.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- Adicione as tags `<form>,` , que indica o início do formulário, e `</form>,` , que indica o final do formulário.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- Dentro do seu `<form>`, adicione uma caixa de texto para poder digitar o texto do meme:
 
   ```html
   <form>
@@ -19,43 +19,43 @@ If you're using a file on your computer, put this code between `<body>` and `</b
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- Salve seu código e atualize seu navegador para ver a caixa que você criou.
 
-    ![First box](images/first-box.png)
+    ![Primeira caixa](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- Adicione código para criar outra caixa de entrada na linha abaixo da sua primeira caixa. Desta vez, a caixa de entrada não será uma caixa de texto, mas uma caixa especial para selecionar o arquivo de imagem para o meme. O tipo de entrada deve ser `arquivo`e o nome da entrada deve ser `user_picture`.
 
 --- hints ---
 
---- hint --- Here's what the code you already wrote does:
+--- dica --- Aqui está o que o código que você já escreveu faz:
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `entrada` diz que estamos criando uma maneira de o usuário fornecer alguns dados
+  * `type = "text"` diz que os dados serão de texto
+  * `id = "user_text"` atribui a essa caixa específica um nome ou ID, um pouco como um nome de variável
+  * `maxlength = "70"` é opcional - ele impede que você digite mais de 70 letras para que seu texto não ocupe espaço além da parte inferior da imagem
+  * A tag `<p>` após a caixa de entrada adiciona um parágrafo (um pouco de espaço antes da próxima caixa de entrada)
 
-Can you work out how to create another input box using this information?
+Você pode descobrir como criar outra caixa de entrada usando essas informações?
 
 --- /hint ---
 
 --- hint ---
 
-You will need to change the parts of the code highlighted with `***` below:
+Você precisará alterar as partes do código destacadas com `***` abaixo:
 
 ```html
-Select a picture <input type="***" id="***"><p>
+Selecione uma imagem <input type="***" id="***"><p>
 ```
 
 --- /hint ---
 
---- hint --- Here is the code you need to add:
+--- dica --- Aqui está o código que você precisa adicionar:
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+Selecione uma imagem <input type="file" id="user_picture"><p>
 ```
 --- /hint ---
 
 --- /hints ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+- Você pode usar essas caixas para digitar e selecionar um arquivo, mas nada acontecerá ainda. **Nota**: Todas as imagens são mantidas no seu computador - este programa não carrega nada da internet.
