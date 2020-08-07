@@ -1,35 +1,35 @@
-## Build the meme
+## Construa o meme
 
-We need to create an area where the meme will be displayed. This area will start off blank because when the page first loads, we won't know which picture or what text the person wants to use.
+Nós precisamos criar uma área onde o meme será exibido. Essa área começará em branco porque, quando a página for carregada pela primeira vez, não saberemos qual imagem ou qual texto a pessoa deseja usar.
 
-- Underneath the `</form>` tag, add in a new line of code:
+- Debaixo da tag ` </form>`, adicione uma nova linha de código:
 
   ```html
-  <div id="meme_text">Example text here</div>
+  <div id="meme_text">Exemplo de texto aqui</div>
   ```
 
-  This is a `<div>` element - it's an invisible box which will eventually hold the text for our meme. We have given it an `id` just like we did to the input boxes.
+  Este é um elemento `<div>` - É uma caixa invisível que eventualmente terá o texto do nosso meme. Demos a ele um `id`, assim como fizemos nas caixas de entrada.
 
-- Now add another `<div>` below the previous one:
+- Agora adicione outro `<div>` abaixo do anterior:
 
   ```html
     <div id="meme_picture"><img src="" height="500" width="600"></div>
     ```
 
-    Inside this `<div>`, there's also another tag which displays an image. `src=""` indicates which image to display. In this case, we've left the image blank, because we don't yet have the picture from the user.
+    Dentro desta `<div>`, há também outra tag que exibe uma imagem. `src=""` indica qual imagem exibir. Neste caso, deixamos a imagem em branco, porque ainda não temos a imagem do usuário.
 
-- Save and refresh. The picture will be a blank box and the example text will display in the default font, which isn't very meme-like:
+- Salve e atualize. A imagem será uma caixa em branco e o texto de exemplo será exibido na fonte padrão, que não é muito parecido com um meme:
 
-    ![Example text default font](images/example-text-default.png)
+    ![Exemplo de fonte padrão de texto](images/example-text-default.png)
 
-- If you're using a file on your computer, find the `<head>` section in your code and add this code between `<head>` and `</head>`. (Skip this step if you're using CodePen.)
+- Se você estiver usando um arquivo em seu computador, encontre a seção `<head>` do seu código e adicione este código entre `<head>` e `</head>`. (Pule este passo se estiver usando o CodePen.)
 
   ```html
   <style type="text/css">
   </style>
   ```
 
-- Paste the code below between the `<style>` tags to give your text a meme style. If you're using CodePen, paste it into the CSS section.
+- Cole o código abaixo entre as tags `<style>` para dar ao seu texto um estilo de meme. Se você estiver usando o CodePen, coloque este código na seção CSS.
 
     ```css
     #meme_text {
@@ -45,6 +45,6 @@ We need to create an area where the meme will be displayed. This area will start
     }
     ```
 
-  The `left: 15px` and `top: 400px` lines determine how far the text is from the left and the top of the page. You can alter these numbers to make the text appear in a different place on your meme if you like. If you would like to know more about CSS styles, visit the [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
+  As linhas `left: 15px` e `top: 400px` determinam a que distância o texto está da esquerda e da parte superior da página. Se preferir, você pode alterar estes números para fazer o texto aparecer em um lugar diferente do seu meme. Se você quiser saber mais sobre estilos CSS, visite [w3schools CSS reference](http://www.w3schools.com/CSSref/){:target="_blank"}.
 
-  ![Example text in meme](images/example-text-memey.png)
+  ![Exemplo de texto no meme](images/example-text-memey.png)
