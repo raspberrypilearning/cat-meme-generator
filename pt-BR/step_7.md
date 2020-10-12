@@ -31,7 +31,7 @@ Agora vamos escrever o código para usar a imagem de gato que o usuário selecio
 --- hints ---
 
 
---- dica --- Lembre-se de que, na etapa anterior, você chamou a função `update_text()` quando um novo texto foi gravado na caixa de entrada `user_text`. Usando o que aprendeu, você pode descobrir como chamar a função `update_image()` quando o usuário selecionar um arquivo na caixa de entrada `user_file`?
+--- hint --- Lembre-se de que, na etapa anterior, você chamou a função `update_text()` quando um novo texto foi gravado na caixa de entrada `user_text`. Usando o que aprendeu, você pode descobrir como chamar a função `update_image()` quando o usuário selecionar um arquivo na caixa de entrada `user_file`?
 --- /hint ---
 
 

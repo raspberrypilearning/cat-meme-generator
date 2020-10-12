@@ -40,7 +40,7 @@ Usando essas informações, você pode descobrir como criar a nova linha de cód
 --- /hint ---
 
 
---- dica --- As partes do código que você precisa alterar são destacadas com `***` no código abaixo:
+--- hint --- As partes do código que você precisa alterar são destacadas com `***` no código abaixo:
 ```JavaScript
 var *** = document.getElementById("***");
 ```

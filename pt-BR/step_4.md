@@ -28,7 +28,7 @@ Se você estiver usando um arquivo no seu computador, coloque esse código entre
 --- hints ---
 
 
---- dica --- Aqui está o que o código que você já escreveu faz:
+--- hint --- Aqui está o que o código que você já escreveu faz:
 
   * `input` diz que estamos criando uma maneira de o usuário fornecer alguns dados
   * `type = "text"` diz que os dados serão de texto
@@ -50,7 +50,7 @@ Selecione uma imagem <input type="***" id="***"><p>
 
 --- /hint ---
 
---- dica --- Aqui está o código que você precisa adicionar:
+--- hint --- Aqui está o código que você precisa adicionar:
 
 ```html
 Selecione uma imagem <input type="file" id="user_picture"><p>
