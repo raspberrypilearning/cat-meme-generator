@@ -17,12 +17,14 @@ site_areas: projects
 version: 4
 last_tested: 2017-11-01
 steps:
-  - title: Einleitung
-  - title: Was du brauchen wirst
-  - title: Erstelle eine Webseite
-  - title: An Bild und Text kommen
-  - title: Baue das Meme
-  - title: Den Text anzeigen
-  - title: Das Bild anzeigen
-  - title: Der fertige Code
-  - title: Herausforderung
+- title: Einleitung
+- title: Was du brauchen wirst
+  completion: engaged
+- title: Erstelle eine Webseite
+- title: An Bild und Text kommen
+- title: Baue das Meme
+- title: Den Text anzeigen
+- title: Das Bild anzeigen
+- title: Der fertige Code
+  completion: internal
+- title: Herausforderung

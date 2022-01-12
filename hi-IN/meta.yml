@@ -17,12 +17,14 @@ site_areas: projects
 version: 4
 last_tested: 2017-11-01
 steps:
-  - title: परिचय
-  - title: आपको क्या आवश्यकता होगी
-  - title: एक वेबपेज बनाएँ
-  - title: चित्र और पाठ प्राप्त करना
-  - title: मज़ेदार चित्र (meme) को बनाएं
-  - title: पाठ (text) को दिखाएं
-  - title: चित्र को दिखाएं
-  - title: पूरा कोड
-  - title: चुनौती
+- title: परिचय
+- title: आपको क्या आवश्यकता होगी
+  completion: engaged
+- title: एक वेबपेज बनाएँ
+- title: चित्र और पाठ प्राप्त करना
+- title: मज़ेदार चित्र (meme) को बनाएं
+- title: पाठ (text) को दिखाएं
+- title: चित्र को दिखाएं
+- title: पूरा कोड
+  completion: internal
+- title: चुनौती
