@@ -17,12 +17,16 @@ site_areas: projects
 version: 4
 last_tested: 2017-11-01
 steps:
-  - title: 介绍
-  - title: 你将需要什么
-  - title: 创建一个网页
-  - title: 获取图片和文字
-  - title: 建立模因
-  - title: 显示文字
-  - title: 显示图像
-  - title: 已完成的代码
-  - title: 挑战
+- title: 介绍
+- title: 你将需要什么
+- title: 创建一个网页
+- title: 获取图片和文字
+  completion:
+  - engaged
+- title: 建立模因
+- title: 显示文字
+- title: 显示图像
+- title: 已完成的代码
+  completion:
+  - internal
+- title: 挑战
