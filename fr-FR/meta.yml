@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: Introduction
 - title: Ce dont tu auras besoin
-  completion: engaged
 - title: Créer une page Web
 - title: Obtenir l'image et le texte
+  completion:
+  - engaged
 - title: Construire le mème
 - title: Afficher le texte
 - title: Afficher l'image
 - title: Le code terminé
-  completion: internal
+  completion:
+  - internal
 - title: Défi

@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: المقدمة
 - title: ما ستحتاج إليه
-  completion: engaged
 - title: قم بإنشاء صفحة ويب
 - title: الحصول على الصورة والنص
+  completion:
+  - engaged
 - title: أنشاء المقاطع المضحكة
 - title: اعرض النص
 - title: اعرض الصورة
 - title: الكود النهائي
-  completion: internal
+  completion:
+  - internal
 - title: تحدي

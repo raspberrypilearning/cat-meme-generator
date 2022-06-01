@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: Introducció
 - title: Què necessitaràs
-  completion: engaged
 - title: Crea una pàgina web
 - title: Obtenció de la imatge i el text
+  completion:
+  - engaged
 - title: Construeix el mem
 - title: Mostra el text
 - title: Mostra la imatge
 - title: El codi acabat
-  completion: internal
+  completion:
+  - internal
 - title: Repte

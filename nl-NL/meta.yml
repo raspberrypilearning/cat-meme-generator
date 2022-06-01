@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: Inleiding
 - title: Wat heb je nodig
-  completion: engaged
 - title: Maak een webpagina
 - title: De afbeelding en tekst ophalen
+  completion:
+  - engaged
 - title: Bouw de meme
 - title: Geef de tekst weer
 - title: Geef de afbeelding weer
 - title: De voltooide code
-  completion: internal
+  completion:
+  - internal
 - title: Uitdaging

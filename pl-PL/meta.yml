@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: Wprowadzenie
 - title: Czego będziesz potrzebować
-  completion: engaged
 - title: Stwórz stronę internetową
 - title: Pozyskiwanie obrazu i tekstu
+  completion:
+  - engaged
 - title: Zbuduj mema
 - title: Wyświetl tekst
 - title: Wyświetl obraz
 - title: Gotowy kod
-  completion: internal
+  completion:
+  - internal
 - title: Wyzwanie

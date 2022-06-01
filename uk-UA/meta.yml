@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: Вступ
 - title: Що тобі знадобиться
-  completion: engaged
 - title: Створення вебсторінки
 - title: Отримання малюнка та тексту
+  completion:
+  - engaged
 - title: Створення мема
 - title: Показ тексту
 - title: Показ зображення
 - title: Завершений код
-  completion: internal
+  completion:
+  - internal
 - title: Завдання

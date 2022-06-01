@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: Введение
 - title: Что тебе понадобится
-  completion: engaged
 - title: Создание веб-страницы
 - title: Получение изображения и текста
+  completion:
+  - engaged
 - title: Построй мем
 - title: Показ текста
 - title: Показ изображения
 - title: Готовый код
-  completion: internal
+  completion:
+  - internal
 - title: Задача

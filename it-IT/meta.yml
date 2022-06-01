@@ -19,12 +19,14 @@ last_tested: 2017-11-01
 steps:
 - title: Introduzione
 - title: Di cosa avrai bisogno
-  completion: engaged
 - title: Creare una pagina Web
 - title: Ottenere l'immagine e il testo
+  completion:
+  - engaged
 - title: Costruire il meme
 - title: Mostra il testo
 - title: Mostra l'immagine
 - title: Il codice finito
-  completion: internal
+  completion:
+  - internal
 - title: Sfida

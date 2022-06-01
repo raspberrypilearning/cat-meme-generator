@@ -20,12 +20,14 @@ last_tested: 2017-11-01
 steps:
 - title: Εισαγωγή
 - title: Τι θα χρειαστείς
-  completion: engaged
 - title: Δημιουργία μιας ιστοσελίδας
 - title: Λήψη της εικόνας και του κειμένου
+  completion:
+  - engaged
 - title: Δημιουργία του meme
 - title: Εμφάνιση του κειμένου
 - title: Εμφάνιση της εικόνας
 - title: Ο τελικός κώδικας
-  completion: internal
+  completion:
+  - internal
 - title: Πρόκληση
