@@ -1,61 +1,61 @@
-## Getting the picture and text
+## 그림과 텍스트 얻기
 
-We want people to be able to use their own picture and text to make the meme, so we need a way for them to provide these. Let's add a form that our user can fill in.
+우리는 사람들이 각자의 그림과 텍스트를 사용하여 밈을 만들게 할 수 있게 하기 위해 그들이 그림과 텍스트를 우리에게 줄 수 있는 방법이 필요합니다. 사용자가 작성할 수 있는 양식을 추가하겠습니다.
 
-If you're using a file on your computer, put this code between `<body>` and `</body>`. If you're using CodePen, put this code in the HTML section.
+컴퓨터에서 파일을 사용하는 경우 이 코드를 `<body>`와 `</body>`사이에 넣으십시오. CodePen을 사용하는 경우 이 코드를 HTML 섹션에 넣으십시오.
 
-- Add the tags `<form>,` which indicates the start of the form, and `</form>,` which indicates the end of the form.
+- 양식의 시작을 나타내는 `<form>`과 양식의 끝을 나타내는 `</form>` 태그를 추가하십시오.
 
     ```html
     <form>
     </form>
     ```
 
-- Inside your `<form>`, add a text box so that you can type in the meme text:
+- `<form>`안에 meme 텍스트를 입력할 수 있도록 텍스트 상자를 추가하십시오.
 
   ```html
   <form>
-  Meme text: <input type="text" id="user_text" maxlength="70"><p>
+  밈 텍스트: <input type="text" id="user_text" maxlength="70"><p>
   </form>
   ```
 
-- Save your code and refresh your browser to see the box you created.
+- 추가한 텍스트 상자를 보려면 코드를 저장하고 브라우저를 새로고침 하십시오.
 
-    ![First box](images/first-box.png)
+    ![첫 번째 상자](images/first-box.png)
 
-- Add code to create another input box on the line below your first box. This time the input box will not be a text box, but a special box to select the image file for the meme. The input type should be `file`, and the name of the input should be `user_picture`.
+- 첫 번째 상자 아래에 또 다른 입력 상자를 만들기 위해 코드를 추가하십시오. 이번에는 입력 상자가 텍스트 상자가 아니라 밈의 이미지 파일을 선택하는 특별한 상자입니다. type은 `file`이어야 하고 입력 이름은 `user_picture`이어야합니다.
 
---- hints ---
+--- 힌트 ---
 
---- hint --- Here's what the code you already wrote does:
+--- 힌트 --- 다음은 이미 작성한 코드의 기능입니다.
 
-  * `input` says we are creating a way for the user to provide some data
-  * `type="text"` says that the data will be text
-  * `id="user_text"` gives this particular box a name or ID, a bit like a variable name
-  * `maxlength="70"` is optional - it stops you from typing in more than 70 letters so your text doesn't take up space past the bottom of the image
-  * The `<p>` tag after the input box adds a paragraph (a bit of space before the next input box)
+  * `input` 은 사용자가 데이터를 제공할 수 있는 방법을 만드는 것입니다.
+  * `type ="text"` 은 입력 데이터가 텍스트임을 나타냅니다.
+  * `id="user_text"`는 이 특정 상자에 변수명과 같은 이름 또는 ID를 지정합니다.
+  * `maxlength ="70"` 은 선택 사항입니다. 70 자 이상 입력할 수 없게 하여 텍스트가 이미지 영역을 넘지 않게 합니다.
+  * 입력 상자 뒤의 `<p>` 태그는 단락(다음 입력 상자 앞의 약간의 공간)을 추가합니다.
 
-Can you work out how to create another input box using this information?
+이 정보를 사용하여 다른 입력 상자를 만드는 방법을 알아낼 수 있습니까?
 
---- /hint ---
+--- /힌트 ---
 
---- hint ---
+--- 힌트 ---
 
-You will need to change the parts of the code highlighted with `***` below:
-
-```html
-Select a picture <input type="***" id="***"><p>
-```
-
---- /hint ---
-
---- hint --- Here is the code you need to add:
+아래의 `***` 강조 표시된 코드 부분을 변경해야합니다.
 
 ```html
-Select a picture <input type="file" id="user_picture"><p>
+사진을 선택하세요 <input type="***" id="***"><p>
 ```
---- /hint ---
 
---- /hints ---
+--- /힌트 ---
 
-- You can use these boxes to type into and to select a file, but nothing will happen yet. **Note**: all images are kept on your computer - this program does not upload anything to the internet.
+--- 힌트 --- 추가해야 할 코드는 다음과 같습니다.
+
+```html
+사진을 선택하세요 <input type="file" id="user_picture"><p>
+```
+--- /힌트 ---
+
+--- /힌트 ---
+
+- 이 상자를 사용하여 파일을 입력하고 선택할 수 있지만 아직 아무 일도 일어나지 않습니다. **참고**: 모든 이미지는 컴퓨터에 보관됩니다. 이 프로그램은 인터넷에 아무 것도 업로드하지 않습니다.
