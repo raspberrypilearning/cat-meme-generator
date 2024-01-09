@@ -25,6 +25,8 @@ steps:
     title: Crea una pàgina web
   - 
     title: Obtenció de la imatge i el text
+    completion:
+      - engaged
   - 
     title: Construeix el mem
   - 
@@ -33,5 +35,7 @@ steps:
     title: Mostra la imatge
   - 
     title: El codi acabat
+    completion:
+      - internal
   - 
     title: Repte
