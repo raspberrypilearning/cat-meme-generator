@@ -25,6 +25,8 @@ steps:
     title: 建立一個頁面
   - 
     title: 取得圖片和文字
+    completion:
+      - engaged
   - 
     title: 建立迷因
   - 
@@ -33,5 +35,7 @@ steps:
     title: 顯示圖片
   - 
     title: 最終的程式碼
+    completion:
+      - internal
   - 
     title: 挑戰
