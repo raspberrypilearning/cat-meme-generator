@@ -29,7 +29,7 @@ Se você estiver usando um arquivo no seu computador, coloque esse código entre
 
 --- dica --- Aqui está o que o código que você já escreveu faz:
 
-  * `entrada` diz que estamos criando uma maneira de o usuário fornecer alguns dados
+  * `input` diz que estamos criando uma maneira de o usuário fornecer alguns dados
   * `type = "text"` diz que os dados serão de texto
   * `id = "user_text"` atribui a essa caixa específica um nome ou ID, um pouco como um nome de variável
   * `maxlength = "70"` é opcional - ele impede que você digite mais de 70 letras para que seu texto não ocupe espaço além da parte inferior da imagem
