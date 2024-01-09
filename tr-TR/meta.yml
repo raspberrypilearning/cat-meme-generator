@@ -25,6 +25,8 @@ steps:
     title: Web sayfası oluştur
   - 
     title: Resim ve metin alma
+    completion:
+      - engaged
   - 
     title: Mem yapımı
   - 
@@ -33,5 +35,7 @@ steps:
     title: Resmi görüntüle
   - 
     title: Bitmiş kod
+    completion:
+      - internal
   - 
     title: Meydan okuma
