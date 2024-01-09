@@ -1,6 +1,6 @@
 ## 完成したコード
 
-今、あなた自身の素晴らしいミームを生成してください、おそらくあなた自身の猫が主演しています。 完成したコードは[ HTMLファイルとしてここにあります](resources/index.html)またはCodePenでも確認できます。 <iframe height='567' scrolling='no' title='猫ミームジェネレータ' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
+今、あなた自身の素晴らしいミームを生成してください、おそらくあなた自身の猫が主演しています。 完成したコードは[ HTMLファイルとしてここにあります](resources/index.html)またはCodePenでも確認できます。 <iframe height='567' scrolling='no' title='猫ミームジェネレータ' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> by Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 ミームを友達に自慢しましょう！
