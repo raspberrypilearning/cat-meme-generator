@@ -25,6 +25,8 @@ steps:
     title: Δημιουργία μιας ιστοσελίδας
   - 
     title: Λήψη της εικόνας και του κειμένου
+    completion:
+      - engaged
   - 
     title: Δημιουργία του meme
   - 
@@ -33,5 +35,7 @@ steps:
     title: Εμφάνιση της εικόνας
   - 
     title: Ο τελικός κώδικας
+    completion:
+      - internal
   - 
     title: Πρόκληση
