@@ -25,6 +25,8 @@ steps:
     title: Maak een webpagina
   - 
     title: De afbeelding en tekst ophalen
+    completion:
+      - engaged
   - 
     title: Bouw de meme
   - 
@@ -33,5 +35,7 @@ steps:
     title: Geef de afbeelding weer
   - 
     title: De voltooide code
+    completion:
+      - internal
   - 
     title: Uitdaging
