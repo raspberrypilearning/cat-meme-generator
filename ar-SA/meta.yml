@@ -25,6 +25,8 @@ steps:
     title: قم بإنشاء صفحة ويب
   - 
     title: الحصول على الصورة والنص
+    completion:
+      - engaged
   - 
     title: أنشاء المقاطع المضحكة
   - 
@@ -33,5 +35,7 @@ steps:
     title: اعرض الصورة
   - 
     title: الكود النهائي
+    completion:
+      - internal
   - 
     title: تحدي
