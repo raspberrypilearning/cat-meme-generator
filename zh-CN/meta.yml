@@ -25,6 +25,8 @@ steps:
     title: 创建一个网页
   - 
     title: 获取图片和文字
+    completion:
+      - engaged
   - 
     title: 建立模因
   - 
@@ -33,5 +35,7 @@ steps:
     title: 显示图像
   - 
     title: 完成的代码
+    completion:
+      - internal
   - 
     title: 挑战
