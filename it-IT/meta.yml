@@ -25,6 +25,8 @@ steps:
     title: Creare una pagina Web
   - 
     title: Ottenere l'immagine e il testo
+    completion:
+      - engaged
   - 
     title: Costruire il meme
   - 
@@ -33,5 +35,7 @@ steps:
     title: Mostra l'immagine
   - 
     title: Il codice finito
+    completion:
+      - internal
   - 
     title: Sfida
