@@ -25,6 +25,8 @@ steps:
     title: Erstelle eine Webseite
   - 
     title: An Bild und Text kommen
+    completion:
+      - engaged
   - 
     title: Baue das Meme
   - 
@@ -33,5 +35,7 @@ steps:
     title: Das Bild anzeigen
   - 
     title: Der fertige Code
+    completion:
+      - internal
   - 
     title: Herausforderung
