@@ -25,6 +25,8 @@ steps:
     title: Create a web page
   - 
     title: Getting the picture and text
+    completion:
+      - engaged
   - 
     title: Build the meme
   - 
@@ -33,5 +35,7 @@ steps:
     title: Display the image
   - 
     title: The finished code
+    completion:
+      - internal
   - 
     title: Challenge
