@@ -1,4 +1,4 @@
-## Challenge
+## 도전과제
 
-* You could add some other CSS styles - why not change the style of the text, or give the image a border?
-* Add another input text box and position this text at the top of the meme, so you can have text on both the top and bottom.
+* 당신은 몇 가지 다른 CSS 스타일들을 더해볼 수도 있습니다 - 텍스트의 스타일을 바꿔보거나 이미지의 테두리를 진하게 해보지 않겠어요?
+* 텍스트 입력 박스를 하나 더 만든 다음에 그 박스에 주어지는 입력값을 밈의 맨 위쪽에 보이도록 해보세요. 그럼 맨 아래와 맨 위에 모두 텍스트가 표시되도록 할 수 있겠죠?
