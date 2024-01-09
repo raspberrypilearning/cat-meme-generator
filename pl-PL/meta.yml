@@ -25,6 +25,8 @@ steps:
     title: Stwórz stronę internetową
   - 
     title: Pozyskiwanie obrazu i tekstu
+    completion:
+      - engaged
   - 
     title: Zbuduj mema
   - 
@@ -33,5 +35,7 @@ steps:
     title: Wyświetl obraz
   - 
     title: Gotowy kod
+    completion:
+      - internal
   - 
     title: Wyzwanie
