@@ -25,6 +25,8 @@ steps:
     title: Створення вебсторінки
   - 
     title: Отримання малюнка та тексту
+    completion:
+      - engaged
   - 
     title: Створення мема
   - 
@@ -33,5 +35,7 @@ steps:
     title: Показ зображення
   - 
     title: Завершений код
+    completion:
+      - internal
   - 
     title: Завдання
