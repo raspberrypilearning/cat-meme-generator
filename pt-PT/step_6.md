@@ -14,7 +14,7 @@ Quando alguém digita texto na caixa de texto, nós queremos que o seu texto sej
 - Primeiro, escrevemos uma função JavaScript para dizer à página da web que utilize qualquer texto na caixa de entrada e o exiba no "meme_text" `<div>`. Entre as duas tags `<script>` que acabaste de criar, adiciona o código abaixo. Parece bastante diferente do código que escrevemos até agora, porque é JavaScript, que é uma linguagem diferente.
 
   ```JavaScript
-  function update_text(){
+  function update_text (){
 
   }
   ```
