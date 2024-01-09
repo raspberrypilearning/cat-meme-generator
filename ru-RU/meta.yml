@@ -25,6 +25,8 @@ steps:
     title: Создание веб-страницы
   - 
     title: Получение изображения и текста
+    completion:
+      - engaged
   - 
     title: Построй мем
   - 
@@ -33,5 +35,7 @@ steps:
     title: Показ изображения
   - 
     title: Готовый код
+    completion:
+      - internal
   - 
     title: Задача
