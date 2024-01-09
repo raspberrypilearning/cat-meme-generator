@@ -1,6 +1,6 @@
 ## De voltooide code
 
-Genereer nu zelf een geweldige meme, misschien met in de hoofdrol je eigen kat. De voltooide code staat hier als [HTML-bestand](resources/index.html) of op CodePen. <iframe height='567' scrolling='no' title='Kat meme-generator' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;' mark="crwd-mark">Bekijk de Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> door Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) op <a href='https://codepen.io'>CodePen</a>.
+Genereer nu zelf een geweldige meme, misschien met in de hoofdrol je eigen kat. De voltooide code staat hier als [HTML-bestand](resources/index.html) of op CodePen. <iframe height='567' scrolling='no' title='Kat meme-generator' src='//codepen.io/rpflaura/embed/NbbveK/?height=567&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>Bekijk de Pen <a href='https://codepen.io/rpflaura/pen/NbbveK/'>Cat Meme Generator</a> door Laura Sach (<a href='https://codepen.io/rpflaura'>@rpflaura</a>) op <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 Laat je vrienden je meme eens zien!
