@@ -25,6 +25,8 @@ steps:
     title: एक वेबपेज बनाएँ
   - 
     title: चित्र और पाठ प्राप्त करना
+    completion:
+      - engaged
   - 
     title: मज़ेदार चित्र (meme) को बनाएं
   - 
@@ -33,5 +35,7 @@ steps:
     title: चित्र को दिखाएं
   - 
     title: ख़त्म किया गया कोड
+    completion:
+      - internal
   - 
     title: चुनौती
