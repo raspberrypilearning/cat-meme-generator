@@ -1,10 +1,10 @@
-## Create a web page
+## 웹 페이지 만들기
 
-- Open up a blank file in your chosen text editor and save the file.
+- 선택한 텍스트 편집기에서 빈 파일을 열고 파일을 저장하십시오.
 
 [[[generic-html-create-and-save]]]
 
-- The HTML code below gives you the basic structure of a page. Copy and paste it into the file you created, then save the file. Keep the text editor open so you can edit the file.
+- 아래의 HTML 코드는 페이지의 기본 구조를 제공합니다. 만든 새 파일에 이 코드를 복사하여 붙여 넣은 다음 파일을 저장하십시오. 파일을 편집할 수 있도록 텍스트 편집기를 계속 열어 두십시오.
 
   ```html
   <html>
@@ -17,10 +17,10 @@
   </html>
   ```
 
-- Go to the folder where you saved your webpage. Open the file with your internet browser as well, so you have the same file open in both your text editor and your browser.
+- 웹 페이지를 저장한 폴더로 이동하십시오. 인터넷 브라우저에서도 파일을 열면 텍스트 편집기와 브라우저에서 동일한 파일이 열립니다.
 
-  On Windows, you may need to right-click the file, choose `Open with`, and then select your internet browser.
+  Windows의 경우 파일을 마우스 오른쪽 버튼으로 클릭하고 `연결 프로그램`을 선택한 다음 인터넷 브라우저를 선택해야합니다.
 
-  ![Open with browser](images/open-with-browser.png)
+  ![브라우저로 열기](images/open-with-browser.png)
 
-  Whenever you change the code in your text editor, save it and then press the refresh button on your browser to see the updated page.
+  텍스트 편집기에서 코드를 변경할 때마다 코드를 저장한 다음 브라우저에서 새로 고침 버튼을 눌러 바뀐 페이지를 볼 수 있습니다.
