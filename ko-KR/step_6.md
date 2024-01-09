@@ -1,17 +1,17 @@
-## Display the text
+## 텍스트 표시하기
 
-So far, all of the code you have written is HTML and CSS code, which tells the page what it should **look like**. Now we're going to add some JavaScript code to tell the page **what to do**.
+지금까지 작성한 코드는 모두 HTML과 CSS 코드로, 페이지에 **어떻게 표시돼야할 지** 알려줍니다. 이제 우리는 자바스크립트 코드를 추가해 **무엇을 할 지**를 페이지에게 알려줄 것입니다.
 
-When someone types text into the text box, we want their text to display inside the `<div id="meme_text">` that we just created.
+누군가가 텍스트 상자에 텍스트를 입력하면 우리는 그 텍스트가 방금 우리가 만든 `<div id="meme_text">`에 나타나게 해야합니다.
 
-- If you're using a file on your computer, add these tags underneath your `<div>` tags to create a section in which to write JavaScript code. If you're using CodePen, you can skip this step - write your code in the ready-made JavaScript section.
+- 컴퓨터에서 파일을 작성하고 있는 경우, 다음 태그를 `<div>` 태그 아래에 추가해 자바 스크립트 코드를 추가할 영역을 만듭니다. CodePen을 사용하는 경우 이 단계를 건너뛸 수 있습니다. - 이미 만들어져 있는 자바 스크립트 영역에 코드를 작성하세요.
 
   ```html
   <script type="text/javascript">
   </script>
   ```
 
-- Firstly, we'll write a JavaScript function to tell the web page to take any text that's in the input box and display it in the "meme_text" `<div>`. Between the two `<script>` tags you just created, add the code below. It looks pretty different to the code we've written so far, because it's JavaScript, which is a different language.
+- 먼저 자바 스크립트의 함수를 이용해 웹페이지에게 input 상자에 있는 텍스트를 가져와서 "meme_text" `<div>`에 표시하게 할 겁니다. 방금 만든 두 개의 `<script>` 사이에 다음 코드를 추가하세요: 지금까지 작성했던 코드와는 매우 다르게 생겼습니다. 이 언어는 자바 스크립트로 다른 언어이기 때문이죠.
 
   ```JavaScript
   function update_text(){
@@ -19,31 +19,31 @@ When someone types text into the text box, we want their text to display inside 
   }
   ```
 
-  You've just created a JavaScript function called `update_text()`. There are no instructions in the brackets at the moment, so the function won't do anything yet.
+  방금 자바스크립트 함수인 `update_text()`를 만들었습니다. 중괄호 사이에 아무 코드가 없으므로 이 함수는 아직 아무 일도 하지 않을 겁니다.
 
-- Between the curly brackets `{ }`, add the code below to set the variable `user_text` to point to the text box where the user types the text they want to appear on the meme.
+- 꼬불꼬불한 중괄호 `{ }` 사이에 다음 코드를 붙여 넣어 `user_text` 변수를 설정하고, 사용자가 밈에 추가할 텍스트를 입력하는 텍스트 상자를 가리키게 하세요.
 
   ```JavaScript
   var user_text = document.getElementById("user_text");
   ```
 
-- Now it's your turn to write a line of code. Below the line you just wrote, create code to set the variable called `meme_text` to point to the element with the ID `meme_text`, which is where the meme text will display. This is the `<div>` we created earlier.
+- 이제 코드를 작성할 차례입니다. 방금 작성한 줄 아래에 `meme_text` 변수를 설정하고, 밈 텍스트가 나타날 ID `meme_text`를 가리키게 하세요. 이건 우리가 이전에 만든 `<div>` 입니다.
 
---- hints --- --- hint --- Let's break down the code you already wrote so that you understand what it does:
+--- hints --- --- hint --- 작성한 코드를 분석하여 그 기능을 이해해 보겠습니다:
 
-* `var user_text` creates a new variable with the name "user_text"
-* `=` sets the value of this variable to...
-* ...`document.getElementById("user_text")`, which looks through the web page and points to the element with the ID `user_text`, the input text box we created earlier
+* `var user_text`는 "user_text"라는 이름의 변수를 새로 만듭니다.
+* `=` 이 변수의 값을 ...으로 설정하세요.
+* ...`document.getElementById("user_text")`는 웹페이지에서 ID가 `user_text`인 요소(방금 만든 입력 텍스트 상자)를 찾아 가리킵니다.
 
-Using this information, can you work out how to create the new line of code? --- /hint ---
+이 정보를 이용하여 새 코드 줄을 추가할 방법을 알아낼 수 있겠나요? --- /hint ---
 
---- hint --- The parts of the code you need to change are highlighted with `***` in the code below:
+--- hint --- 변경해야 할 코드 부분은 `***`로 강조 표시되어 있습니다:
 ```JavaScript
 var *** = document.getElementById("***");
 ```
 --- /hint ---
 
---- hint --- The code you need to add is here:
+--- hint --- 추가해야 하는 코드는 다음과 같습니다:
 
 ```JavaScript
 var meme_text = document.getElementById("meme_text");
@@ -53,19 +53,19 @@ var meme_text = document.getElementById("meme_text");
 --- /hints ---
 
 
-- We want to set the 'meme_text' `<div>` to contain the same text the user has typed into the `meme_text` textbox. Add this line of code to the bottom of your JavaScript function:
+- `meme_text`에 사용자가 입력한 텍스트가 'meme_text' `<div>`에 저장되게 해야합니다. 다음 코드 줄을 JavaScript 함수 하단에 추가합니다.
 
   ``` JavaScript
   meme_text.innerHTML = user_text.value;
   ```
 
-  * `.innerHTML` refers to what is displayed inside the `<div>`
-  * `.value` refers to what is typed into the text box called `user_text`
+  * `.innerHTML`는 `<div>`에 보여지는 내용을 나타냅니다.
+  * `.value`는 `user_text`이라는 텍스트 상자에 입력된 내용을 나타냅니다.
 
-- Lastly, we need to tell the text box that when someone types into it, it should call the function we just wrote so that the text in the meme will update. Find the code for your text box and add in an **attribute** for `oninput="update_text()"` so that it now looks like this:
+- 마지막으로 누군가 텍스트 상자에 무언가를 입력하면 방금 작성한 함수를 호출하여 밈의 텍스트가 바뀌도록 해야합니다. 텍스트 박스의 코드를 찾아 **속성**에  `oninput="update_text()"`를 추가해 다음과 같도록 합니다:
 
   ```html
   Meme text: <input type="text" id="user_text" maxlength="70" oninput="update_text()"><p>
   ```
 
- - Save and refresh your page, then try typing into your text box and see what happens. If your code is working, the text you type should appear as the meme text, almost like magic!
+ - 페이지를 저장하고 새로고침한 다음 텍스트 상자에 입력하고 어떤 일이 발생하는지 확인하십시오. 코드가 제대로 작동하는 경우 입력한 텍스트가 마법처럼 밈 텍스트로 표시되어야합니다!
