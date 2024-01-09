@@ -1,15 +1,15 @@
-## What you will need
+## 준비물
 
-### Hardware
+### 하드웨어
 
-- A computer
+- 컴퓨터
 
 
-### Software
+### 소프트웨어
 
-- A web browser (e.g. Internet Explorer, Chrome, Safari)
-- A text editor (e.g. Notepad, TextEdit, nano) or access to [https://codepen.io](https://codepen.io/){:target="_blank"}
+- 웹 브라우저 (예 : Internet Explorer, Chrome, Safari)
+- 텍스트 편집기 (예: 메모장, TextEdit, nano) 또는 [ https://codepen.io](https://codepen.io/){: target = "_ blank"} 방문하기
 
-### Extras
+### 그 외의 것들
 
-- A picture of a cat in JPG, GIF, or PNG format
+- JPG, GIF 또는 PNG 형식의 고양이 사진
